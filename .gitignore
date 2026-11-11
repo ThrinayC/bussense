@@ -52,5 +52,12 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+
 # Temporary scratch
 scratch/
+outputs/server_media/events/
