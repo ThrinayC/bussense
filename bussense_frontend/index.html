@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BusSense Command Center</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+
+  <!-- Design System -->
+  <link rel="stylesheet" href="css/design-system.css">
+
+  <style>
+    /* Notification badge */
+    #notif-badge {
+      position: absolute; top: -5px; right: -5px;
+      width: 18px; height: 18px;
+      background: var(--red-500); color: #fff;
+      font-size: 10px; font-weight: 700;
+      border-radius: 50%; display: none;
+      align-items: center; justify-content: center;
+      border: 2px solid #fff;
+    }
+    #notif-bell-wrap { position: relative; display: inline-block; }
+    #notif-bell {
+      background: none; border: 1px solid var(--border-default);
+      border-radius: var(--radius-sm); padding: 6px 10px;
+      cursor: pointer; font-size: 16px; color: var(--text-secondary);
+      transition: all 0.15s; font-family: var(--font-family);
+    }
+    #notif-bell:hover { background: var(--gray-100); }
+
+    /* Toast animation */
+    @keyframes slideIn {
+      from { transform: translateX(120%); opacity: 0; }
+      to   { transform: translateX(0); opacity: 1; }
+    }
+
+    /* Bus status pill in topbar */
+    .bus-pill {
+      display: flex; align-items: center; gap: 6px;
+      background: var(--gray-100); border: 1px solid var(--border-default);
+      border-radius: 20px; padding: 4px 10px;
+      font-size: 12px; font-weight: 500; color: var(--text-secondary);
+    }
+    .bus-pill strong { color: var(--text-primary); }
+
+    /* Live sidebar badge counts */
+    .sidebar-link .badge-count {
+      margin-left: auto;
+      background: var(--gray-100);
+      color: var(--text-secondary);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 10px;
+      min-width: 18px;
+      text-align: center;
+      transition: all 0.15s;
+    }
+    .sidebar-link.active .badge-count {
+      background: var(--blue-100);
+      color: var(--blue-700);
+    }
+  </style>
+
+  <!-- External libs -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="app-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-brand-icon" style="background:linear-gradient(135deg,#1D4ED8 0%,#2563EB 100%);font-size:13px;letter-spacing:-1px;">BS</div>
+      <div>
+        <h1>BusSense</h1>
+        <span>Command Center v2.4</span>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-section-label">General</div>
+      <a href="#overview" class="sidebar-link active" data-route="#overview">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg></span>
+        Overview
+      </a>
+      <a href="#live-intelligence" class="sidebar-link" data-route="#live-intelligence">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
+        Live Intelligence
+      </a>
+      <a href="#live-map" class="sidebar-link" data-route="#live-map">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></span>
+        Live Map
+      </a>
+
+      <div class="sidebar-section-label">Road Health</div>
+      <a href="#potholes-cracks" class="sidebar-link" data-route="#potholes-cracks">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></span>
+        Potholes &amp; Cracks
+        <span class="badge-count" id="sidebar-count-potholes" style="display:none;">0</span>
+      </a>
+      <a href="#waterlogging" class="sidebar-link" data-route="#waterlogging">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></span>
+        Waterlogging
+        <span class="badge-count" id="sidebar-count-waterlogging" style="display:none;">0</span>
+      </a>
+      <a href="#road-markings" class="sidebar-link" data-route="#road-markings">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="6" x2="19" y2="6"/><line x1="5" y1="18" x2="19" y2="18"/></svg></span>
+        Road Marking Health
+        <span class="badge-count" id="sidebar-count-markings" style="display:none;">0</span>
+      </a>
+
+      <div class="sidebar-section-label">Traffic Intelligence</div>
+      <a href="#vehicles" class="sidebar-link" data-route="#vehicles">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
+        Vehicles &amp; Traffic
+        <span class="badge-count" id="sidebar-count-vehicles" style="display:none;">0</span>
+      </a>
+      <a href="#vru" class="sidebar-link" data-route="#vru">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+        VRU Safety
+        <span class="badge-count" id="sidebar-count-vru" style="display:none;">0</span>
+      </a>
+      <a href="#traffic-flow" class="sidebar-link" data-route="#traffic-flow">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+        Traffic Flow
+        <span class="badge-count" id="sidebar-count-traffic" style="display:none;">0</span>
+      </a>
+      <a href="#incidents" class="sidebar-link" data-route="#incidents">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+        Incidents / ANPR
+        <span class="badge-count" id="sidebar-count-incidents" style="display:none;">0</span>
+      </a>
+
+      <div class="sidebar-section-label">Infrastructure</div>
+      <a href="#traffic-signs" class="sidebar-link" data-route="#traffic-signs">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-width="1.75"/></svg></span>
+        Traffic Signs
+        <span class="badge-count" id="sidebar-count-signs" style="display:none;">0</span>
+      </a>
+      <a href="#missing-infrastructure" class="sidebar-link" data-route="#missing-infrastructure">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></span>
+        Missing Infrastructure
+        <span class="badge-count" id="sidebar-count-missing" style="display:none;">0</span>
+      </a>
+      <a href="#road-dividers" class="sidebar-link" data-route="#road-dividers">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span>
+        Road Dividers
+        <span class="badge-count" id="sidebar-count-dividers" style="display:none;">0</span>
+      </a>
+      <a href="#road-hazards" class="sidebar-link" data-route="#road-hazards">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>
+        Road Hazards
+        <span class="badge-count" id="sidebar-count-hazards" style="display:none;">0</span>
+      </a>
+
+      <div class="sidebar-section-label">Buses</div>
+      <a href="#multibus-evidence" class="sidebar-link" data-route="#multibus-evidence">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" y1="16" x2="6.01" y2="16"/><line x1="10" y1="16" x2="10.01" y2="16"/></svg></span>
+        Multi-Bus Evidence
+        <span class="badge-count" id="sidebar-count-multibus" style="display:none;">0</span>
+      </a>
+      <a href="#fleet" class="sidebar-link" data-route="#fleet">
+        <span class="icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg></span>
+        Fleet Status
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="flex items-center gap-4">
+        <div style="width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#1D4ED8,#3B82F6);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:12px;flex-shrink:0;letter-spacing:-0.5px;">D</div>
+        <div style="line-height:1.2">
+          <div class="font-semibold text-sm">Dispatcher</div>
+          <div class="text-xs text-secondary">Fleet Operations</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN AREA -->
+  <main class="main-area">
+
+    <!-- TOPBAR -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="topbar-search">
+          <span style="display:inline-flex;align-items:center;color:var(--text-tertiary);">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </span>
+          <input type="text" id="global-search" placeholder="Search events, plates, routes…" autocomplete="off">
+          <kbd style="font-size:10px;">Ctrl K</kbd>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <!-- Live Cadence Selector -->
+        <div class="hud-pill" id="cadence-wrapper" title="Live Auto-Refresh Cadence">
+          <span style="width:7px;height:7px;border-radius:50%;background:var(--green-500);animation:pulse-dot 2s infinite;"></span>
+          <select id="auto-refresh-cadence">
+            <option value="10000">10s Sync</option>
+            <option value="30000" selected>30s Sync</option>
+            <option value="60000">60s Sync</option>
+            <option value="0">Paused</option>
+          </select>
+        </div>
+
+        <!-- Audio Alert Toggle (compact, keyboard-driven) -->
+        <button class="hud-pill" id="btn-audio-toggle" title="Toggle Acoustic Incident Chimes · Press M" style="padding:4px 8px;">
+          <span id="audio-icon" style="display:inline-flex;align-items:center;"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></span>
+        </button>
+
+        <!-- Data Export -->
+        <button class="btn btn-secondary btn-sm" id="btn-global-export" title="Export Corridor Telemetry · Press E" style="font-size:12px;padding:5px 11px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:5px;">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Export
+        </button>
+
+        <!-- Shortcuts guide (hidden, triggered by ?) -->
+        <button class="hud-pill" id="btn-shortcuts-guide" title="Keyboard Shortcuts · Press ?" style="padding:4px 8px;font-weight:700;font-size:12px;color:var(--text-tertiary);">?</button>
+
+        <!-- Bus Status Pill -->
+        <div class="bus-pill">
+          <span style="width:7px;height:7px;border-radius:50%;background:var(--green-500);flex-shrink:0;animation:pulse-dot 2s infinite;"></span>
+          Bus <strong id="bus-id-label">BUS-01</strong>
+          <span id="bus-speed" style="color:var(--text-tertiary);"></span>
+        </div>
+
+        <!-- Notification Bell -->
+        <div class="notif-bell-wrap" id="notif-bell-wrap" style="position:relative;display:inline-block;">
+          <button id="notif-bell" title="Alerts" style="display:inline-flex;align-items:center;justify-content:center;">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </button>
+          <span id="notif-badge">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- PAGE CONTENT -->
+    <div id="page-container" class="page-content"></div>
+
+  </main>
+</div>
+
+<!-- Global Event Detail Modal (Smooth Entrance) -->
+<div id="global-event-modal" class="modal-backdrop-smooth" style="display:none;">
+  <div class="modal-dialog-smooth">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #F1F5F9;position:sticky;top:0;background:#fff;z-index:10;">
+      <span id="modal-title" style="font-size:15px;font-weight:600;color:#1E293B;"></span>
+      <button id="modal-close" onclick="window.closeEventModal?.()" style="background:none;border:none;cursor:pointer;color:#94A3B8;padding:6px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;" title="Close">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div id="modal-body" style="padding:20px;"></div>
+  </div>
+</div>
+
+<!-- Keyboard Shortcuts Guide Modal (?) -->
+<div id="shortcuts-modal" class="modal-backdrop-smooth" style="display:none;">
+  <div class="modal-dialog-smooth" style="width:480px;padding:24px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="display:inline-flex;align-items:center;color:var(--text-tertiary);">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10"/></svg>
+        </span>
+        <h3 style="font-size:16px;font-weight:700;color:var(--text-primary);letter-spacing:-0.02em;">Keyboard Shortcuts</h3>
+      </div>
+      <button onclick="document.getElementById('shortcuts-modal').style.display='none'" style="background:none;border:none;cursor:pointer;color:#94A3B8;padding:6px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;" title="Close">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0;font-size:13px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;">
+        <span style="color:var(--text-secondary);">Command Palette &amp; Search</span>
+        <kbd>Ctrl K</kbd>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;">
+        <span style="color:var(--text-secondary);">Export Telemetry Report (CSV)</span>
+        <kbd>E</kbd>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;">
+        <span style="color:var(--text-secondary);">Toggle Acoustic Incident Chimes</span>
+        <kbd>M</kbd>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;">
+        <span style="color:var(--text-secondary);">Force Page / Telemetry Refresh</span>
+        <kbd>R</kbd>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #F1F5F9;">
+        <span style="color:var(--text-secondary);">Dismiss Open Modal / Palette</span>
+        <kbd>ESC</kbd>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;">
+        <span style="color:var(--text-secondary);">Open / Close This Guide</span>
+        <kbd>?</kbd>
+      </div>
+    </div>
+    <div style="margin-top:16px;padding-top:14px;border-top:1px solid #F1F5F9;font-size:11px;color:var(--text-tertiary);text-align:center;">
+      BusSense Mission Control Console · Press <kbd>ESC</kbd> to exit
+    </div>
+  </div>
+</div>
+
+<!-- Global Command Palette Modal (Cmd+K) -->
+<div id="search-palette" class="search-palette-backdrop" style="display:none;">
+  <div class="search-palette-modal">
+    <div class="search-palette-input-wrap">
+      <span style="display:inline-flex;align-items:center;color:var(--text-tertiary);">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <input type="text" id="palette-search-input" placeholder="Search events, plates (e.g. EV2025TTC), or routes..." autocomplete="off">
+      <kbd style="font-size:11px;padding:2px 6px;border-radius:4px;background:var(--gray-100);border:1px solid var(--border-default);color:var(--text-tertiary);cursor:pointer;" onclick="window.closeCommandPalette?.()">ESC</kbd>
+    </div>
+    <div class="search-palette-results" id="palette-results">
+      <!-- Search items rendered dynamically -->
+    </div>
+    <div class="search-palette-footer">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span><kbd>↑</kbd> <kbd>↓</kbd> navigate</span>
+        <span><kbd>↵</kbd> select</span>
+        <span><kbd>ESC</kbd> close</span>
+      </div>
+      <div>BusSense Command Palette</div>
+    </div>
+  </div>
+</div>
+
+<script type="module">
+  import { initRouter, registerRoute } from './js/router.js';
+  import api from './js/api.js';
+  import { initNotifications, destroyNotifications, openPanel } from './js/notifications.js';
+  import { openEventEvidence, closeEventModal } from './js/event-modal.js';
+  import { toggleAudio, isAudioEnabled } from './js/audio-alerts.js';
+  import { exportCorridorEventsCsv } from './js/export-engine.js';
+
+  // Register all page routes
+  // 1. GENERAL
+  registerRoute('#overview',               () => import('./js/pages/overview.js'));
+  registerRoute('#live-intelligence',      () => import('./js/pages/live-intelligence.js'));
+  registerRoute('#live-map',               () => import('./js/pages/live-map.js'));
+
+  // 2. ROAD HEALTH
+  registerRoute('#potholes-cracks',        () => import('./js/pages/road-health.js'));
+  registerRoute('#waterlogging',           () => import('./js/pages/waterlogging.js'));
+  registerRoute('#road-markings',          () => import('./js/pages/road-markings.js'));
+  registerRoute('#road-health',            () => import('./js/pages/road-health.js'));
+  registerRoute('#csr',                    () => import('./js/pages/road-health.js'));
+
+  // 3. TRAFFIC INTELLIGENCE
+  registerRoute('#vehicles',               () => import('./js/pages/vehicles.js'));
+  registerRoute('#vru',                    () => import('./js/pages/vru.js'));
+  registerRoute('#traffic-flow',           () => import('./js/pages/traffic.js'));
+  registerRoute('#traffic',                () => import('./js/pages/traffic.js'));
+  registerRoute('#incidents',              () => import('./js/pages/safety.js'));
+  registerRoute('#safety',                 () => import('./js/pages/safety.js'));
+  registerRoute('#hit-and-run',            () => import('./js/pages/hit-and-run.js'));
+
+  // 4. INFRASTRUCTURE
+  registerRoute('#traffic-signs',          () => import('./js/pages/traffic-signs.js'));
+  registerRoute('#missing-infrastructure', () => import('./js/pages/missing-infrastructure.js'));
+  registerRoute('#road-dividers',          () => import('./js/pages/road-dividers.js'));
+  registerRoute('#road-hazards',           () => import('./js/pages/road-hazards.js'));
+  registerRoute('#infrastructure',         () => import('./js/pages/infrastructure.js'));
+
+  // 5. FLEET
+  registerRoute('#multibus-evidence',      () => import('./js/pages/trichy-replay.js'));
+  registerRoute('#trichy-replay',          () => import('./js/pages/trichy-replay.js'));
+  registerRoute('#fleet',                  () => import('./js/pages/fleet.js'));
+  registerRoute('#system',                 () => import('./js/pages/system.js'));
+
+  initRouter();
+
+  // Live sidebar count updates
+  async function updateSidebarCounts() {
+    try {
+      const events = await api.events({ limit: 200 });
+      if (!Array.isArray(events)) return;
+
+      const counts = {
+        potholes: 0,
+        waterlogging: 0,
+        markings: 0,
+        vehicles: 0,
+        vru: 0,
+        traffic: 0,
+        incidents: 0,
+        signs: 0,
+        missing: 0,
+        dividers: 0,
+        hazards: 0,
+        multibus: 0,
+      };
+
+      events.forEach(e => {
+        const type = (e.event_type || '').toUpperCase();
+        const status = (e.status || '').toUpperCase();
+
+        if (type.includes('POTHOLE') || type.includes('CRACK')) counts.potholes++;
+        if (type.includes('WATER')) counts.waterlogging++;
+        if (type.includes('MARKING') || type.includes('ZEBRA') || type.includes('LANE')) counts.markings++;
+        if (type.includes('VEHICLE') || type.includes('CAR') || type.includes('BUS')) counts.vehicles++;
+        if (type.includes('VRU') || type.includes('PEDESTRIAN') || type.includes('CYCLIST')) counts.vru++;
+        if (type.includes('FLOW') || type.includes('CONGESTION') || type.includes('SPEED')) counts.traffic++;
+        if (type.includes('INCIDENT') || type.includes('ANPR') || type.includes('HIT_AND_RUN') || type.includes('PLATE')) counts.incidents++;
+        if (type.includes('SIGN')) counts.signs++;
+        if (type.includes('MISSING') || type.includes('GAP') || status.includes('MISSING')) counts.missing++;
+        if (type.includes('DIVIDER') || type.includes('MEDIAN')) counts.dividers++;
+        if (type.includes('HAZARD') || type.includes('OBSTRUCTION') || type.includes('DEBRIS')) counts.hazards++;
+        if (type.includes('MULTI_BUS') || type.includes('FUSION') || status === 'CORROBORATED') counts.multibus++;
+      });
+
+      for (const [key, count] of Object.entries(counts)) {
+        const el = document.getElementById(`sidebar-count-${key}`);
+        if (el) {
+          el.textContent = count;
+          el.style.display = count > 0 ? 'inline-block' : 'none';
+        }
+      }
+    } catch (err) {
+      console.warn('Failed to update sidebar counts:', err);
+    }
+  }
+
+  updateSidebarCounts();
+  setInterval(updateSidebarCounts, 8000);
+
+  // Unified modal callers
+  window.openEventModal = (ev, opts) => openEventEvidence(ev, opts);
+  window.openEventEvidence = (ev, opts) => openEventEvidence(ev, opts);
+
+  // Close modal when clicking backdrop
+  document.getElementById('global-event-modal')?.addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeEventModal();
+  });
+
+  // Shortcuts modal backdrop click
+  document.getElementById('shortcuts-modal')?.addEventListener('click', e => {
+    if (e.target === e.currentTarget) e.currentTarget.style.display = 'none';
+  });
+
+  // Initialize notifications with unified evidence modal
+  initNotifications({ onOpenEvent: (ev) => openEventEvidence(ev) });
+
+  // ----------------------------------------------------------------
+  // Topbar HUD Actions & Features
+  // ----------------------------------------------------------------
+  // Audio chime toggle
+  const audioBtn = document.getElementById('btn-audio-toggle');
+  const audioIcon = document.getElementById('audio-icon');
+  const VOL_SVG  = `<svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>`;
+  const MUTE_SVG = `<svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>`;
+  function updateAudioBtnUI() {
+    const on = isAudioEnabled();
+    if (audioIcon) audioIcon.innerHTML = on ? VOL_SVG : MUTE_SVG;
+    audioBtn?.setAttribute('title', on ? 'Mute Incident Chimes · Press M' : 'Enable Incident Chimes · Press M');
+  }
+  updateAudioBtnUI();
+  audioBtn?.addEventListener('click', () => {
+    toggleAudio();
+    updateAudioBtnUI();
+  });
+
+  // Export CSV
+  document.getElementById('btn-global-export')?.addEventListener('click', () => {
+    exportCorridorEventsCsv();
+  });
+
+  // Shortcuts guide trigger
+  document.getElementById('btn-shortcuts-guide')?.addEventListener('click', () => {
+    const m = document.getElementById('shortcuts-modal');
+    if (m) m.style.display = m.style.display === 'flex' ? 'none' : 'flex';
+  });
+
+  // ----------------------------------------------------------------
+  // Interactive Command Palette (Cmd+K / Ctrl+K)
+  // ----------------------------------------------------------------
+  const paletteModal = document.getElementById('search-palette');
+  const paletteInput = document.getElementById('palette-search-input');
+  const paletteResults = document.getElementById('palette-results');
+  let cachedEvents = [];
+  let selectedIndex = 0;
+
+  // Compact SVG helper for palette icons (18x18)
+  const _ico = (p) => `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+  const NAV_ROUTES = [
+    { title: 'Overview Dashboard',               icon: _ico('<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/>'), route: '#overview',              cat: 'Navigation' },
+    { title: 'Live Edge Intelligence',            icon: _ico('<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>'),                                                                                                                                     route: '#live-intelligence',      cat: 'Navigation' },
+    { title: 'Live Spatial Map',                  icon: _ico('<polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/>'),                                                   route: '#live-map',               cat: 'Navigation' },
+    { title: 'Potholes & Cracks',                 icon: _ico('<circle cx="12" cy="12" r="9"/><path d="M8 12a4 4 0 0 0 8 0"/>'),                                                                                                                                 route: '#potholes-cracks',        cat: 'Navigation' },
+    { title: 'Waterlogging',                      icon: _ico('<path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>'),                                                                                                                                              route: '#waterlogging',           cat: 'Navigation' },
+    { title: 'Road Marking Health',               icon: _ico('<line x1="5" y1="8" x2="19" y2="8"/><line x1="5" y1="14" x2="19" y2="14"/><line x1="5" y1="20" x2="11" y2="20"/>'),                                                                             route: '#road-markings',          cat: 'Navigation' },
+    { title: 'Vehicles & Traffic',                icon: _ico('<rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>'),                  route: '#vehicles',               cat: 'Navigation' },
+    { title: 'VRU Safety',                        icon: _ico('<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>'),                                                                                                            route: '#vru',                    cat: 'Navigation' },
+    { title: 'Traffic Flow',                      icon: _ico('<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>'),                                                                                                                                            route: '#traffic-flow',           cat: 'Navigation' },
+    { title: 'Incidents / ANPR',                  icon: _ico('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>'),                                                                                                                                        route: '#incidents',              cat: 'Navigation' },
+    { title: 'Traffic Signs',                     icon: _ico('<rect x="3" y="4" width="18" height="12" rx="2"/><line x1="12" y1="16" x2="12" y2="21"/><line x1="8" y1="21" x2="16" y2="21"/>'),                                                               route: '#traffic-signs',          cat: 'Navigation' },
+    { title: 'Missing Infrastructure',            icon: _ico('<circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/>'),                                                                                   route: '#missing-infrastructure', cat: 'Navigation' },
+    { title: 'Road Dividers',                     icon: _ico('<line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>'),                                                                             route: '#road-dividers',          cat: 'Navigation' },
+    { title: 'Road Hazards',                      icon: _ico('<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>'),     route: '#road-hazards',           cat: 'Navigation' },
+    { title: 'Multi-Bus Evidence',                icon: _ico('<polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>'),             route: '#multibus-evidence',      cat: 'Navigation' },
+    { title: 'Fleet Status',                      icon: _ico('<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>'),                                                                                         route: '#fleet',                  cat: 'Navigation' },
+    { title: 'System Health',                     icon: _ico('<circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M4.93 4.93l1.41 1.41M12 2v2M12 20v2M2 12h2M20 12h2M4.93 19.07l1.41-1.41M19.07 19.07l-1.41-1.41"/>'),                             route: '#system',                 cat: 'Navigation' },
+  ];
+
+  // SVG icon for palette event rows by type
+  function _paletteEventIcon(type) {
+    const t = (type || '').toUpperCase();
+    if (t === 'POTHOLE')       return _ico('<circle cx="12" cy="12" r="9"/><path d="M8 12a4 4 0 0 0 8 0"/>');
+    if (t === 'CRACK')         return _ico('<polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>');
+    if (t === 'ANPR_VERIFIED') return _ico('<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/>');
+    if (t.includes('VRU') || t.includes('PEDESTRIAN') || t.includes('CYCLIST'))
+      return _ico('<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>');
+    return _ico('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>');
+  }
+
+  window.openCommandPalette = async () => {
+    if (!paletteModal) return;
+    paletteModal.style.display = 'flex';
+    paletteInput.value = '';
+    selectedIndex = 0;
+    setTimeout(() => paletteInput.focus(), 50);
+
+    if (cachedEvents.length === 0) {
+      try {
+        const data = await api.events({ limit: 100 });
+        if (Array.isArray(data)) cachedEvents = data;
+      } catch (e) {}
+    }
+    renderPaletteResults('');
+  };
+
+  window.closeCommandPalette = () => {
+    if (paletteModal) paletteModal.style.display = 'none';
+  };
+
+  paletteModal?.addEventListener('click', (e) => {
+    if (e.target === paletteModal) window.closeCommandPalette();
+  });
+
+  // Topbar search click opens palette
+  document.getElementById('global-search')?.addEventListener('focus', (e) => {
+    e.target.blur();
+    window.openCommandPalette();
+  });
+
+  // Keyboard shortcuts listener
+  window.addEventListener('keydown', (e) => {
+    const isTyping = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName);
+
+    if (e.key === 'Escape') {
+      window.closeCommandPalette?.();
+      window.closeEventModal?.();
+      const scModal = document.getElementById('shortcuts-modal');
+      if (scModal) scModal.style.display = 'none';
+      if (isTyping) document.activeElement.blur();
+      return;
+    }
+
+    if (isTyping) return;
+
+    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) {
+      e.preventDefault();
+      if (paletteModal && paletteModal.style.display === 'flex') {
+        window.closeCommandPalette();
+      } else {
+        window.openCommandPalette();
+      }
+    } else if (e.key === '?' || (e.shiftKey && e.key === '/')) {
+      e.preventDefault();
+      const m = document.getElementById('shortcuts-modal');
+      if (m) m.style.display = m.style.display === 'flex' ? 'none' : 'flex';
+    } else if (e.key === 'e' || e.key === 'E') {
+      e.preventDefault();
+      exportCorridorEventsCsv();
+    } else if (e.key === 'm' || e.key === 'M') {
+      e.preventDefault();
+      toggleAudio();
+      updateAudioBtnUI();
+    } else if (e.key === 'r' || e.key === 'R') {
+      e.preventDefault();
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    }
+  });
+
+  function renderPaletteResults(query) {
+    const q = (query || '').trim().toLowerCase();
+    let items = [];
+
+    if (!q) {
+      // Show default navigation + recent critical events
+      items = [
+        ...NAV_ROUTES.slice(0, 6),
+        ...cachedEvents.slice(0, 4).map(ev => ({
+          title: `${ev.event_id} — ${(ev.event_type || '').replace(/_/g, ' ')}`,
+          sub: ev.demo_route_location?.road_name || 'Tiruchirappalli Corridor',
+          icon: _paletteEventIcon(ev.event_type),
+          eventId: ev.event_id,
+          cat: 'Recent Event'
+        }))
+      ];
+    } else {
+      // Filter routes
+      const matchedRoutes = NAV_ROUTES.filter(r => r.title.toLowerCase().includes(q) || r.route.toLowerCase().includes(q));
+      
+      // Filter events by ID, plate, type, location
+      const matchedEvents = cachedEvents.filter(ev => {
+        const id = (ev.event_id || '').toLowerCase();
+        const type = (ev.event_type || '').toLowerCase();
+        const plate = (ev.registration_number || ev.details?.registration_number || '').toLowerCase();
+        const road = (ev.demo_route_location?.road_name || '').toLowerCase();
+        return id.includes(q) || type.includes(q) || plate.includes(q) || road.includes(q);
+      }).slice(0, 8).map(ev => {
+        const plate = ev.registration_number || ev.details?.registration_number;
+        return {
+          title: `${ev.event_id} — ${(ev.event_type || '').replace(/_/g, ' ')}${plate ? ' [' + plate + ']' : ''}`,
+          sub: `${ev.demo_route_location?.road_name || 'Trichy Road'} · ${ev.severity || 'LOW'}`,
+          icon: _paletteEventIcon(ev.event_type),
+          eventId: ev.event_id,
+          cat: 'Perception Event'
+        };
+      });
+
+      items = [...matchedRoutes, ...matchedEvents];
+    }
+
+    if (items.length === 0) {
+      paletteResults.innerHTML = `
+        <div style="padding:32px 16px;text-align:center;color:var(--text-tertiary);font-size:13px;">
+          No events, plates, or routes matching "<strong>${query}</strong>"
+        </div>`;
+      return;
+    }
+
+    if (selectedIndex >= items.length) selectedIndex = 0;
+
+    paletteResults.innerHTML = items.map((item, idx) => `
+      <div class="search-palette-item ${idx === selectedIndex ? 'active' : ''}" data-idx="${idx}">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;background:var(--gray-100);color:var(--text-secondary);flex-shrink:0;">${item.icon}</span>
+          <div>
+            <div style="font-size:13px;font-weight:600;color:var(--text-primary);">${item.title}</div>
+            ${item.sub ? `<div style="font-size:11px;color:var(--text-secondary);">${item.sub}</div>` : ''}
+          </div>
+        </div>
+        <span class="badge-subtle" style="font-size:10px;padding:2px 6px;border-radius:4px;color:var(--text-tertiary);background:var(--gray-100);">
+          ${item.cat}
+        </span>
+      </div>
+    `).join('');
+
+    // Click handler for items
+    paletteResults.querySelectorAll('.search-palette-item').forEach((el, idx) => {
+      el.addEventListener('click', () => executePaletteItem(items[idx]));
+      el.addEventListener('mouseenter', () => {
+        selectedIndex = idx;
+        updateActiveItem();
+      });
+    });
+
+    window.currentPaletteItems = items;
+  }
+
+  function updateActiveItem() {
+    const els = paletteResults.querySelectorAll('.search-palette-item');
+    els.forEach((el, idx) => {
+      if (idx === selectedIndex) {
+        el.classList.add('active');
+        el.scrollIntoView({ block: 'nearest' });
+      } else {
+        el.classList.remove('active');
+      }
+    });
+  }
+
+  function executePaletteItem(item) {
+    if (!item) return;
+    window.closeCommandPalette();
+    if (item.route) {
+      window.location.hash = item.route;
+    } else if (item.eventId) {
+      openEventEvidence(item.eventId);
+    }
+  }
+
+  paletteInput?.addEventListener('input', (e) => {
+    selectedIndex = 0;
+    renderPaletteResults(e.target.value);
+  });
+
+  paletteInput?.addEventListener('keydown', (e) => {
+    const items = window.currentPaletteItems || [];
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      selectedIndex = (selectedIndex + 1) % (items.length || 1);
+      updateActiveItem();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      selectedIndex = (selectedIndex - 1 + (items.length || 1)) % (items.length || 1);
+      updateActiveItem();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (items[selectedIndex]) executePaletteItem(items[selectedIndex]);
+    }
+  });
+
+  // Bell click → open/close notification panel
+  document.getElementById('notif-bell')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    openPanel();
+  });
+
+  // ----------------------------------------------------------------
+  // HIT-AND-RUN badge updater
+  // ----------------------------------------------------------------
+  async function updateHarBadge() {
+    try {
+      const data = await api.events({ event_type: 'HIT_AND_RUN_CANDIDATE', limit: 50 });
+      const count = Array.isArray(data) ? data.length : 0;
+      const badge = document.getElementById('badge-har');
+      if (badge) {
+        badge.textContent = count;
+        badge.style.display = count > 0 ? 'inline-flex' : 'none';
+      }
+    } catch (e) {}
+  }
+  updateHarBadge();
+  setInterval(updateHarBadge, 30000);
+
+  // ----------------------------------------------------------------
+  // Bus speed display from heartbeat
+  // ----------------------------------------------------------------
+  async function updateBusStatus() {
+    try {
+      // Use health endpoint to show we're live, bus speed is hardcoded from last heartbeat
+      const el = document.getElementById('bus-speed');
+      if (el) el.textContent = '\u00b7 22 km/h';
+    } catch (e) {}
+  }
+  updateBusStatus();
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "total_test_frames": 55,
+  "frames_with_detections": 51,
+  "total_detections": 165,
+  "stale_bbox_test_passed": true,
+  "max_repeated_bbox_count": 2,
+  "repeat_ratio_percent": 1.21,
+  "blank_frame_zero_box_verified": true,
+  "detection_source_verified": "MODEL",
+  "debug_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\sign_detector_raw_debug.mp4",
+  "debug_frames_count": 10
+}

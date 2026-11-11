@@ -1,0 +1,76 @@
+# BusSense Road Infrastructure & Waterlogging Configuration
+# ==========================================================
+
+# 1. Waterlogging Extent Metrology
+waterlogging:
+  model_architecture: "SegFormer-B0"
+  min_persistence_frames: 4       # Must persist across consecutive frames
+  min_coverage_ratio: 0.08        # Minimum ratio (8%) to trigger alert
+  min_visibility_score: 0.60
+  ego_corridor_width_m: 3.6       # Standard drivable corridor width
+  cadence_seconds: 0.5            # Periodic segmentation cadence
+  denominator_mode: "union"       # 'union' = road_mask UNION water_mask; 'projected_corridor' fallback
+
+# 2. Zebra Crossing & Paint Coverage
+zebra_crossing:
+  model_architecture: "lightweight-seg"
+  cadence_seconds: 0.5
+  paint_coverage_thresholds:
+    visible: 0.70                 # >= 70% visible paint -> VISIBLE
+    faded: 0.35                   # 35% - 70% -> FADED
+    partial: 0.15                 # 15% - 35% -> PARTIAL
+    not_observed: 0.0             # < 15% -> NOT_OBSERVED
+  missing_inference:
+    min_visibility_score: 0.70
+    min_passes: 2
+    search_radius_m: 12.0
+
+# 3. Physical Road Divider / Median Metrology
+road_divider:
+  min_physical_height_cm: 15.0    # Physical median height threshold (excludes flat painted lines)
+  cadence_seconds: 0.5
+  gap_detection:
+    min_gap_length_m: 2.5         # Minimum length in local road coordinates to consider a gap
+    max_gap_noise_m: 1.0          # Below 1.0m filtered as sensor occlusion/noise
+  allowed_opening_buffer_m: 3.0   # Buffer around authorized openings (U-turns, intersections)
+  missing_inference:
+    min_visibility_score: 0.65
+    min_persistence_frames: 5
+    corroboration_passes: 2
+
+# 4. General Road Hazards
+road_hazards:
+  supported_classes:
+    - DEBRIS
+    - CONSTRUCTION_BARRIER
+    - STALLED_VEHICLE
+    - ROAD_BLOCKAGE
+    - FALLEN_OBJECT
+  unknown_obstruction:
+    enabled: true
+    min_3d_height_m: 0.20
+    ego_corridor_margin_m: 0.40
+
+# 5. Multi-Bus Fusion & Evidence Engine
+multi_bus_fusion:
+  spatial_merge_radius_m: 15.0
+  heading_tolerance_deg: 40.0
+  max_temporal_gap_days: 7.0
+  min_buses_for_corroboration: 2
+  conflict_resolution_mode: "flag_and_retain"  # Never hide conflicting observations
+
+# 6. Trichy Demo Route Constraints
+trichy_demo:
+  city: "Tiruchirappalli, Tamil Nadu, India"
+  max_distance_from_centerline_m: 10.0  # Hard constraint: fail if bus exceeds 10m
+  sampling_interval_m: 5.0
+  default_speed_kmh: 25.0
+  synthetic_fault:
+    asset_type: "ROAD_DIVIDER"
+    fault_type: "MISSING_DIVIDER"
+    start_distance_m: 30.0
+    end_distance_m: 45.0
+  negative_test_opening:
+    start_distance_m: 70.0
+    end_distance_m: 85.0
+    type: "U_TURN"

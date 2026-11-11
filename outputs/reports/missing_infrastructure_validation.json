@@ -1,0 +1,81 @@
+{
+  "report_title": "BusSense Missing Infrastructure Verification Audit",
+  "video_output": "outputs\\videos\\bussense_missing_infrastructure_verified.mp4",
+  "invariants_tested": {
+    "formula_enforced": "EXPECTED + VISIBILITY + OBSERVATION + TEMPORAL_HISTORY + BUS_CORROBORATION",
+    "no_fake_bounding_boxes": true,
+    "registered_openings_recognized_as_normal": true,
+    "low_visibility_suppresses_missing_claim": true,
+    "unknown_reference_suppresses_missing_claim": true,
+    "minimum_temporal_absence_threshold_frames": 5
+  },
+  "test_records": [
+    {
+      "scenario": "MISSING_TRAFFIC_SIGN",
+      "frame": 5,
+      "asset_id": "SIGN_GIS_301",
+      "status": "CONFIRMED_MISSING",
+      "absence_count": 6,
+      "fake_box_drawn": false,
+      "dispatch_alert": true
+    },
+    {
+      "scenario": "MISSING_TRAFFIC_SIGN",
+      "frame": 45,
+      "asset_id": "SIGN_GIS_301",
+      "status": "CONFIRMED_MISSING",
+      "absence_count": 46,
+      "fake_box_drawn": false,
+      "dispatch_alert": true
+    },
+    {
+      "scenario": "REGISTERED_MEDIAN_OPENING",
+      "frame": 90,
+      "asset_id": "MEDIAN_GAP_402",
+      "status": "NORMAL_OPENING",
+      "is_authorized": true,
+      "dispatch_alert": false
+    },
+    {
+      "scenario": "REGISTERED_MEDIAN_OPENING",
+      "frame": 120,
+      "asset_id": "MEDIAN_GAP_402",
+      "status": "NORMAL_OPENING",
+      "is_authorized": true,
+      "dispatch_alert": false
+    },
+    {
+      "scenario": "MISSING_MEDIAN_BREACH",
+      "frame": 145,
+      "asset_id": "MEDIAN_SEG_109",
+      "status": "CONFIRMED_MISSING",
+      "absence_count": 6,
+      "dispatch_alert": true
+    },
+    {
+      "scenario": "MISSING_MEDIAN_BREACH",
+      "frame": 170,
+      "asset_id": "MEDIAN_SEG_109",
+      "status": "CONFIRMED_MISSING",
+      "absence_count": 31,
+      "dispatch_alert": true
+    },
+    {
+      "scenario": "OBSCURED_OR_UNKNOWN",
+      "frame": 210,
+      "asset_id": "SIGN_GIS_505",
+      "status": "OBSCURED_UNCONFIRMED",
+      "visibility": 0.42,
+      "dispatch_alert": false
+    },
+    {
+      "scenario": "OBSCURED_OR_UNKNOWN",
+      "frame": 245,
+      "asset_id": "UNKNOWN_ASSET_999",
+      "status": "NO_CLAIM",
+      "visibility": 0.9,
+      "dispatch_alert": false
+    }
+  ],
+  "final_status": "PASS_ALL_INVARIANTS"
+}

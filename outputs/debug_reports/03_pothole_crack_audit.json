@@ -1,0 +1,133 @@
+{
+  "diagnostic_video": "outputs\\debug_videos\\03_POTHOLE_CRACK_DEBUG.mp4",
+  "total_frames_processed": 280,
+  "stages": [
+    "APPROACH_CLEAR (frames 0-39)",
+    "ACTIVE_TRACK (frames 40-179)",
+    "EXPIRED_PURGED (frames 180-279)"
+  ],
+  "stale_overlays_after_expiry": 0,
+  "sample_log": [
+    {
+      "frame": 0,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 1,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 2,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 3,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 4,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 5,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 6,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 7,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 8,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 9,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 10,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 11,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 12,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 13,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    },
+    {
+      "frame": 14,
+      "stage": "APPROACH_CLEAR",
+      "has_visual_defect": false,
+      "depth_text": "None in corridor",
+      "hazard_text": "CLEAR",
+      "event_type": "NORMAL_TRANSIT"
+    }
+  ],
+  "verdict": "ZERO_STALE_DEFECT_ARTIFACTS_CONFIRMED"
+}

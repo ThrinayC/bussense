@@ -1,0 +1,805 @@
+[
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1928.png",
+    "filename": "train1928.png",
+    "split": "test",
+    "frame": 0,
+    "detected_objects": [
+      "boat"
+    ],
+    "bottom_water_ratio": 0.558,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1935.png",
+    "filename": "train1935.png",
+    "split": "test",
+    "frame": 1,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.395,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1936.png",
+    "filename": "train1936.png",
+    "split": "test",
+    "frame": 2,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.676,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1943.png",
+    "filename": "train1943.png",
+    "split": "test",
+    "frame": 3,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.51,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1944.png",
+    "filename": "train1944.png",
+    "split": "test",
+    "frame": 4,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.483,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1951.png",
+    "filename": "train1951.png",
+    "split": "test",
+    "frame": 5,
+    "detected_objects": [
+      "boat"
+    ],
+    "bottom_water_ratio": 0.713,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1952.png",
+    "filename": "train1952.png",
+    "split": "test",
+    "frame": 6,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.67,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1959.png",
+    "filename": "train1959.png",
+    "split": "test",
+    "frame": 7,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.556,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1960.png",
+    "filename": "train1960.png",
+    "split": "test",
+    "frame": 8,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.92,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\test\\train1967.png",
+    "filename": "train1967.png",
+    "split": "test",
+    "frame": 9,
+    "detected_objects": [
+      "boat"
+    ],
+    "bottom_water_ratio": 0.499,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train0.png",
+    "filename": "train0.png",
+    "split": "train",
+    "frame": 10,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.096,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train1.png",
+    "filename": "train1.png",
+    "split": "train",
+    "frame": 11,
+    "detected_objects": [
+      "bed"
+    ],
+    "bottom_water_ratio": 0.013,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Water localized to curb/ditch beside road or negligible surface pooling"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train10.png",
+    "filename": "train10.png",
+    "split": "train",
+    "frame": 12,
+    "detected_objects": [
+      "car",
+      "bus"
+    ],
+    "bottom_water_ratio": 0.537,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train11.png",
+    "filename": "train11.png",
+    "split": "train",
+    "frame": 13,
+    "detected_objects": [
+      "kite"
+    ],
+    "bottom_water_ratio": 0.096,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train12.png",
+    "filename": "train12.png",
+    "split": "train",
+    "frame": 14,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.79,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train13.png",
+    "filename": "train13.png",
+    "split": "train",
+    "frame": 15,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.238,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train14.png",
+    "filename": "train14.png",
+    "split": "train",
+    "frame": 16,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.003,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Water localized to curb/ditch beside road or negligible surface pooling"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train15.png",
+    "filename": "train15.png",
+    "split": "train",
+    "frame": 17,
+    "detected_objects": [
+      "traffic light",
+      "person",
+      "boat"
+    ],
+    "bottom_water_ratio": 0.062,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train16.png",
+    "filename": "train16.png",
+    "split": "train",
+    "frame": 18,
+    "detected_objects": [
+      "book"
+    ],
+    "bottom_water_ratio": 0.114,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train17.png",
+    "filename": "train17.png",
+    "split": "train",
+    "frame": 19,
+    "detected_objects": [
+      "potted plant"
+    ],
+    "bottom_water_ratio": 0.179,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train18.png",
+    "filename": "train18.png",
+    "split": "train",
+    "frame": 20,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.203,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train19.png",
+    "filename": "train19.png",
+    "split": "train",
+    "frame": 21,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.082,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train2.png",
+    "filename": "train2.png",
+    "split": "train",
+    "frame": 22,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.526,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train20.png",
+    "filename": "train20.png",
+    "split": "train",
+    "frame": 23,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.131,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train21.png",
+    "filename": "train21.png",
+    "split": "train",
+    "frame": 24,
+    "detected_objects": [
+      "boat"
+    ],
+    "bottom_water_ratio": 0.032,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train22.png",
+    "filename": "train22.png",
+    "split": "train",
+    "frame": 25,
+    "detected_objects": [
+      "elephant"
+    ],
+    "bottom_water_ratio": 0.622,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Wildlife/nature terrain puddle; not a paved urban road surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train23.png",
+    "filename": "train23.png",
+    "split": "train",
+    "frame": 26,
+    "detected_objects": [
+      "bird",
+      "person"
+    ],
+    "bottom_water_ratio": 0.298,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train24.png",
+    "filename": "train24.png",
+    "split": "train",
+    "frame": 27,
+    "detected_objects": [
+      "chair",
+      "person",
+      "surfboard"
+    ],
+    "bottom_water_ratio": 0.551,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train25.png",
+    "filename": "train25.png",
+    "split": "train",
+    "frame": 28,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.215,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train26.png",
+    "filename": "train26.png",
+    "split": "train",
+    "frame": 29,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.568,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train27.png",
+    "filename": "train27.png",
+    "split": "train",
+    "frame": 30,
+    "detected_objects": [
+      "umbrella",
+      "person"
+    ],
+    "bottom_water_ratio": 0.408,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train28.png",
+    "filename": "train28.png",
+    "split": "train",
+    "frame": 31,
+    "detected_objects": [
+      "bird",
+      "person"
+    ],
+    "bottom_water_ratio": 0.466,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train29.png",
+    "filename": "train29.png",
+    "split": "train",
+    "frame": 32,
+    "detected_objects": [
+      "bird",
+      "person",
+      "boat"
+    ],
+    "bottom_water_ratio": 0.584,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train3.png",
+    "filename": "train3.png",
+    "split": "train",
+    "frame": 33,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.857,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train30.png",
+    "filename": "train30.png",
+    "split": "train",
+    "frame": 34,
+    "detected_objects": [
+      "bird",
+      "bench",
+      "person"
+    ],
+    "bottom_water_ratio": 0.686,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train31.png",
+    "filename": "train31.png",
+    "split": "train",
+    "frame": 35,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.479,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train32.png",
+    "filename": "train32.png",
+    "split": "train",
+    "frame": 36,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.329,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train33.png",
+    "filename": "train33.png",
+    "split": "train",
+    "frame": 37,
+    "detected_objects": [
+      "bus"
+    ],
+    "bottom_water_ratio": 0.0,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train34.png",
+    "filename": "train34.png",
+    "split": "train",
+    "frame": 38,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.096,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train35.png",
+    "filename": "train35.png",
+    "split": "train",
+    "frame": 39,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.139,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train36.png",
+    "filename": "train36.png",
+    "split": "train",
+    "frame": 40,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.25,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train37.png",
+    "filename": "train37.png",
+    "split": "train",
+    "frame": 41,
+    "detected_objects": [
+      "airplane",
+      "truck"
+    ],
+    "bottom_water_ratio": 0.106,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train38.png",
+    "filename": "train38.png",
+    "split": "train",
+    "frame": 42,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.124,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train39.png",
+    "filename": "train39.png",
+    "split": "train",
+    "frame": 43,
+    "detected_objects": [
+      "chair"
+    ],
+    "bottom_water_ratio": 0.0,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Water localized to curb/ditch beside road or negligible surface pooling"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train4.png",
+    "filename": "train4.png",
+    "split": "train",
+    "frame": 44,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.464,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train5.png",
+    "filename": "train5.png",
+    "split": "train",
+    "frame": 45,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.535,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train6.png",
+    "filename": "train6.png",
+    "split": "train",
+    "frame": 46,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.819,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train7.png",
+    "filename": "train7.png",
+    "split": "train",
+    "frame": 47,
+    "detected_objects": [
+      "car"
+    ],
+    "bottom_water_ratio": 0.017,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train8.png",
+    "filename": "train8.png",
+    "split": "train",
+    "frame": 48,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.028,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Water localized to curb/ditch beside road or negligible surface pooling"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\train\\train9.png",
+    "filename": "train9.png",
+    "split": "train",
+    "frame": 49,
+    "detected_objects": [
+      "chair",
+      "potted plant",
+      "couch"
+    ],
+    "bottom_water_ratio": 0.001,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Water localized to curb/ditch beside road or negligible surface pooling"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val0.png",
+    "filename": "val0.png",
+    "split": "val",
+    "frame": 50,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.55,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val1.png",
+    "filename": "val1.png",
+    "split": "val",
+    "frame": 51,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.556,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val10.png",
+    "filename": "val10.png",
+    "split": "val",
+    "frame": 52,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.936,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val11.png",
+    "filename": "val11.png",
+    "split": "val",
+    "frame": 53,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.937,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val12.png",
+    "filename": "val12.png",
+    "split": "val",
+    "frame": 54,
+    "detected_objects": [
+      "person",
+      "bench",
+      "car"
+    ],
+    "bottom_water_ratio": 0.679,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val13.png",
+    "filename": "val13.png",
+    "split": "val",
+    "frame": 55,
+    "detected_objects": [
+      "person",
+      "bench",
+      "car"
+    ],
+    "bottom_water_ratio": 0.681,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val14.png",
+    "filename": "val14.png",
+    "split": "val",
+    "frame": 56,
+    "detected_objects": [
+      "bench",
+      "person"
+    ],
+    "bottom_water_ratio": 0.677,
+    "classification": "ROAD_WATER",
+    "usable_for_real_demo": true,
+    "reason": "Standing water visibly covering vehicle roadway/paved street surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val2.png",
+    "filename": "val2.png",
+    "split": "val",
+    "frame": 57,
+    "detected_objects": [
+      "cow"
+    ],
+    "bottom_water_ratio": 0.546,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Wildlife/nature terrain puddle; not a paved urban road surface"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val3.png",
+    "filename": "val3.png",
+    "split": "val",
+    "frame": 58,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.549,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val4.png",
+    "filename": "val4.png",
+    "split": "val",
+    "frame": 59,
+    "detected_objects": [
+      "person"
+    ],
+    "bottom_water_ratio": 0.549,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val5.png",
+    "filename": "val5.png",
+    "split": "val",
+    "frame": 60,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.554,
+    "classification": "NON_ROAD_WATER",
+    "usable_for_real_demo": false,
+    "reason": "Pedestrian park/courtyard or generic landscape water without clear road boundaries"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val6.png",
+    "filename": "val6.png",
+    "split": "val",
+    "frame": 61,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.935,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val7.png",
+    "filename": "val7.png",
+    "split": "val",
+    "frame": 62,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.938,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val8.png",
+    "filename": "val8.png",
+    "split": "val",
+    "frame": 63,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.928,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  },
+  {
+    "source": "datasets\\fred\\raw\\images\\val\\val9.png",
+    "filename": "val9.png",
+    "split": "val",
+    "frame": 64,
+    "detected_objects": [],
+    "bottom_water_ratio": 0.933,
+    "classification": "NATURAL_WATERBODY",
+    "usable_for_real_demo": false,
+    "reason": "Open water body, river, harbour, or lake with boat traffic; no drivable roadway"
+  }
+]

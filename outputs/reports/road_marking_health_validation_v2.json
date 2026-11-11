@@ -1,0 +1,116 @@
+{
+  "report_title": "BusSense Road Marking Health Validation Audit v2",
+  "video_output": "outputs\\videos\\bussense_road_marking_health_verified_v2.mp4",
+  "total_unique_frames": 800,
+  "duration_seconds": 80.0,
+  "continuous_forward_motion": true,
+  "zero_frame_stretching": true,
+  "zero_repeated_frame_padding": true,
+  "taxonomy_classes_verified": [
+    "LANE_LINE",
+    "EDGE_LINE",
+    "CENTER_LINE",
+    "STOP_LINE",
+    "TURN_ARROW",
+    "DIRECTION_ARROW",
+    "HATCH_MARKING",
+    "CHEVRON",
+    "ZEBRA_CROSSING",
+    "BUS_LANE_MARKING",
+    "ROAD_TEXT",
+    "OTHER_MARKING",
+    "UNKNOWN"
+  ],
+  "anti_false_crosswalk_enforced": {
+    "bus_lane_stencil_classified_as_bus_lane": true,
+    "turn_arrows_classified_as_turn_arrow": true,
+    "crosswalk_requires_transverse_parallel_bars": true
+  },
+  "occlusion_awareness_verified_never_faded": true,
+  "spatial_aggregation_100m_supported": true,
+  "test_records": [
+    {
+      "part": "PART_1_LONGITUDINAL_LINES",
+      "frame": 50,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.96,
+      "occlusion": 0.0
+    },
+    {
+      "part": "PART_1_LONGITUDINAL_LINES",
+      "frame": 200,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.58,
+      "continuity": 0.65,
+      "occlusion": 0.0
+    },
+    {
+      "part": "PART_1_LONGITUDINAL_LINES",
+      "frame": 310,
+      "taxonomy": "EDGE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.85,
+      "continuity": 0.9,
+      "occlusion": 0.0
+    },
+    {
+      "part": "PART_1_LONGITUDINAL_LINES",
+      "frame": 370,
+      "taxonomy": "LANE_LINE",
+      "condition": "OBSCURED",
+      "coverage": 0.82,
+      "continuity": 0.88,
+      "occlusion": 0.65
+    },
+    {
+      "part": "PART_2_DISCRETE_MARKINGS",
+      "frame": 430,
+      "taxonomy": "BUS_LANE_MARKING",
+      "condition": "GOOD",
+      "is_zebra": false,
+      "coverage": 0.86
+    },
+    {
+      "part": "PART_2_DISCRETE_MARKINGS",
+      "frame": 490,
+      "taxonomy": "TURN_ARROW",
+      "condition": "GOOD",
+      "is_zebra": false,
+      "coverage": 0.9
+    },
+    {
+      "part": "PART_2_DISCRETE_MARKINGS",
+      "frame": 550,
+      "taxonomy": "ZEBRA_CROSSING",
+      "condition": "GOOD",
+      "is_zebra": true,
+      "coverage": 0.92
+    },
+    {
+      "part": "PART_2_DISCRETE_MARKINGS",
+      "frame": 620,
+      "taxonomy": "HATCH_MARKING",
+      "condition": "GOOD",
+      "is_zebra": false,
+      "coverage": 0.84
+    },
+    {
+      "part": "PART_3_SEGMENT_ROLLUP",
+      "frame": 680,
+      "segment_id": "SEG_TRICHY_04",
+      "lane_lines_condition": "GOOD",
+      "maintenance_state": "GOOD"
+    },
+    {
+      "part": "PART_3_SEGMENT_ROLLUP",
+      "frame": 750,
+      "segment_id": "SEG_TRICHY_04",
+      "lane_lines_condition": "GOOD",
+      "maintenance_state": "GOOD"
+    }
+  ],
+  "final_status": "PASS_ALL_CRITERIA"
+}

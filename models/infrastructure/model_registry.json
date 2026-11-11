@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "timestamp": "2026-09-28 21:37:10",
+  "hardware": {
+    "device": "CPU (Fallback)",
+    "cuda_available": false,
+    "os": "Windows 11",
+    "python_version": "3.14.4"
+  },
+  "models": {
+    "water_model": {
+      "name": "LightweightRoadSegNet_Water",
+      "task": "waterlogging_segmentation",
+      "weights_path": "models/infrastructure/water/best.pt",
+      "sha256": "d59f989cd93630d89ffd7fb16c460ccfb18aa95ce624e06f892968c25507ab4c",
+      "parameters": 482737,
+      "input_resolution": "256x256",
+      "mean_latency_ms": 34.02,
+      "std_latency_ms": 6.78,
+      "fps": 29.39,
+      "device": "CPU (Fallback)"
+    },
+    "zebra_model": {
+      "name": "LightweightRoadSegNet_Zebra",
+      "task": "zebra_crossing_segmentation",
+      "weights_path": "models/infrastructure/zebra/best.pt",
+      "sha256": "2dec74ca759f7335f2a21a3f5cdb3587e562b46bef68fe96212d590ca1b07d10",
+      "parameters": 482737,
+      "input_resolution": "256x256",
+      "mean_latency_ms": 31.72,
+      "std_latency_ms": 1.89,
+      "fps": 31.53,
+      "device": "CPU (Fallback)"
+    },
+    "traffic_sign_model": {
+      "name": "TrafficSignNet",
+      "task": "traffic_sign_detection",
+      "taxonomy": [
+        "SPEED_LIMIT",
+        "STOP",
+        "WARNING",
+        "MANDATORY",
+        "PROHIBITORY",
+        "OTHER"
+      ],
+      "weights_path": "models/infrastructure/signs/best.pt",
+      "sha256": "b9380c6b8a2889d1b432042f214983783c92cb6c024a9e2441cac912181e071c",
+      "parameters": 492362,
+      "input_resolution": "256x256",
+      "mean_latency_ms": 9.24,
+      "std_latency_ms": 4.05,
+      "fps": 108.21,
+      "device": "CPU (Fallback)"
+    },
+    "sign_condition_model": {
+      "name": "SignConditionNet",
+      "task": "sign_condition_classification",
+      "conditions": [
+        "NORMAL",
+        "DAMAGED",
+        "OCCLUDED"
+      ],
+      "weights_path": "models/infrastructure/sign_condition/best.pt",
+      "sha256": "1b512846da64f72366f77b4994d06696d650050f4d724a9f87280ed3089b0d1c",
+      "parameters": 25987,
+      "input_resolution": "64x64",
+      "mean_latency_ms": 0.66,
+      "std_latency_ms": 0.14,
+      "fps": 1505.27,
+      "device": "CPU (Fallback)"
+    },
+    "road_divider_model": {
+      "name": "RoadDividerMetrologyEngine",
+      "status": "DIVIDER_MODEL_LIMITED_BY_PUBLIC_LABELS",
+      "task": "road_divider_detection_metrology",
+      "detection_modality": "Stereoscopic 3D Disparity Elevation + Continuity Metrology",
+      "mean_latency_ms": 0.39,
+      "std_latency_ms": 0.05,
+      "fps": 2557.54,
+      "device": "CPU (Fallback)"
+    }
+  }
+}

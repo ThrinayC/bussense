@@ -1,0 +1,4693 @@
+[
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_1.jpg",
+    "frame": "image_1.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.4% frame, 96.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3441,
+      "bottom_water_ratio": 0.9603,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_10.jpg",
+    "frame": "image_10.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.7% frame, 99.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4474,
+      "bottom_water_ratio": 0.9919,
+      "detected_objects": [
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_100.jpg",
+    "frame": "image_100.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.9% frame, 93.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5389,
+      "bottom_water_ratio": 0.9319,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_101.jpg",
+    "frame": "image_101.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.3699,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_102.jpg",
+    "frame": "image_102.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (57.6% frame, 92.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5761,
+      "bottom_water_ratio": 0.9241,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_103.jpg",
+    "frame": "image_103.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.473,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "bird",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_104.jpg",
+    "frame": "image_104.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.3% frame, 93.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.643,
+      "bottom_water_ratio": 0.9356,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_105.jpg",
+    "frame": "image_105.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5773,
+      "bottom_water_ratio": 0.9227,
+      "detected_objects": [
+        "person",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_106.jpg",
+    "frame": "image_106.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.601,
+      "bottom_water_ratio": 0.6188,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_107.jpg",
+    "frame": "image_107.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4097,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_108.jpg",
+    "frame": "image_108.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4469,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_109.jpg",
+    "frame": "image_109.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (68.5% frame, 84.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6847,
+      "bottom_water_ratio": 0.8464,
+      "detected_objects": [
+        "surfboard",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_11.jpg",
+    "frame": "image_11.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (68.2% frame, 80.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6822,
+      "bottom_water_ratio": 0.8094,
+      "detected_objects": [
+        "backpack",
+        "skis",
+        "person",
+        "bicycle"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_110.jpg",
+    "frame": "image_110.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (62.3% frame, 96.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6228,
+      "bottom_water_ratio": 0.966,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_111.jpg",
+    "frame": "image_111.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (58.9% frame, 94.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5893,
+      "bottom_water_ratio": 0.9443,
+      "detected_objects": [
+        "stop sign",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_112.jpg",
+    "frame": "image_112.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (31.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3167,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_113.jpg",
+    "frame": "image_113.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3436,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_114.jpg",
+    "frame": "image_114.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (51.2% frame, 96.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5124,
+      "bottom_water_ratio": 0.969,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_115.jpg",
+    "frame": "image_115.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4911,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_116.jpg",
+    "frame": "image_116.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (29.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2926,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "clock",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_117.jpg",
+    "frame": "image_117.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5335,
+      "bottom_water_ratio": 0.7856,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_118.jpg",
+    "frame": "image_118.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (43.2% frame, 99.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4322,
+      "bottom_water_ratio": 0.9916,
+      "detected_objects": [
+        "fire hydrant",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_119.jpg",
+    "frame": "image_119.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (43.9% frame, 98.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4387,
+      "bottom_water_ratio": 0.9865,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_12.jpg",
+    "frame": "image_12.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.5% frame, 88.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6454,
+      "bottom_water_ratio": 0.8849,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_120.jpg",
+    "frame": "image_120.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (70.5% frame, 74.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.705,
+      "bottom_water_ratio": 0.7453,
+      "detected_objects": [
+        "surfboard",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_121.jpg",
+    "frame": "image_121.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4429,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_122.jpg",
+    "frame": "image_122.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (26.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2612,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_123.jpg",
+    "frame": "image_123.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5256,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_124.jpg",
+    "frame": "image_124.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (38.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3892,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_125.jpg",
+    "frame": "image_125.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (30.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3044,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_126.jpg",
+    "frame": "image_126.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.6% frame, 97.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5556,
+      "bottom_water_ratio": 0.9739,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_127.jpg",
+    "frame": "image_127.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (62.5% frame, 89.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6252,
+      "bottom_water_ratio": 0.8949,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_128.jpg",
+    "frame": "image_128.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.9088,
+      "bottom_water_ratio": 0.5865,
+      "detected_objects": [
+        "person",
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_129.jpg",
+    "frame": "image_129.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.9% frame, 90.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5091,
+      "bottom_water_ratio": 0.9002,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_13.jpg",
+    "frame": "image_13.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.3% frame, 99.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5227,
+      "bottom_water_ratio": 0.9988,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_130.jpg",
+    "frame": "image_130.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (26.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2678,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_131.jpg",
+    "frame": "image_131.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5086,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_132.jpg",
+    "frame": "image_132.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (58.0% frame, 97.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5796,
+      "bottom_water_ratio": 0.9763,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_133.jpg",
+    "frame": "image_133.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (54.2% frame, 97.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5418,
+      "bottom_water_ratio": 0.9725,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_134.jpg",
+    "frame": "image_134.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (37.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.371,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_135.jpg",
+    "frame": "image_135.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (59.8% frame, 97.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5983,
+      "bottom_water_ratio": 0.9701,
+      "detected_objects": [
+        "person",
+        "bench"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_136.jpg",
+    "frame": "image_136.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (56.1% frame, 80.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5608,
+      "bottom_water_ratio": 0.8008,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_137.jpg",
+    "frame": "image_137.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (66.1% frame, 84.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6608,
+      "bottom_water_ratio": 0.8466,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_138.jpg",
+    "frame": "image_138.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.5% frame, 94.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4446,
+      "bottom_water_ratio": 0.949,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_139.jpg",
+    "frame": "image_139.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4946,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_14.jpg",
+    "frame": "image_14.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (45.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.459,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_140.jpg",
+    "frame": "image_140.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (31.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3148,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_141.jpg",
+    "frame": "image_141.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (33.4% frame, 99.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3336,
+      "bottom_water_ratio": 0.9906,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_142.jpg",
+    "frame": "image_142.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.448,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_143.jpg",
+    "frame": "image_143.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4612,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_144.jpg",
+    "frame": "image_144.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.9188,
+      "bottom_water_ratio": 0.6024,
+      "detected_objects": [
+        "bird",
+        "person",
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_145.jpg",
+    "frame": "image_145.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (82.6% frame, 72.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.8257,
+      "bottom_water_ratio": 0.7285,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_146.jpg",
+    "frame": "image_146.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.4% frame, 99.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5036,
+      "bottom_water_ratio": 0.9968,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_147.jpg",
+    "frame": "image_147.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.6% frame, 99.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4658,
+      "bottom_water_ratio": 0.999,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_148.jpg",
+    "frame": "image_148.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5671,
+      "bottom_water_ratio": 0.9242,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_149.jpg",
+    "frame": "image_149.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.8% frame, 98.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5283,
+      "bottom_water_ratio": 0.9819,
+      "detected_objects": [
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_15.jpg",
+    "frame": "image_15.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5843,
+      "bottom_water_ratio": 0.9319,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_150.jpg",
+    "frame": "image_150.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3402,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_151.jpg",
+    "frame": "image_151.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (58.7% frame, 97.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5869,
+      "bottom_water_ratio": 0.9764,
+      "detected_objects": [
+        "motorcycle",
+        "car",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_152.jpg",
+    "frame": "image_152.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4399,
+      "bottom_water_ratio": 0.9999,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_153.jpg",
+    "frame": "image_153.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.9168,
+      "bottom_water_ratio": 0.6094,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_154.jpg",
+    "frame": "image_154.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3665,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_155.jpg",
+    "frame": "image_155.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.1% frame, 97.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.471,
+      "bottom_water_ratio": 0.9721,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_156.jpg",
+    "frame": "image_156.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (62.1% frame, 83.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6209,
+      "bottom_water_ratio": 0.8307,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_157.jpg",
+    "frame": "image_157.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (65.9% frame, 83.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6589,
+      "bottom_water_ratio": 0.8351,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_158.jpg",
+    "frame": "image_158.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_waterlogging": false,
+    "reason": "Water is adjacent to roadway in ditches or fields without physically blocking carriageway",
+    "metrics": {
+      "water_pixel_ratio": 0.9592,
+      "bottom_water_ratio": 0.6049,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_159.jpg",
+    "frame": "image_159.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (30.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3042,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_16.jpg",
+    "frame": "image_16.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3668,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_160.jpg",
+    "frame": "image_160.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.505,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_161.jpg",
+    "frame": "image_161.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (69.1% frame, 81.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6911,
+      "bottom_water_ratio": 0.8169,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_162.jpg",
+    "frame": "image_162.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (33.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3303,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_163.jpg",
+    "frame": "image_163.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.6% frame, 84.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5565,
+      "bottom_water_ratio": 0.8443,
+      "detected_objects": [
+        "stop sign",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_164.jpg",
+    "frame": "image_164.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3679,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_165.jpg",
+    "frame": "image_165.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4994,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_166.jpg",
+    "frame": "image_166.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (40.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4069,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_167.jpg",
+    "frame": "image_167.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (63.7% frame, 87.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6371,
+      "bottom_water_ratio": 0.8759,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_168.jpg",
+    "frame": "image_168.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (18.9% frame, 96.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.1887,
+      "bottom_water_ratio": 0.9618,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_169.jpg",
+    "frame": "image_169.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.2% frame, 92.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6422,
+      "bottom_water_ratio": 0.9203,
+      "detected_objects": [
+        "stop sign"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_17.jpg",
+    "frame": "image_17.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (56.4% frame, 90.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5645,
+      "bottom_water_ratio": 0.905,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_170.jpg",
+    "frame": "image_170.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (26.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2633,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "potted plant"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_171.jpg",
+    "frame": "image_171.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (61.2% frame, 90.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6117,
+      "bottom_water_ratio": 0.9055,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_172.jpg",
+    "frame": "image_172.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3415,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_173.jpg",
+    "frame": "image_173.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (37.4% frame, 94.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3739,
+      "bottom_water_ratio": 0.9461,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_174.jpg",
+    "frame": "image_174.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.3% frame, 99.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5228,
+      "bottom_water_ratio": 0.9967,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_175.jpg",
+    "frame": "image_175.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (35.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3574,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_176.jpg",
+    "frame": "image_176.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.6245,
+      "bottom_water_ratio": 0.8827,
+      "detected_objects": [
+        "person",
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_177.jpg",
+    "frame": "image_177.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (67.2% frame, 87.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6723,
+      "bottom_water_ratio": 0.8762,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_178.jpg",
+    "frame": "image_178.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4183,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_179.jpg",
+    "frame": "image_179.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (45.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.456,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_18.jpg",
+    "frame": "image_18.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.2% frame, 99.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5016,
+      "bottom_water_ratio": 0.9982,
+      "detected_objects": [
+        "truck",
+        "car",
+        "bus"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_180.jpg",
+    "frame": "image_180.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4159,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_181.jpg",
+    "frame": "image_181.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.7712,
+      "bottom_water_ratio": 0.4833,
+      "detected_objects": [
+        "boat",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_182.jpg",
+    "frame": "image_182.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (33.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3384,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_183.jpg",
+    "frame": "image_183.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4332,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_184.jpg",
+    "frame": "image_184.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (33.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3394,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "surfboard",
+        "person",
+        "car",
+        "potted plant"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_185.jpg",
+    "frame": "image_185.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3678,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_186.jpg",
+    "frame": "image_186.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5383,
+      "bottom_water_ratio": 0.9995,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_187.jpg",
+    "frame": "image_187.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4447,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_188.jpg",
+    "frame": "image_188.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.474,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_189.jpg",
+    "frame": "image_189.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4282,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_19.jpg",
+    "frame": "image_19.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (65.9% frame, 84.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6594,
+      "bottom_water_ratio": 0.8451,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_190.jpg",
+    "frame": "image_190.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (59.5% frame, 93.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5948,
+      "bottom_water_ratio": 0.931,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_191.jpg",
+    "frame": "image_191.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4553,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_192.jpg",
+    "frame": "image_192.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.3% frame, 89.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5532,
+      "bottom_water_ratio": 0.8991,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_193.jpg",
+    "frame": "image_193.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4392,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_194.jpg",
+    "frame": "image_194.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (72.1% frame, 73.5% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.7209,
+      "bottom_water_ratio": 0.7354,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_195.jpg",
+    "frame": "image_195.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.9% frame, 89.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5393,
+      "bottom_water_ratio": 0.8925,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_196.jpg",
+    "frame": "image_196.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.6% frame, 97.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5556,
+      "bottom_water_ratio": 0.9773,
+      "detected_objects": [
+        "clock",
+        "traffic light"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_197.jpg",
+    "frame": "image_197.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.1% frame, 91.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5312,
+      "bottom_water_ratio": 0.9186,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_198.jpg",
+    "frame": "image_198.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (35.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3574,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_199.jpg",
+    "frame": "image_199.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (32.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.32,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_2.jpg",
+    "frame": "image_2.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (26.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2597,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_20.jpg",
+    "frame": "image_20.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (59.0% frame, 98.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5901,
+      "bottom_water_ratio": 0.9815,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_200.jpg",
+    "frame": "image_200.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (30.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3015,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_201.jpg",
+    "frame": "image_201.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.1% frame, 97.6% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5009,
+      "bottom_water_ratio": 0.9757,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_202.jpg",
+    "frame": "image_202.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3613,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_203.jpg",
+    "frame": "image_203.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.4% frame, 92.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6436,
+      "bottom_water_ratio": 0.9271,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_204.jpg",
+    "frame": "image_204.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (40.1% frame, 99.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4006,
+      "bottom_water_ratio": 0.9928,
+      "detected_objects": [
+        "person",
+        "car",
+        "bus"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_205.jpg",
+    "frame": "image_205.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (48.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4808,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "bench",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_206.jpg",
+    "frame": "image_206.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.8% frame, 99.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4479,
+      "bottom_water_ratio": 0.9913,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_207.jpg",
+    "frame": "image_207.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (43.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4332,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_208.jpg",
+    "frame": "image_208.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (39.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3968,
+      "bottom_water_ratio": 0.9998,
+      "detected_objects": [
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_209.jpg",
+    "frame": "image_209.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (32.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.325,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "umbrella"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_21.jpg",
+    "frame": "image_21.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (66.5% frame, 78.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.665,
+      "bottom_water_ratio": 0.7808,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_210.jpg",
+    "frame": "image_210.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4239,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_211.jpg",
+    "frame": "image_211.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4608,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_212.jpg",
+    "frame": "image_212.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.1% frame, 97.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4909,
+      "bottom_water_ratio": 0.9723,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_213.jpg",
+    "frame": "image_213.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4439,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_214.jpg",
+    "frame": "image_214.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (35.0% frame, 96.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3503,
+      "bottom_water_ratio": 0.9622,
+      "detected_objects": [
+        "person",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_215.jpg",
+    "frame": "image_215.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4958,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_216.jpg",
+    "frame": "image_216.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.3928,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "clock",
+        "boat",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_217.jpg",
+    "frame": "image_217.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (48.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4821,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_218.jpg",
+    "frame": "image_218.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.5% frame, 99.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4154,
+      "bottom_water_ratio": 0.9908,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_219.jpg",
+    "frame": "image_219.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (39.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3988,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_22.jpg",
+    "frame": "image_22.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.9% frame, 98.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4191,
+      "bottom_water_ratio": 0.9822,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_220.jpg",
+    "frame": "image_220.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4287,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_221.jpg",
+    "frame": "image_221.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4994,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "bench"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_222.jpg",
+    "frame": "image_222.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (23.0% frame, 72.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.23,
+      "bottom_water_ratio": 0.7286,
+      "detected_objects": [
+        "bench",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_223.jpg",
+    "frame": "image_223.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (51.5% frame, 96.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5148,
+      "bottom_water_ratio": 0.9689,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_224.jpg",
+    "frame": "image_224.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.2% frame, 93.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5017,
+      "bottom_water_ratio": 0.938,
+      "detected_objects": [
+        "person",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_225.jpg",
+    "frame": "image_225.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (40.7% frame, 92.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4066,
+      "bottom_water_ratio": 0.9284,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_226.jpg",
+    "frame": "image_226.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4435,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "traffic light",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_227.jpg",
+    "frame": "image_227.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.9% frame, 99.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5388,
+      "bottom_water_ratio": 0.9905,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_228.jpg",
+    "frame": "image_228.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (60.9% frame, 90.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6093,
+      "bottom_water_ratio": 0.9024,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_229.jpg",
+    "frame": "image_229.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.6457,
+      "bottom_water_ratio": 0.6266,
+      "detected_objects": [
+        "person",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_23.jpg",
+    "frame": "image_23.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.3% frame, 88.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4233,
+      "bottom_water_ratio": 0.8824,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_230.jpg",
+    "frame": "image_230.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.6353,
+      "bottom_water_ratio": 0.8679,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_231.jpg",
+    "frame": "image_231.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (38.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3811,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_232.jpg",
+    "frame": "image_232.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_waterlogging": false,
+    "reason": "Water is adjacent to roadway in ditches or fields without physically blocking carriageway",
+    "metrics": {
+      "water_pixel_ratio": 0.5816,
+      "bottom_water_ratio": 0.5135,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_233.jpg",
+    "frame": "image_233.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4777,
+      "bottom_water_ratio": 0.9979,
+      "detected_objects": [
+        "boat",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_234.jpg",
+    "frame": "image_234.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (82.9% frame, 66.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.8291,
+      "bottom_water_ratio": 0.6679,
+      "detected_objects": [
+        "bird",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_235.jpg",
+    "frame": "image_235.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (37.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3711,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_236.jpg",
+    "frame": "image_236.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (25.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2533,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "umbrella",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_237.jpg",
+    "frame": "image_237.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.0% frame, 98.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5499,
+      "bottom_water_ratio": 0.9889,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_238.jpg",
+    "frame": "image_238.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (65.6% frame, 90.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6563,
+      "bottom_water_ratio": 0.9033,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_239.jpg",
+    "frame": "image_239.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (58.0% frame, 98.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5802,
+      "bottom_water_ratio": 0.9803,
+      "detected_objects": [
+        "stop sign",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_24.jpg",
+    "frame": "image_24.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (45.1% frame, 99.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4515,
+      "bottom_water_ratio": 0.9985,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_240.jpg",
+    "frame": "image_240.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (37.8% frame, 95.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.378,
+      "bottom_water_ratio": 0.9537,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_241.jpg",
+    "frame": "image_241.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4912,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_242.jpg",
+    "frame": "image_242.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.3461,
+      "bottom_water_ratio": 0.9454,
+      "detected_objects": [
+        "dog",
+        "boat",
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_243.jpg",
+    "frame": "image_243.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (54.5% frame, 99.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5451,
+      "bottom_water_ratio": 0.9971,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_244.jpg",
+    "frame": "image_244.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (39.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3983,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_245.jpg",
+    "frame": "image_245.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (45.3% frame, 88.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4528,
+      "bottom_water_ratio": 0.8824,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_246.jpg",
+    "frame": "image_246.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (63.9% frame, 79.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6387,
+      "bottom_water_ratio": 0.7896,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_247.jpg",
+    "frame": "image_247.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.1% frame, 99.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5206,
+      "bottom_water_ratio": 0.9942,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_248.jpg",
+    "frame": "image_248.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.5% frame, 93.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4752,
+      "bottom_water_ratio": 0.9382,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_249.jpg",
+    "frame": "image_249.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_waterlogging": false,
+    "reason": "Water is adjacent to roadway in ditches or fields without physically blocking carriageway",
+    "metrics": {
+      "water_pixel_ratio": 0.7579,
+      "bottom_water_ratio": 0.5771,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_25.jpg",
+    "frame": "image_25.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (63.2% frame, 92.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6316,
+      "bottom_water_ratio": 0.921,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_250.jpg",
+    "frame": "image_250.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (73.8% frame, 79.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.7383,
+      "bottom_water_ratio": 0.7936,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_251.jpg",
+    "frame": "image_251.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (61.5% frame, 92.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6154,
+      "bottom_water_ratio": 0.9278,
+      "detected_objects": [
+        "stop sign",
+        "truck",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_252.jpg",
+    "frame": "image_252.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.8754,
+      "bottom_water_ratio": 0.5846,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_253.jpg",
+    "frame": "image_253.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (66.2% frame, 84.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6617,
+      "bottom_water_ratio": 0.8436,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_26.jpg",
+    "frame": "image_26.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3421,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "traffic light"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_27.jpg",
+    "frame": "image_27.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (51.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5129,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_28.jpg",
+    "frame": "image_28.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3458,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_29.jpg",
+    "frame": "image_29.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4991,
+      "bottom_water_ratio": 0.9938,
+      "detected_objects": [
+        "boat",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_3.jpg",
+    "frame": "image_3.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (54.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5476,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_30.jpg",
+    "frame": "image_30.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.4% frame, 99.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.464,
+      "bottom_water_ratio": 0.9974,
+      "detected_objects": [
+        "person",
+        "bench",
+        "car",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_31.jpg",
+    "frame": "image_31.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (86.3% frame, 67.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.8625,
+      "bottom_water_ratio": 0.6787,
+      "detected_objects": [
+        "dog",
+        "person",
+        "bicycle"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_32.jpg",
+    "frame": "image_32.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.821,
+      "bottom_water_ratio": 0.6116,
+      "detected_objects": [
+        "person",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_33.jpg",
+    "frame": "image_33.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.3936,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_34.jpg",
+    "frame": "image_34.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3396,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_35.jpg",
+    "frame": "image_35.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (59.3% frame, 93.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.593,
+      "bottom_water_ratio": 0.9338,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_36.jpg",
+    "frame": "image_36.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.8774,
+      "bottom_water_ratio": 0.6502,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_37.jpg",
+    "frame": "image_37.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (51.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5118,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_38.jpg",
+    "frame": "image_38.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.425,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_39.jpg",
+    "frame": "image_39.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (51.5% frame, 94.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5145,
+      "bottom_water_ratio": 0.9471,
+      "detected_objects": [
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_4.jpg",
+    "frame": "image_4.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4775,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "fire hydrant",
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_40.jpg",
+    "frame": "image_40.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (43.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4381,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_41.jpg",
+    "frame": "image_41.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.9% frame, 99.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4491,
+      "bottom_water_ratio": 0.9941,
+      "detected_objects": [
+        "person",
+        "car",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_42.jpg",
+    "frame": "image_42.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (68.8% frame, 78.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6876,
+      "bottom_water_ratio": 0.7882,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_43.jpg",
+    "frame": "image_43.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3686,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_44.jpg",
+    "frame": "image_44.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (29.6% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2963,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "stop sign",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_45.jpg",
+    "frame": "image_45.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (35.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3594,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_46.jpg",
+    "frame": "image_46.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (77.1% frame, 74.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.7715,
+      "bottom_water_ratio": 0.742,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_47.jpg",
+    "frame": "image_47.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (54.0% frame, 99.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5404,
+      "bottom_water_ratio": 0.9912,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_48.jpg",
+    "frame": "image_48.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (54.7% frame, 99.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5468,
+      "bottom_water_ratio": 0.999,
+      "detected_objects": [
+        "truck",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_49.jpg",
+    "frame": "image_49.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (61.0% frame, 83.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6104,
+      "bottom_water_ratio": 0.8303,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_5.jpg",
+    "frame": "image_5.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (28.2% frame, 87.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2821,
+      "bottom_water_ratio": 0.8732,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_50.jpg",
+    "frame": "image_50.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.4% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5344,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_51.jpg",
+    "frame": "image_51.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4719,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_52.jpg",
+    "frame": "image_52.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.7% frame, 90.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6471,
+      "bottom_water_ratio": 0.9087,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_53.jpg",
+    "frame": "image_53.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.3218,
+      "bottom_water_ratio": 0.9999,
+      "detected_objects": [
+        "boat",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_54.jpg",
+    "frame": "image_54.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.2% frame, 97.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5517,
+      "bottom_water_ratio": 0.973,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_55.jpg",
+    "frame": "image_55.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.1% frame, 97.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3411,
+      "bottom_water_ratio": 0.9733,
+      "detected_objects": [
+        "person",
+        "car",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_56.jpg",
+    "frame": "image_56.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (66.7% frame, 77.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6666,
+      "bottom_water_ratio": 0.7726,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_57.jpg",
+    "frame": "image_57.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (25.0% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2497,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "fire hydrant",
+        "person",
+        "bicycle"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_58.jpg",
+    "frame": "image_58.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4416,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_59.jpg",
+    "frame": "image_59.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (38.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3879,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_6.jpg",
+    "frame": "image_6.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (27.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2754,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_60.jpg",
+    "frame": "image_60.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4729,
+      "bottom_water_ratio": 0.9153,
+      "detected_objects": [
+        "fire hydrant",
+        "boat",
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_61.jpg",
+    "frame": "image_61.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4747,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "truck",
+        "motorcycle",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_62.jpg",
+    "frame": "image_62.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "ROAD_ADJACENT_WATER",
+    "usable_for_waterlogging": false,
+    "reason": "Water is adjacent to roadway in ditches or fields without physically blocking carriageway",
+    "metrics": {
+      "water_pixel_ratio": 0.938,
+      "bottom_water_ratio": 0.5944,
+      "detected_objects": [
+        "sports ball",
+        "person",
+        "motorcycle"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_63.jpg",
+    "frame": "image_63.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (50.0% frame, 97.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4999,
+      "bottom_water_ratio": 0.9734,
+      "detected_objects": [
+        "person",
+        "bench",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_64.jpg",
+    "frame": "image_64.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.7% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4169,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_65.jpg",
+    "frame": "image_65.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.0% frame, 97.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4596,
+      "bottom_water_ratio": 0.9767,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_66.jpg",
+    "frame": "image_66.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (36.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3621,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_67.jpg",
+    "frame": "image_67.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.4398,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "boat",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_68.jpg",
+    "frame": "image_68.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3447,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_69.jpg",
+    "frame": "image_69.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (63.7% frame, 92.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.637,
+      "bottom_water_ratio": 0.9198,
+      "detected_objects": [
+        "person",
+        "truck"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_7.jpg",
+    "frame": "image_7.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4715,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_70.jpg",
+    "frame": "image_70.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (53.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5375,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "fire hydrant",
+        "person",
+        "car",
+        "potted plant"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_71.jpg",
+    "frame": "image_71.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (44.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4409,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_72.jpg",
+    "frame": "image_72.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.9% frame, 92.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5292,
+      "bottom_water_ratio": 0.9198,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_73.jpg",
+    "frame": "image_73.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (55.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.555,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_74.jpg",
+    "frame": "image_74.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (45.2% frame, 99.2% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4521,
+      "bottom_water_ratio": 0.9922,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_75.jpg",
+    "frame": "image_75.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4917,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_76.jpg",
+    "frame": "image_76.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (75.5% frame, 75.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.7549,
+      "bottom_water_ratio": 0.7529,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_77.jpg",
+    "frame": "image_77.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (22.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.2218,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "traffic light",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_78.jpg",
+    "frame": "image_78.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.8879,
+      "bottom_water_ratio": 0.601,
+      "detected_objects": [
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_79.jpg",
+    "frame": "image_79.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (33.3% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3332,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "bench"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_8.jpg",
+    "frame": "image_8.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.1% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4213,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_80.jpg",
+    "frame": "image_80.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (52.9% frame, 98.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.529,
+      "bottom_water_ratio": 0.9867,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_81.jpg",
+    "frame": "image_81.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (34.5% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3452,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_82.jpg",
+    "frame": "image_82.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (39.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3993,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_83.jpg",
+    "frame": "image_83.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (49.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4923,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_84.jpg",
+    "frame": "image_84.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (64.2% frame, 82.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6424,
+      "bottom_water_ratio": 0.8235,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_85.jpg",
+    "frame": "image_85.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (67.7% frame, 77.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6774,
+      "bottom_water_ratio": 0.7789,
+      "detected_objects": [
+        "person"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_86.jpg",
+    "frame": "image_86.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (38.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.3887,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "truck",
+        "car",
+        "elephant"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_87.jpg",
+    "frame": "image_87.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.6103,
+      "bottom_water_ratio": 0.9009,
+      "detected_objects": [
+        "boat",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_88.jpg",
+    "frame": "image_88.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (47.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.478,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_89.jpg",
+    "frame": "image_89.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (67.3% frame, 81.1% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6733,
+      "bottom_water_ratio": 0.8106,
+      "detected_objects": [
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_9.jpg",
+    "frame": "image_9.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.1% frame, 96.8% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4613,
+      "bottom_water_ratio": 0.9683,
+      "detected_objects": [
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_90.jpg",
+    "frame": "image_90.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (17.8% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.1781,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_91.jpg",
+    "frame": "image_91.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (41.2% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4122,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "bicycle",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_92.jpg",
+    "frame": "image_92.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (46.9% frame, 95.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4692,
+      "bottom_water_ratio": 0.9585,
+      "detected_objects": [
+        "truck",
+        "sheep",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_93.jpg",
+    "frame": "image_93.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": false,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.6192,
+      "bottom_water_ratio": 0.8013,
+      "detected_objects": [
+        "bird",
+        "boat"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_94.jpg",
+    "frame": "image_94.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": false,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (19.2% frame, 88.4% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.1923,
+      "bottom_water_ratio": 0.8842,
+      "detected_objects": []
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_95.jpg",
+    "frame": "image_95.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (68.2% frame, 86.7% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.6819,
+      "bottom_water_ratio": 0.8675,
+      "detected_objects": [
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_96.jpg",
+    "frame": "image_96.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (43.6% frame, 97.9% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4361,
+      "bottom_water_ratio": 0.9791,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_97.jpg",
+    "frame": "image_97.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (42.9% frame, 100.0% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.4292,
+      "bottom_water_ratio": 1.0,
+      "detected_objects": [
+        "person",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_98.jpg",
+    "frame": "image_98.jpg",
+    "road_visible": false,
+    "water_visible": true,
+    "water_on_road": false,
+    "vehicle_context": true,
+    "classification": "RIVER",
+    "usable_for_waterlogging": false,
+    "reason": "Boat detected; represents natural open waterway/river",
+    "metrics": {
+      "water_pixel_ratio": 0.5976,
+      "bottom_water_ratio": 0.787,
+      "detected_objects": [
+        "boat",
+        "truck",
+        "car"
+      ]
+    }
+  },
+  {
+    "source": "datasets\\sazara_roadway_flood\\Sazara\\image\\image_99.jpg",
+    "frame": "image_99.jpg",
+    "road_visible": true,
+    "water_visible": true,
+    "water_on_road": true,
+    "vehicle_context": true,
+    "classification": "ROAD_WATER",
+    "usable_for_waterlogging": true,
+    "reason": "Water visibly occupies roadway/pavement (56.2% frame, 88.3% in lower roadway corridor)",
+    "metrics": {
+      "water_pixel_ratio": 0.5619,
+      "bottom_water_ratio": 0.8827,
+      "detected_objects": [
+        "stop sign",
+        "person",
+        "car"
+      ]
+    }
+  }
+]

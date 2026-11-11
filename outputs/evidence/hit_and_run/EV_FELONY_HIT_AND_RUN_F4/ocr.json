@@ -1,0 +1,59 @@
+{
+    "event_id": "EV_FELONY_HIT_AND_RUN_F4",
+    "source_frame": 660,
+    "vehicle_track_id": 1,
+    "vehicle_bbox": [
+        134,
+        205,
+        263,
+        255
+    ],
+    "plate_bbox": [
+        134,
+        205,
+        263,
+        255
+    ],
+    "plate_confidence": 0.622,
+    "raw_ocr_candidate_strings": [
+        {
+            "variant": "A_raw",
+            "raw_text": "AH 25527",
+            "normalized_text": "AH 25527",
+            "confidence": 0.6219012765780035
+        },
+        {
+            "variant": "B_bicubic_2x",
+            "raw_text": "AH 255271",
+            "normalized_text": "AH 255271",
+            "confidence": 0.5128566810481444
+        },
+        {
+            "variant": "C_bicubic_3x",
+            "raw_text": "AH 255271",
+            "normalized_text": "AH 255271",
+            "confidence": 0.4500733640814783
+        },
+        {
+            "variant": "D_clahe",
+            "raw_text": "AH 255271",
+            "normalized_text": "AH 255271",
+            "confidence": 0.5749741676601815
+        },
+        {
+            "variant": "E_unsharp",
+            "raw_text": "AH 255274",
+            "normalized_text": "AH 255274",
+            "confidence": 0.4286529661913945
+        },
+        {
+            "variant": "F_otsu",
+            "raw_text": "AH 255271",
+            "normalized_text": "AH 255271",
+            "confidence": 0.3156182425521349
+        }
+    ],
+    "final_selected_string": "AH 25527",
+    "temporal_consensus_count": 1,
+    "reason_for_selection": "Multi-variant consensus weight 1.62, peak confidence 0.62"
+}

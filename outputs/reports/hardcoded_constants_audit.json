@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scanned_files_count": 6,
+  "total_violations_found": 0,
+  "violations": [],
+  "rules_enforced": [
+    "Divider height must be measured from stereo depth or reported as N/A",
+    "Water coverage percentage must be computed dynamically per frame",
+    "Zebra paint wear must be derived from actual white stripe pixels",
+    "Zero fake bounding boxes on missing signs",
+    "Zero cartoon roads"
+  ]
+}

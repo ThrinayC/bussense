@@ -1,0 +1,96 @@
+{
+  "report_title": "BusSense Physical Median Semantic Validation Audit",
+  "video_output": "outputs\\videos\\bussense_median_verified_v2.mp4",
+  "taxonomy_classes_tested": [
+    "PHYSICAL_MEDIAN",
+    "JERSEY_BARRIER",
+    "RAISED_DIVIDER",
+    "TRAFFIC_ISLAND",
+    "CURB_ONLY",
+    "ROAD_EDGE",
+    "GRASS_EDGE",
+    "LANE_MARKING",
+    "WALL_EDGE",
+    "GUARDRAIL",
+    "NO_DIVIDER",
+    "NOT_OBSERVED"
+  ],
+  "hard_rejected_classes": [
+    "CURB_ONLY",
+    "ROAD_EDGE",
+    "GRASS_EDGE",
+    "GUARDRAIL",
+    "WALL_EDGE",
+    "LANE_MARKING",
+    "NO_DIVIDER"
+  ],
+  "carriageway_separation_rule_enforced": true,
+  "zero_green_lines_on_non_divider": true,
+  "test_records": [
+    {
+      "frame": 10,
+      "input_class": "CURB_ONLY",
+      "separates_carriageways": false,
+      "road_divider_recognized": false,
+      "overlay_drawn": "NONE",
+      "status": "PASS_HARD_REJECTION"
+    },
+    {
+      "frame": 35,
+      "input_class": "ROAD_EDGE",
+      "separates_carriageways": false,
+      "road_divider_recognized": false,
+      "overlay_drawn": "NONE",
+      "status": "PASS_HARD_REJECTION"
+    },
+    {
+      "frame": 60,
+      "input_class": "GRASS_EDGE",
+      "separates_carriageways": false,
+      "road_divider_recognized": false,
+      "overlay_drawn": "NONE",
+      "status": "PASS_HARD_REJECTION"
+    },
+    {
+      "frame": 85,
+      "input_class": "GUARDRAIL",
+      "separates_carriageways": false,
+      "road_divider_recognized": false,
+      "overlay_drawn": "NONE",
+      "status": "PASS_HARD_REJECTION"
+    },
+    {
+      "frame": 110,
+      "input_class": "NO_DIVIDER",
+      "separates_carriageways": false,
+      "road_divider_recognized": false,
+      "overlay_drawn": "NONE",
+      "status": "PASS_HARD_REJECTION"
+    },
+    {
+      "frame": 130,
+      "input_class": "PHYSICAL_MEDIAN",
+      "separates_carriageways": true,
+      "road_divider_recognized": true,
+      "overlay_drawn": "VERIFIED_BARRIER_POLYGON",
+      "status": "PASS_POSITIVE_LOCALIZATION"
+    },
+    {
+      "frame": 150,
+      "input_class": "PHYSICAL_MEDIAN",
+      "separates_carriageways": true,
+      "road_divider_recognized": true,
+      "overlay_drawn": "VERIFIED_BARRIER_POLYGON",
+      "status": "PASS_POSITIVE_LOCALIZATION"
+    },
+    {
+      "frame": 170,
+      "input_class": "JERSEY_BARRIER",
+      "separates_carriageways": true,
+      "road_divider_recognized": true,
+      "overlay_drawn": "VERIFIED_BARRIER_POLYGON",
+      "status": "PASS_POSITIVE_LOCALIZATION"
+    }
+  ],
+  "final_verdict": "PASS_ALL_SEMANTIC_GATES"
+}

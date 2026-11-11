@@ -1,0 +1,29 @@
+{
+  "model_name": "TrafficSignNet",
+  "dataset": "MTSVD_GTSDB",
+  "taxonomy": [
+    "SPEED_LIMIT",
+    "STOP",
+    "WARNING",
+    "MANDATORY",
+    "PROHIBITORY",
+    "OTHER"
+  ],
+  "parameters": 492362,
+  "device": "CPU (Fallback)",
+  "training_time_sec": 5.24,
+  "validation_metrics": {
+    "Accuracy": 0.3333,
+    "mAP@0.5": 0.3155,
+    "SmoothL1_BBoxLoss": 0.0267,
+    "MeanLatencyMs": 18.89
+  },
+  "test_metrics": {
+    "Accuracy": 0.0,
+    "mAP@0.5": 0.0,
+    "SmoothL1_BBoxLoss": 0.0091,
+    "MeanLatencyMs": 44.52
+  },
+  "input_resolution": "256x256",
+  "weights_path": "models/infrastructure/signs/best.pt"
+}

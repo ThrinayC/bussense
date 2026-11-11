@@ -1,0 +1,187 @@
+{
+  "report_metadata": {
+    "title": "BusSense Mega Demo Dataset Inventory Report",
+    "section": "Section 4 (Mega Feature Demonstration)",
+    "audit_date": "2026-09-28"
+  },
+  "datasets": [
+    {
+      "dataset_name": "IIIT-H IDD: India Driving Dataset",
+      "source": "Center for Visual Information Technology (CVIT), IIIT Hyderabad (https://idd.insaan.iiit.ac.in/)",
+      "local_path": "datasets\\idd\\raw\\images",
+      "actual_number_of_images": 120,
+      "actual_number_of_frames": 120,
+      "sequence_count": 3,
+      "annotations": "120 dense semantic annotations referenced in metadata",
+      "usable_classes": [
+        "drivable_road",
+        "vehicle",
+        "rider",
+        "person",
+        "barrier",
+        "curb",
+        "traffic_sign"
+      ],
+      "bussense_feature": "Indian road domain appearance, vehicle/pedestrian unstructured traffic, road boundaries",
+      "license": "CC BY-NC 4.0",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "IIIT-H MTSVD: Missing Traffic Signs Video Dataset",
+      "source": "CVIT IIIT Hyderabad (INSAAN Mobility Platform)",
+      "local_path": "datasets\\mtsvd\\raw",
+      "actual_number_of_images": 57,
+      "actual_number_of_frames": 57,
+      "sequence_count": 5,
+      "annotations": "169 COCO traffic sign bounding box & occlusion annotations",
+      "usable_classes": [
+        "SPEED_LIMIT",
+        "STOP",
+        "WARNING",
+        "MANDATORY",
+        "PROHIBITORY",
+        "OCCLUDED_SIGN",
+        "DAMAGED_SIGN"
+      ],
+      "bussense_feature": "Traffic sign detection, physical condition metrology, missing-sign contextual intervals",
+      "license": "CC BY-SA 4.0 Academic Research",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "IIIT-H C4MTS: Missing Traffic Signs Challenge",
+      "source": "CVIT IIIT Hyderabad / NCVPRIPG 2023 Challenge Workshop",
+      "local_path": "datasets\\missingtsmini",
+      "actual_number_of_images": 0,
+      "actual_number_of_frames": 0,
+      "sequence_count": 4,
+      "annotations": "Contextual missing sign taxonomy specifications",
+      "usable_classes": [
+        "LEFT_CURVE",
+        "RIGHT_CURVE",
+        "GAP_IN_MEDIAN",
+        "SIDE_ROAD_LEFT"
+      ],
+      "bussense_feature": "Contextual missing-sign categories and expected-vs-observed spatial reasoning",
+      "license": "Research Challenge Data Agreement",
+      "usage": [
+        "EVALUATION"
+      ]
+    },
+    {
+      "dataset_name": "CeyMo: Road Marking Dataset",
+      "source": "University of Moratuwa / IEEE ITSC",
+      "local_path": "datasets\\ceymo\\raw\\images",
+      "actual_number_of_images": 93,
+      "actual_number_of_frames": 93,
+      "sequence_count": 4,
+      "annotations": "94 polygon crosswalk and arrow annotations",
+      "usable_classes": [
+        "pedestrian_crossing",
+        "zebra_marking",
+        "paint_degradation"
+      ],
+      "bussense_feature": "Zebra crossing envelope, paint coverage %, wear degradation metrology",
+      "license": "MIT License",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "FRED: Flood/Water Road Extraction Dataset",
+      "source": "Open Research Dataset (https://github.com/flood-water-dataset)",
+      "local_path": "datasets\\fred\\raw\\images",
+      "actual_number_of_images": 65,
+      "actual_number_of_frames": 65,
+      "sequence_count": 3,
+      "annotations": "65 binary water surface segmentation masks",
+      "usable_classes": [
+        "water_surface",
+        "dry_road_surface",
+        "ego_corridor_water"
+      ],
+      "bussense_feature": "Waterlogging extent, union denominator (road | water), patch persistence",
+      "license": "CC BY-SA 4.0",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "KITTI Stereo Driving & Incident Intelligence Sequences",
+      "source": "Karlsruhe Institute of Technology & Toyota Technological Institute (KITTI Benchmark)",
+      "local_path": "kitti_incident_intelligence/data",
+      "actual_number_of_images": 331,
+      "actual_number_of_frames": 3018,
+      "sequence_count": 7,
+      "annotations": "Calibrated camera intrinsics, extrinsics, 3D tracking labels",
+      "usable_classes": [
+        "car",
+        "van",
+        "truck",
+        "pedestrian",
+        "cyclist",
+        "traffic_light"
+      ],
+      "bussense_feature": "Moving vehicle stereo footage, tracking, 3D range, traffic density, jam risk",
+      "license": "CC BY-NC-SA 3.0",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "RSRD / Pothole Stereo Reel",
+      "source": "BusSense Authentic Moving Stereo Reel",
+      "local_path": "potcrack_stereo\\data\\pothole_long_stereo",
+      "actual_number_of_images": 148,
+      "actual_number_of_frames": 74,
+      "sequence_count": 1,
+      "annotations": "74 synchronized stereo pairs, calibrated baseline (fB=389.6)",
+      "usable_classes": [
+        "pothole",
+        "crack",
+        "asphalt_surface"
+      ],
+      "bussense_feature": "Road surface defect segmentation, pothole depth in cm, footprint area in m\u00b2",
+      "license": "BusSense Capture / Open Benchmark",
+      "usage": [
+        "EVALUATION",
+        "DEMO FOOTAGE"
+      ]
+    },
+    {
+      "dataset_name": "Tiruchirappalli Bharathidasan Salai OSM Way 369881223",
+      "source": "OpenStreetMap API v0.6 (Way 369881223)",
+      "local_path": "bussense_infrastructure/trichy_road_geometry.py",
+      "actual_number_of_images": 0,
+      "actual_number_of_frames": 250,
+      "sequence_count": 4,
+      "annotations": "26 official OSM nodes, 1,241.7m verified polyline, curvature, reference medians",
+      "usable_classes": [
+        "road_divider",
+        "allowed_u_turn_opening",
+        "synthetic_missing_divider"
+      ],
+      "bussense_feature": "Actual OSM polyline adherence, 4-bus corridor traversal, missing-asset reasoning",
+      "license": "Open Data Commons Open Database License (ODbL)",
+      "usage": [
+        "DEMO FOOTAGE",
+        "EVALUATION"
+      ]
+    }
+  ],
+  "summary": {
+    "total_datasets_audited": 8,
+    "total_physical_images_on_disk": 814,
+    "total_video_frames_available": 3677,
+    "strict_provenance_enforced": true,
+    "disclaimer": "All counts represent actual physical files present on host disk; no fabricated public dataset totals."
+  }
+}

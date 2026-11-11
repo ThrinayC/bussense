@@ -1,0 +1,113 @@
+backend: OpenCV_SGBM
+calibration:
+  P2_flat:
+  - 721.5377
+  - 0.0
+  - 609.5593
+  - 44.85728
+  - 0.0
+  - 721.5377
+  - 172.854
+  - 0.2163791
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.002745884
+  P3_flat:
+  - 721.5377
+  - 0.0
+  - 609.5593
+  - -339.5242
+  - 0.0
+  - 721.5377
+  - 172.854
+  - 2.199936
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.002729905
+  baseline_m: 0.5327254279298227
+  cx: 609.5593
+  cy: 172.854
+  fB_px_m: 384.38148
+  fx: 721.5377
+  fy: 721.5377
+  image_height: 375
+  image_width: 1242
+gates_evaluated:
+  classification: PASS
+  gate_0_10m:
+    measured_m: 0.0525
+    passed: true
+    target_m: 0.2
+  gate_10_20m:
+    measured_m: 0.1466
+    passed: true
+    target_m: 0.5
+  gate_20_30m:
+    measured_m: 0.5968
+    passed: true
+    target_m: 1.0
+sgbm:
+  P1: 600
+  P2: 2400
+  avg_latency_ms: 61.36
+  backend: OpenCV_SGBM
+  blockSize: 5
+  call_count: 77
+  device: CPU
+  last_latency_ms: 61.03
+  mode: 2
+  numDisparities: 128
+  speckleWindowSize: 100
+  uniquenessRatio: 10
+uncertainty_model:
+  formula: sigma_Z(Z, conf) = (Z^2 / fB) * (disp_noise_px / conf) + min_sigma
+  parameters:
+    baseline_m: 0.5327
+    empirical_disp_noise_px: 0.36
+    fB: 384.3815
+    focal_length_px: 721.5377
+    min_sigma_m: 0.05
+  range_error_scaling:
+    Z_10m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      O99PjZduwj8=
+    Z_15m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TmIQWDm00D8=
+    Z_20m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MzMzMzMz2z8=
+    Z_25m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UrgehetR5D8=
+    Z_30m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      +n5qvHST7D8=
+    Z_40m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YhBYObTI+D8=
+    Z_5m_sigma: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      46WbxCCwsj8=

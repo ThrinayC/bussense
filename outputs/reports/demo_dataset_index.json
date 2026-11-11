@@ -1,0 +1,356 @@
+{
+  "title": "BusSense Authoritative Demo Dataset Index & Evidence Registry",
+  "generated_at": "2026-10-15T03:05:23.497549+00:00",
+  "route": {
+    "name": "Bharathidasan Salai",
+    "osm_way_id": 369881223,
+    "city": "Tiruchirappalli, Tamil Nadu, India",
+    "total_length_m": 1241.7,
+    "node_count": 26
+  },
+  "total_verified_events": 14,
+  "perception_domains_covered": [
+    "ROAD_HEALTH",
+    "TRAFFIC_INTELLIGENCE",
+    "INFRASTRUCTURE",
+    "FLEET"
+  ],
+  "events": [
+    {
+      "event_id": "EVT-POT-001",
+      "event_type": "POTHOLE",
+      "domain": "ROAD_HEALTH",
+      "bus_id": "BUS_001",
+      "chainage_m": 85.0,
+      "gps_coordinates": {
+        "latitude": 10.802827391417571,
+        "longitude": 78.68869525806079,
+        "heading": 321.8199421948701
+      },
+      "source_video_file": "outputs/videos/bussense_pothole_crack_segment.mp4",
+      "clip_start_sec": 0.0,
+      "clip_duration_sec": 6.5,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-POT-001/EVT-POT-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-POT-001/EVT-POT-001_frame.jpg",
+      "severity": "CRITICAL",
+      "confidence": 0.94,
+      "pipeline_metadata": {
+        "domain": "Road Health (Potholes & Cavities)",
+        "verification_notes": "Real stereo disparity and depth metrology. Ground-plane fitted cavity footprint.",
+        "model_or_engine": "StereoDisparityDepthEngine + PotholeSegmentation"
+      }
+    },
+    {
+      "event_id": "EVT-CRK-001",
+      "event_type": "CRACK",
+      "domain": "ROAD_HEALTH",
+      "bus_id": "BUS_001",
+      "chainage_m": 210.0,
+      "gps_coordinates": {
+        "latitude": 10.803578345518046,
+        "longitude": 78.68784762614273,
+        "heading": 306.4678780892653
+      },
+      "source_video_file": "outputs/videos/bussense_pothole_crack_segment.mp4",
+      "clip_start_sec": 12.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-CRK-001/EVT-CRK-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-CRK-001/EVT-CRK-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.91,
+      "pipeline_metadata": {
+        "domain": "Road Health (Cracks & Fissures)",
+        "verification_notes": "Morphological thinning and topological graph extraction of pavement fractures.",
+        "model_or_engine": "CrackSkeletonEngine"
+      }
+    },
+    {
+      "event_id": "EVT-WTR-001",
+      "event_type": "WATERLOGGING_SECTION",
+      "domain": "ROAD_HEALTH",
+      "bus_id": "BUS_002",
+      "chainage_m": 320.0,
+      "gps_coordinates": {
+        "latitude": 10.804161852907152,
+        "longitude": 78.68703453381998,
+        "heading": 303.47326577956966
+      },
+      "source_video_file": "outputs/videos/bussense_waterlogging_verified.mp4",
+      "clip_start_sec": 2.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-WTR-001/EVT-WTR-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-WTR-001/EVT-WTR-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "pipeline_metadata": {
+        "domain": "Road Health (Waterlogging)",
+        "verification_notes": "Translucent cyan overlay strictly masked to road surface. Grass and sidewalk edges cleanly excluded. No opaque blue rectangles.",
+        "model_or_engine": "LightweightRoadSegNet_Water + TemporalConsistencyFilter"
+      }
+    },
+    {
+      "event_id": "EVT-MRK-001",
+      "event_type": "LANE_MARKING_HEALTH",
+      "domain": "ROAD_HEALTH",
+      "bus_id": "BUS_002",
+      "chainage_m": 440.0,
+      "gps_coordinates": {
+        "latitude": 10.80474653651161,
+        "longitude": 78.68611126998547,
+        "heading": 301.4260361569728
+      },
+      "source_video_file": "outputs/videos/bussense_road_marking_health_verified_v2.mp4",
+      "clip_start_sec": 10.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-MRK-001/EVT-MRK-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-MRK-001/EVT-MRK-001_frame.jpg",
+      "severity": "MEDIUM",
+      "confidence": 0.89,
+      "pipeline_metadata": {
+        "domain": "Road Health (Road Marking & Lane Guidance)",
+        "verification_notes": "Thin polygonal lane lines tracking actual painted stripe edges. Real paint continuity calculation.",
+        "model_or_engine": "RoadMarkingHealthEngine"
+      }
+    },
+    {
+      "event_id": "EVT-ZBR-001",
+      "event_type": "ZEBRA_CROSSING_OBSERVATION",
+      "domain": "ROAD_HEALTH",
+      "bus_id": "BUS_003",
+      "chainage_m": 530.0,
+      "gps_coordinates": {
+        "latitude": 10.805162303270375,
+        "longitude": 78.68540432666637,
+        "heading": 300.48185607556553
+      },
+      "source_video_file": "outputs/videos/bussense_zebra_verified.mp4",
+      "clip_start_sec": 5.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-ZBR-001/EVT-ZBR-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-ZBR-001/EVT-ZBR-001_frame.jpg",
+      "severity": "LOW",
+      "confidence": 0.93,
+      "pipeline_metadata": {
+        "domain": "Road Health (Zebra Crossings)",
+        "verification_notes": "High-confidence pedestrian zebra crossing segmented with anti-false-crosswalk filter.",
+        "model_or_engine": "ZebraCrossingEngine"
+      }
+    },
+    {
+      "event_id": "EVT-SGN-001",
+      "event_type": "TRAFFIC_SIGN_OBSERVATION",
+      "domain": "INFRASTRUCTURE",
+      "bus_id": "BUS_001",
+      "chainage_m": 640.0,
+      "gps_coordinates": {
+        "latitude": 10.805649392370066,
+        "longitude": 78.68452783814068,
+        "heading": 298.0236188064035
+      },
+      "source_video_file": "outputs/videos/bussense_signs_verified.mp4",
+      "clip_start_sec": 4.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-SGN-001/EVT-SGN-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-SGN-001/EVT-SGN-001_frame.jpg",
+      "severity": "LOW",
+      "confidence": 0.96,
+      "pipeline_metadata": {
+        "domain": "Infrastructure (Traffic Signs)",
+        "verification_notes": "Real sequential MTSVD video sign detection with SignConditionNet classification and OCR verification.",
+        "model_or_engine": "TrafficSignEngine + SignConditionNet"
+      }
+    },
+    {
+      "event_id": "EVT-MSN-001",
+      "event_type": "MISSING_SIGN_CANDIDATE",
+      "domain": "INFRASTRUCTURE",
+      "bus_id": "BUS_003",
+      "chainage_m": 750.0,
+      "gps_coordinates": {
+        "latitude": 10.80612490594674,
+        "longitude": 78.68364481245098,
+        "heading": 299.597777961128
+      },
+      "source_video_file": "outputs/videos/bussense_missing_infrastructure_verified_v2.mp4",
+      "clip_start_sec": 2.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-MSN-001/EVT-MSN-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-MSN-001/EVT-MSN-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.88,
+      "pipeline_metadata": {
+        "domain": "Infrastructure (Missing Infrastructure)",
+        "verification_notes": "Flagged missing asset strictly based on expected reference inventory. ZERO fake bounding boxes around empty air.",
+        "model_or_engine": "MissingInfrastructureEngine"
+      }
+    },
+    {
+      "event_id": "EVT-DIV-001",
+      "event_type": "ROAD_DIVIDER_OBSERVATION",
+      "domain": "INFRASTRUCTURE",
+      "bus_id": "BUS_001",
+      "chainage_m": 150.0,
+      "gps_coordinates": {
+        "latitude": 10.803229920866396,
+        "longitude": 78.68826694844188,
+        "heading": 310.54955981609896
+      },
+      "source_video_file": "outputs/videos/bussense_divider_verified.mp4",
+      "clip_start_sec": 3.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-DIV-001/EVT-DIV-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-DIV-001/EVT-DIV-001_frame.jpg",
+      "severity": "LOW",
+      "confidence": 0.92,
+      "pipeline_metadata": {
+        "domain": "Infrastructure (Road Dividers & Medians)",
+        "verification_notes": "Physical road divider geometry and 3D elevation metrology. No hardcoded heights; measured elevation profile.",
+        "model_or_engine": "RoadDividerEngine"
+      }
+    },
+    {
+      "event_id": "EVT-DIV-002",
+      "event_type": "DIVIDER_GAP",
+      "domain": "INFRASTRUCTURE",
+      "bus_id": "BUS_001",
+      "chainage_m": 35.0,
+      "gps_coordinates": {
+        "latitude": 10.802473925877823,
+        "longitude": 78.68897822390738,
+        "heading": 321.8199421948701
+      },
+      "source_video_file": "outputs/videos/bussense_divider_verified.mp4",
+      "clip_start_sec": 15.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-DIV-002/EVT-DIV-002_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-DIV-002/EVT-DIV-002_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.91,
+      "pipeline_metadata": {
+        "domain": "Infrastructure (Physical Divider Gap)",
+        "verification_notes": "Physical break in continuous concrete barrier along corridor.",
+        "model_or_engine": "RoadDividerEngine"
+      }
+    },
+    {
+      "event_id": "EVT-HZD-001",
+      "event_type": "ROAD_HAZARD",
+      "domain": "INFRASTRUCTURE",
+      "bus_id": "BUS_004",
+      "chainage_m": 890.0,
+      "gps_coordinates": {
+        "latitude": 10.806758197498976,
+        "longitude": 78.68253720372205,
+        "heading": 303.5847595466222
+      },
+      "source_video_file": "outputs/videos/bussense_hazards_verified.mp4",
+      "clip_start_sec": 4.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_004/2026-10-15/EVT-HZD-001/EVT-HZD-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_004/2026-10-15/EVT-HZD-001/EVT-HZD-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.92,
+      "pipeline_metadata": {
+        "domain": "Infrastructure (Road Hazards)",
+        "verification_notes": "Obstacle residual extending above fitted road plane.",
+        "model_or_engine": "RoadHazardEngine"
+      }
+    },
+    {
+      "event_id": "EVT-VEH-001",
+      "event_type": "TRAFFIC_AGGREGATE",
+      "domain": "TRAFFIC_INTELLIGENCE",
+      "bus_id": "BUS_002",
+      "chainage_m": 980.0,
+      "gps_coordinates": {
+        "latitude": 10.807216303275563,
+        "longitude": 78.68185800469789,
+        "heading": 305.3599563973939
+      },
+      "source_video_file": "outputs/videos/bussense_kitti_verified.mp4",
+      "clip_start_sec": 2.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-VEH-001/EVT-VEH-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_002/2026-10-15/EVT-VEH-001/EVT-VEH-001_frame.jpg",
+      "severity": "LOW",
+      "confidence": 0.95,
+      "pipeline_metadata": {
+        "domain": "Traffic Intelligence (Vehicles & Flow)",
+        "verification_notes": "Real sequential moving vehicle detection, bounding boxes, range and flow rate.",
+        "model_or_engine": "KITTIIncidentIntelligence"
+      }
+    },
+    {
+      "event_id": "EVT-VRU-001",
+      "event_type": "VRU_PEDESTRIAN",
+      "domain": "TRAFFIC_INTELLIGENCE",
+      "bus_id": "BUS_003",
+      "chainage_m": 1060.0,
+      "gps_coordinates": {
+        "latitude": 10.80769629677507,
+        "longitude": 78.68131431281047,
+        "heading": 316.8746583530209
+      },
+      "source_video_file": "outputs/videos/bussense_kitti_verified.mp4",
+      "clip_start_sec": 15.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-VRU-001/EVT-VRU-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_003/2026-10-15/EVT-VRU-001/EVT-VRU-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.93,
+      "pipeline_metadata": {
+        "domain": "Traffic Intelligence (VRU Safety)",
+        "verification_notes": "Pedestrian trajectory tracking with time-to-collision (TTC) and lateral encroachment alert.",
+        "model_or_engine": "VRUSafetyEngine"
+      }
+    },
+    {
+      "event_id": "EVT-ANP-001",
+      "event_type": "ANPR_VERIFIED",
+      "domain": "TRAFFIC_INTELLIGENCE",
+      "bus_id": "BUS_001",
+      "chainage_m": 1140.0,
+      "gps_coordinates": {
+        "latitude": 10.80828245253002,
+        "longitude": 78.6808975642959,
+        "heading": 334.93486749267214
+      },
+      "source_video_file": "outputs/videos/bussense_kitti_verified.mp4",
+      "clip_start_sec": 30.0,
+      "clip_duration_sec": 7.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-ANP-001/EVT-ANP-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-ANP-001/EVT-ANP-001_frame.jpg",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "pipeline_metadata": {
+        "domain": "Traffic Intelligence (ANPR & Incidents)",
+        "verification_notes": "License plate localization, perspective rectification, and OCR recognition.",
+        "model_or_engine": "ANPREngine"
+      }
+    },
+    {
+      "event_id": "EVT-MBU-001",
+      "event_type": "MULTI_BUS_CORROBORATION",
+      "domain": "FLEET",
+      "bus_id": "BUS_001",
+      "chainage_m": 40.0,
+      "gps_coordinates": {
+        "latitude": 10.802509272431799,
+        "longitude": 78.68894992732272,
+        "heading": 321.8199421948701
+      },
+      "source_video_file": "outputs/videos/bussense_multi_bus_demo.mp4",
+      "clip_start_sec": 10.0,
+      "clip_duration_sec": 8.0,
+      "extracted_clip_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-MBU-001/EVT-MBU-001_clip.mp4",
+      "extracted_frame_url": "/outputs/server_media/evidence/BUS_001/2026-10-15/EVT-MBU-001/EVT-MBU-001_frame.jpg",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "pipeline_metadata": {
+        "domain": "Fleet Intelligence (Multi-Bus Evidence & Consensus)",
+        "verification_notes": "4-bus cross-corroboration on Bharathidasan Salai. 3 agreeing passes (gap reported) + 1 conflicting pass (divider intact) properly flagged as CONFLICTING_EVIDENCE.",
+        "model_or_engine": "MultiBusFusionEngine"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "hardware_environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "cpu_count_logical": 12,
+    "cpu_count_physical": 8,
+    "total_ram_gb": 11.71,
+    "available_ram_gb": 2.28,
+    "python_version": "3.14.4",
+    "torch_version": "2.14.0+cpu",
+    "cuda_available": false,
+    "device": "CPU"
+  },
+  "input_resolution": "1920x1080",
+  "pipeline_benchmark": {
+    "samples": 10,
+    "mean_ms": 660.46,
+    "std_ms": 10.31,
+    "p50_ms": 659.9,
+    "p95_ms": 676.86,
+    "p99_ms": 680.22,
+    "min_ms": 641.72,
+    "max_ms": 681.06,
+    "throughput_fps": 1.51,
+    "ram_usage_mb": 573.8,
+    "ram_delta_mb": 35.42
+  },
+  "branch_latencies_summary": {
+    "stereo_matcher_pct": 65.1,
+    "yolo_detector_pct": 5.3,
+    "segmenter_pct": 6.1,
+    "infrastructure_adapters_pct": 19.5
+  }
+}

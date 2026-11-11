@@ -1,0 +1,127 @@
+{
+  "validation_metadata": {
+    "title": "Trichy Road Geometry & Polyline Validation Report",
+    "section": "Section M (Master Implementation Prompt)",
+    "city": "Tiruchirappalli, Tamil Nadu, India",
+    "road_name": "Bharathidasan Salai",
+    "osm_way_id": 369881223,
+    "highway_type": "primary"
+  },
+  "road_polyline_metrics": {
+    "osm_node_count": 26,
+    "polyline_length_m": 1241.7,
+    "straight_line_dist_m": 1166.3,
+    "tortuosity": 1.0647,
+    "is_straight_line_interpolation": false,
+    "first_node": {
+      "id": 839712564,
+      "lat": 10.8022265,
+      "lon": 78.6891763
+    },
+    "last_node": {
+      "id": 5906752096,
+      "lat": 10.8088669,
+      "lon": 78.6809107
+    }
+  },
+  "sampling_and_tolerances": {
+    "sampling_interval_m": 5.0,
+    "total_sampled_points": 250,
+    "centerline_tolerance_m": 10.0,
+    "max_centerline_deviation_m": 0.0,
+    "mean_centerline_deviation_m": 0.0,
+    "centerline_check_passed": true
+  },
+  "curvature_analysis": {
+    "mean_curvature_rad_per_m": 0.004665,
+    "max_curvature_rad_per_m": 0.289288,
+    "min_curve_radius_m": 3.46
+  },
+  "sampled_points_preview": {
+    "first_5": [
+      {
+        "s_m": 0.0,
+        "lat": 10.8022265,
+        "lon": 78.6891763,
+        "heading_deg": 321.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.000275
+      },
+      {
+        "s_m": 5.0,
+        "lat": 10.8022618,
+        "lon": 78.689148,
+        "heading_deg": 321.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.000275
+      },
+      {
+        "s_m": 10.0,
+        "lat": 10.8022972,
+        "lon": 78.6891197,
+        "heading_deg": 321.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.000275
+      },
+      {
+        "s_m": 15.0,
+        "lat": 10.8023325,
+        "lon": 78.6890914,
+        "heading_deg": 321.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.000275
+      },
+      {
+        "s_m": 20.0,
+        "lat": 10.8023679,
+        "lon": 78.6890631,
+        "heading_deg": 321.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.000275
+      }
+    ],
+    "last_5": [
+      {
+        "s_m": 1225.0,
+        "lat": 10.808857,
+        "lon": 78.6809976,
+        "heading_deg": 123.93,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.104936
+      },
+      {
+        "s_m": 1230.0,
+        "lat": 10.8088418,
+        "lon": 78.6810145,
+        "heading_deg": 287.23,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.289288
+      },
+      {
+        "s_m": 1235.0,
+        "lat": 10.8088552,
+        "lon": 78.6809708,
+        "heading_deg": 287.23,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.01971
+      },
+      {
+        "s_m": 1240.0,
+        "lat": 10.8088643,
+        "lon": 78.680926,
+        "heading_deg": 279.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.009734
+      },
+      {
+        "s_m": 1241.7,
+        "lat": 10.8088669,
+        "lon": 78.6809107,
+        "heading_deg": 279.82,
+        "centerline_deviation_m": 0.0,
+        "curvature_rad_per_m": 0.009734
+      }
+    ]
+  },
+  "overall_status": "VALIDATED_PASS"
+}

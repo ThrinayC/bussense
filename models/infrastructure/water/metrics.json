@@ -1,0 +1,23 @@
+{
+  "model_name": "LightweightRoadSegNet_Water",
+  "dataset": "FRED_WaterSegNets",
+  "parameters": 482737,
+  "device": "CPU (Fallback)",
+  "training_time_sec": 23.41,
+  "validation_metrics": {
+    "mIoU": 0.0784,
+    "DiceScore": 0.1268,
+    "Precision": 0.3887,
+    "Recall": 0.0835,
+    "MeanLatencyMs": 315.49
+  },
+  "test_metrics": {
+    "mIoU": 0.0153,
+    "DiceScore": 0.0289,
+    "Precision": 0.2762,
+    "Recall": 0.0193,
+    "MeanLatencyMs": 206.94
+  },
+  "input_resolution": "256x256",
+  "weights_path": "models/infrastructure/water/best.pt"
+}

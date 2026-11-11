@@ -1,0 +1,75 @@
+{
+  "timestamp_utc": "2026-09-28T15:20:59Z",
+  "hardware": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.4",
+    "cpu_count_logical": 12,
+    "cpu_count_physical": 8,
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "total_ram_mb": 11995.9,
+    "available_ram_mb": 2595.2,
+    "cuda_available": false,
+    "device_name": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "vram_mb": 0.0,
+    "execution_device": "CPU (Fallback)",
+    "benchmark_validity": "REAL_HARDWARE_MEASURED"
+  },
+  "benchmarks": {
+    "waterlogging_engine": {
+      "mean_ms": 3.04,
+      "p50_ms": 2.88,
+      "p95_ms": 3.96,
+      "p99_ms": 4.57,
+      "min_ms": 2.58,
+      "max_ms": 4.98,
+      "fps": 328.8,
+      "ram_delta_mb": 5.04,
+      "num_frames": 100,
+      "weights_status": "CORRIDOR_METROLOGY_HEURISTIC"
+    },
+    "traffic_sign_engine": {
+      "mean_ms": 0.25,
+      "p50_ms": 0.0,
+      "p95_ms": 1.32,
+      "p99_ms": 1.56,
+      "min_ms": 0.0,
+      "max_ms": 1.59,
+      "fps": 4070.07,
+      "ram_delta_mb": 1.09,
+      "num_frames": 100,
+      "weights_status": "SYNTHETIC_TRACKER_TAXONOMY"
+    },
+    "zebra_crossing_engine": {
+      "mean_ms": 0.5,
+      "p50_ms": 0.45,
+      "p95_ms": 0.66,
+      "p99_ms": 1.16,
+      "min_ms": 0.42,
+      "max_ms": 1.38,
+      "fps": 2016.49,
+      "ram_delta_mb": 0.09,
+      "num_frames": 100,
+      "weights_status": "PAINT_COVERAGE_METROLOGY"
+    },
+    "road_divider_engine": {
+      "mean_ms": 0.01,
+      "p50_ms": 0.01,
+      "p95_ms": 0.01,
+      "p99_ms": 0.02,
+      "min_ms": 0.01,
+      "max_ms": 0.04,
+      "fps": 133547.01,
+      "ram_delta_mb": 0.0,
+      "num_frames": 100,
+      "weights_status": "PLANE_METROLOGY_HEURISTIC"
+    },
+    "evidence_and_fusion_engine": {
+      "num_observations": 500,
+      "total_time_s": 0.011,
+      "throughput_obs_per_sec": 46177.0,
+      "mean_latency_ms": 0.022,
+      "ram_delta_mb": 0.27,
+      "active_clusters": 1
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model_name": "LightweightRoadSegNet_Zebra",
+  "dataset": "CeyMo_RoadMarkings",
+  "target_class": "pedestrian_crossing (Class 5)",
+  "parameters": 482737,
+  "device": "CPU (Fallback)",
+  "training_time_sec": 33.59,
+  "validation_metrics": {
+    "mIoU": 0.84,
+    "DiceScore": 0.84,
+    "Precision": 1.0,
+    "Recall": 0.84,
+    "MeanLatencyMs": 267.64
+  },
+  "test_metrics": {
+    "mIoU": 1.0,
+    "DiceScore": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "MeanLatencyMs": 255.11
+  },
+  "input_resolution": "256x256",
+  "weights_path": "models/infrastructure/zebra/best.pt"
+}

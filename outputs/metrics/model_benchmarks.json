@@ -1,0 +1,104 @@
+{
+  "hardware_environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "cpu_count_logical": 12,
+    "cpu_count_physical": 8,
+    "total_ram_gb": 11.71,
+    "available_ram_gb": 2.28,
+    "python_version": "3.14.4",
+    "torch_version": "2.14.0+cpu",
+    "cuda_available": false,
+    "device": "CPU"
+  },
+  "models": {
+    "stereo_sgbm_opencv": {
+      "samples": 10,
+      "mean_ms": 429.93,
+      "std_ms": 1.68,
+      "p50_ms": 430.06,
+      "p95_ms": 431.98,
+      "p99_ms": 432.2,
+      "min_ms": 426.88,
+      "max_ms": 432.26,
+      "throughput_fps": 2.33
+    },
+    "vehicle_pedestrian_yolov8n": {
+      "samples": 10,
+      "mean_ms": 35.1,
+      "std_ms": 2.07,
+      "p50_ms": 34.38,
+      "p95_ms": 38.42,
+      "p99_ms": 39.44,
+      "min_ms": 32.78,
+      "max_ms": 39.7,
+      "throughput_fps": 28.49
+    },
+    "pothole_crack_yolo_seg": {
+      "samples": 10,
+      "mean_ms": 40.14,
+      "std_ms": 1.57,
+      "p50_ms": 40.14,
+      "p95_ms": 42.29,
+      "p99_ms": 42.54,
+      "min_ms": 38.06,
+      "max_ms": 42.6,
+      "throughput_fps": 24.91
+    },
+    "water_segnet_fred": {
+      "samples": 10,
+      "mean_ms": 53.7,
+      "std_ms": 8.25,
+      "p50_ms": 51.07,
+      "p95_ms": 69.12,
+      "p99_ms": 73.47,
+      "min_ms": 44.94,
+      "max_ms": 74.56,
+      "throughput_fps": 18.62
+    },
+    "zebra_segnet_ceymo": {
+      "samples": 10,
+      "mean_ms": 49.31,
+      "std_ms": 2.5,
+      "p50_ms": 50.08,
+      "p95_ms": 52.67,
+      "p99_ms": 53.14,
+      "min_ms": 45.46,
+      "max_ms": 53.26,
+      "throughput_fps": 20.28
+    },
+    "traffic_sign_detector_mtsd": {
+      "samples": 10,
+      "mean_ms": 21.64,
+      "std_ms": 2.16,
+      "p50_ms": 21.42,
+      "p95_ms": 25.01,
+      "p99_ms": 26.16,
+      "min_ms": 18.11,
+      "max_ms": 26.45,
+      "throughput_fps": 46.2
+    },
+    "sign_condition_classifier": {
+      "samples": 10,
+      "mean_ms": 0.91,
+      "std_ms": 0.13,
+      "p50_ms": 0.84,
+      "p95_ms": 1.13,
+      "p99_ms": 1.2,
+      "min_ms": 0.8,
+      "max_ms": 1.21,
+      "throughput_fps": 1094.03
+    },
+    "road_divider_metrology": {
+      "samples": 10,
+      "mean_ms": 3.84,
+      "std_ms": 0.11,
+      "p50_ms": 3.81,
+      "p95_ms": 4.03,
+      "p99_ms": 4.1,
+      "min_ms": 3.7,
+      "max_ms": 4.12,
+      "throughput_fps": 260.31
+    }
+  }
+}

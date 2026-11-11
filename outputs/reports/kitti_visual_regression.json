@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "video_output": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_kitti_verified.mp4",
+  "total_frames_rendered": 350,
+  "unique_tracks_identified": 23,
+  "total_checked_transitions": 593,
+  "static_box_count": 1,
+  "static_ratio_percent": 0.169,
+  "max_concurrent_tracks": 6,
+  "detector_model": "potcrack_stereo/yolov8n.pt",
+  "tracker_architecture": "ByteTrack + RangeAwareKalmanFilter (3D)",
+  "debug_frames_saved": 10
+}

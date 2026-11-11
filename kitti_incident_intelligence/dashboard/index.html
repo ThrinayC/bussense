@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusSense Incident & VRU Intelligence Dashboard</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-area">
+                <div class="pulse-indicator online" id="sys-pulse"></div>
+                <div class="logo-text">
+                    <h1>BUSSENSE <span class="badge">INTELLIGENCE LAB</span></h1>
+                    <p class="subtitle">Standalone KITTI Incident & Vulnerable Road User Validation System</p>
+                </div>
+            </div>
+            <div class="header-stats">
+                <div class="stat-pill">
+                    <span class="label">ENGINE</span>
+                    <span class="value" id="hdr-engine">SGBM + KALMAN</span>
+                </div>
+                <div class="stat-pill">
+                    <span class="label">ENVELOPE</span>
+                    <span class="value accent">0 – 25.0 m</span>
+                </div>
+                <div class="stat-pill">
+                    <span class="label">API STATUS</span>
+                    <span class="value status-ok" id="hdr-api-status">CONNECTED</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="main-grid">
+            <!-- Left Panel: Map & Hotspot Analysis -->
+            <section class="panel map-panel">
+                <div class="panel-header">
+                    <h2><span class="icon">🗺️</span> Spatial Risk & Vulnerable Area Index (VAI)</h2>
+                    <div class="panel-actions">
+                        <span class="chip" id="vru-count-chip">4 Segments</span>
+                        <button class="btn-sm" id="btn-recenter" title="Recenter on KITTI Drive">Recenter</button>
+                    </div>
+                </div>
+                <div id="map" class="map-view"></div>
+                <div class="map-legend">
+                    <div class="legend-item"><span class="color-dot high"></span> High VAI (&ge; 15.0)</div>
+                    <div class="legend-item"><span class="color-dot med"></span> Med VAI (5.0 – 14.9)</div>
+                    <div class="legend-item"><span class="color-dot low"></span> Low VAI (&lt; 5.0)</div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Telemetry & Feeds -->
+            <section class="panel telemetry-panel">
+                <!-- Subsystem Validation Status -->
+                <div class="sub-panel">
+                    <div class="panel-header">
+                        <h2><span class="icon">🛡️</span> Subsystem Acceptance Gates</h2>
+                        <span class="timestamp" id="last-updated">Realtime</span>
+                    </div>
+                    <div class="gates-grid">
+                        <div class="gate-card pass">
+                            <span class="gate-name">Stereo Depth (0–10m)</span>
+                            <span class="gate-val">0.052 m &le; 0.20 m</span>
+                            <span class="gate-badge">PASS</span>
+                        </div>
+                        <div class="gate-card pass">
+                            <span class="gate-name">Stereo Depth (10–20m)</span>
+                            <span class="gate-val">0.147 m &le; 0.50 m</span>
+                            <span class="gate-badge">PASS</span>
+                        </div>
+                        <div class="gate-card pass">
+                            <span class="gate-name">Stereo Depth (20–30m)</span>
+                            <span class="gate-val">0.597 m &le; 1.00 m</span>
+                            <span class="gate-badge">PASS</span>
+                        </div>
+                        <div class="gate-card pass">
+                            <span class="gate-name">Ego-Motion Integration</span>
+                            <span class="gate-val">0.010 m/s &le; 0.15 m/s</span>
+                            <span class="gate-badge">PASS</span>
+                        </div>
+                        <div class="gate-card pass">
+                            <span class="gate-name">VRU Detection</span>
+                            <span class="gate-val">100% Pedestrians</span>
+                            <span class="gate-badge">PASS</span>
+                        </div>
+                        <div class="gate-card warn">
+                            <span class="gate-name">ANPR (Wide-Angle)</span>
+                            <span class="gate-val">37.5 px @ 10m &lt; 100px</span>
+                            <span class="gate-badge">CONDITIONAL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Incident Events Feed -->
+                <div class="sub-panel flex-grow">
+                    <div class="panel-header">
+                        <h2><span class="icon">⚠️</span> Incident Event Stream</h2>
+                        <span class="chip red" id="evt-counter">12 Events</span>
+                    </div>
+                    <div class="event-feed-list" id="event-feed">
+                        <!-- Populated by app.js -->
+                    </div>
+                </div>
+
+                <!-- Vulnerable Road User Hotspots Table -->
+                <div class="sub-panel">
+                    <div class="panel-header">
+                        <h2><span class="icon">🚶</span> Vulnerable Segments</h2>
+                        <button class="btn-sm" id="btn-export-geojson">Export GeoJSON</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="vru-table">
+                            <thead>
+                                <tr>
+                                    <th>Segment</th>
+                                    <th>Crossings</th>
+                                    <th>Conflicts</th>
+                                    <th>Near-Misses</th>
+                                    <th>VAI Score</th>
+                                    <th>Risk</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-left">
+                <span>BusSense Incident & VRU Intelligence System &bull; Autonomous Standalone Sandbox</span>
+            </div>
+            <div class="footer-right">
+                <span>Dataset: KITTI 2011_09_26 Raw Drives &bull; Zero Modifications to Production Repo</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,761 @@
+[
+  {
+    "source_frame_index": 4,
+    "timestamp": 0.4,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      518.5,
+      296.1,
+      532.0,
+      324.6
+    ],
+    "tracker_bbox": [
+      518.5,
+      296.1,
+      532.0,
+      324.6
+    ],
+    "track_id": 1,
+    "detection_confidence": 0.517,
+    "bbox_center": [
+      525.3,
+      310.4
+    ],
+    "bbox_dimensions": [
+      13.4,
+      28.5
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 6,
+    "timestamp": 0.6,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      335.1,
+      238.1,
+      356.3,
+      310.4
+    ],
+    "tracker_bbox": [
+      335.1,
+      238.1,
+      356.3,
+      310.4
+    ],
+    "track_id": 2,
+    "detection_confidence": 0.462,
+    "bbox_center": [
+      345.7,
+      274.2
+    ],
+    "bbox_dimensions": [
+      21.2,
+      72.3
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 6,
+    "timestamp": 0.6,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      395.3,
+      196.7,
+      406.1,
+      226.6
+    ],
+    "tracker_bbox": [
+      395.3,
+      196.7,
+      406.1,
+      226.6
+    ],
+    "track_id": 3,
+    "detection_confidence": 0.46,
+    "bbox_center": [
+      400.7,
+      211.6
+    ],
+    "bbox_dimensions": [
+      10.7,
+      29.9
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 6,
+    "timestamp": 0.6,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      397.6,
+      196.7,
+      409.9,
+      226.5
+    ],
+    "tracker_bbox": [
+      396.9,
+      196.7,
+      408.8,
+      226.5
+    ],
+    "track_id": 3,
+    "detection_confidence": 0.259,
+    "bbox_center": [
+      402.9,
+      211.6
+    ],
+    "bbox_dimensions": [
+      11.9,
+      29.8
+    ],
+    "frame_to_frame_displacement": 2.19,
+    "iou_match": 0.578,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 7,
+    "timestamp": 0.7,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      329.7,
+      238.2,
+      357.4,
+      308.5
+    ],
+    "tracker_bbox": [
+      330.8,
+      238.2,
+      357.2,
+      308.8
+    ],
+    "track_id": 2,
+    "detection_confidence": 0.78,
+    "bbox_center": [
+      344.0,
+      273.5
+    ],
+    "bbox_dimensions": [
+      26.4,
+      70.7
+    ],
+    "frame_to_frame_displacement": 1.84,
+    "iou_match": 0.748,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 8,
+    "timestamp": 0.8,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      320.0,
+      239.1,
+      358.9,
+      314.7
+    ],
+    "tracker_bbox": [
+      322.7,
+      238.8,
+      358.5,
+      312.9
+    ],
+    "track_id": 2,
+    "detection_confidence": 0.683,
+    "bbox_center": [
+      340.6,
+      275.9
+    ],
+    "bbox_dimensions": [
+      35.8,
+      74.1
+    ],
+    "frame_to_frame_displacement": 3.87,
+    "iou_match": 0.655,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 8,
+    "timestamp": 0.8,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      400.3,
+      203.3,
+      413.9,
+      233.5
+    ],
+    "tracker_bbox": [
+      399.8,
+      202.4,
+      413.2,
+      232.5
+    ],
+    "track_id": 3,
+    "detection_confidence": 0.297,
+    "bbox_center": [
+      406.5,
+      217.5
+    ],
+    "bbox_dimensions": [
+      13.4,
+      30.1
+    ],
+    "frame_to_frame_displacement": 6.87,
+    "iou_match": 0.351,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 9,
+    "timestamp": 0.9,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      312.0,
+      238.0,
+      360.7,
+      321.8
+    ],
+    "tracker_bbox": [
+      313.9,
+      238.4,
+      360.3,
+      319.6
+    ],
+    "track_id": 2,
+    "detection_confidence": 0.414,
+    "bbox_center": [
+      337.1,
+      279.0
+    ],
+    "bbox_dimensions": [
+      46.4,
+      81.2
+    ],
+    "frame_to_frame_displacement": 2.63,
+    "iou_match": 0.76,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 9,
+    "timestamp": 0.9,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      408.1,
+      204.1,
+      421.8,
+      236.2
+    ],
+    "tracker_bbox": [
+      405.9,
+      204.3,
+      419.6,
+      235.8
+    ],
+    "track_id": 3,
+    "detection_confidence": 0.258,
+    "bbox_center": [
+      412.8,
+      220.0
+    ],
+    "bbox_dimensions": [
+      13.7,
+      31.5
+    ],
+    "frame_to_frame_displacement": 4.81,
+    "iou_match": 0.315,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 10,
+    "timestamp": 1.0,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      416.1,
+      201.9,
+      429.8,
+      237.7
+    ],
+    "tracker_bbox": [
+      413.3,
+      203.6,
+      427.2,
+      238.0
+    ],
+    "track_id": 3,
+    "detection_confidence": 0.438,
+    "bbox_center": [
+      420.3,
+      220.8
+    ],
+    "bbox_dimensions": [
+      13.9,
+      34.4
+    ],
+    "frame_to_frame_displacement": 4.73,
+    "iou_match": 0.292,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 11,
+    "timestamp": 1.1,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      370.7,
+      188.9,
+      384.4,
+      235.1
+    ],
+    "tracker_bbox": [
+      370.7,
+      188.9,
+      384.4,
+      235.1
+    ],
+    "track_id": 4,
+    "detection_confidence": 0.712,
+    "bbox_center": [
+      377.6,
+      212.0
+    ],
+    "bbox_dimensions": [
+      13.8,
+      46.1
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 11,
+    "timestamp": 1.1,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      429.0,
+      198.7,
+      445.5,
+      241.3
+    ],
+    "tracker_bbox": [
+      429.0,
+      198.7,
+      445.5,
+      241.3
+    ],
+    "track_id": 5,
+    "detection_confidence": 0.622,
+    "bbox_center": [
+      437.3,
+      220.0
+    ],
+    "bbox_dimensions": [
+      16.5,
+      42.6
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 12,
+    "timestamp": 1.2,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      369.0,
+      188.6,
+      384.3,
+      237.0
+    ],
+    "tracker_bbox": [
+      369.3,
+      188.7,
+      384.3,
+      236.6
+    ],
+    "track_id": 4,
+    "detection_confidence": 0.6,
+    "bbox_center": [
+      376.8,
+      212.6
+    ],
+    "bbox_dimensions": [
+      15.0,
+      48.0
+    ],
+    "frame_to_frame_displacement": 0.96,
+    "iou_match": 0.842,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 12,
+    "timestamp": 1.2,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      288.8,
+      241.8,
+      353.0,
+      329.5
+    ],
+    "tracker_bbox": [
+      289.7,
+      241.3,
+      354.5,
+      329.7
+    ],
+    "track_id": 2,
+    "detection_confidence": 0.398,
+    "bbox_center": [
+      322.1,
+      285.5
+    ],
+    "bbox_dimensions": [
+      64.8,
+      88.4
+    ],
+    "frame_to_frame_displacement": 7.37,
+    "iou_match": 0.738,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 13,
+    "timestamp": 1.3,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      362.6,
+      187.4,
+      384.9,
+      248.6
+    ],
+    "tracker_bbox": [
+      364.4,
+      187.7,
+      384.7,
+      245.3
+    ],
+    "track_id": 4,
+    "detection_confidence": 0.727,
+    "bbox_center": [
+      374.6,
+      216.5
+    ],
+    "bbox_dimensions": [
+      20.3,
+      57.6
+    ],
+    "frame_to_frame_displacement": 4.2,
+    "iou_match": 0.549,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 14,
+    "timestamp": 1.4,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      362.5,
+      184.1,
+      386.1,
+      255.0
+    ],
+    "tracker_bbox": [
+      362.3,
+      185.1,
+      385.7,
+      253.4
+    ],
+    "track_id": 4,
+    "detection_confidence": 0.676,
+    "bbox_center": [
+      374.0,
+      219.2
+    ],
+    "bbox_dimensions": [
+      23.4,
+      68.3
+    ],
+    "frame_to_frame_displacement": 0.98,
+    "iou_match": 0.817,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 14,
+    "timestamp": 1.4,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      492.0,
+      193.2,
+      518.0,
+      270.5
+    ],
+    "tracker_bbox": [
+      492.0,
+      193.2,
+      518.0,
+      270.5
+    ],
+    "track_id": 6,
+    "detection_confidence": 0.659,
+    "bbox_center": [
+      505.0,
+      231.8
+    ],
+    "bbox_dimensions": [
+      26.0,
+      77.2
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 14,
+    "timestamp": 1.4,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      535.9,
+      147.9,
+      639.6,
+      255.7
+    ],
+    "tracker_bbox": [
+      535.9,
+      147.9,
+      639.6,
+      255.7
+    ],
+    "track_id": 7,
+    "detection_confidence": 0.451,
+    "bbox_center": [
+      587.7,
+      201.8
+    ],
+    "bbox_dimensions": [
+      103.7,
+      107.8
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 15,
+    "timestamp": 1.5,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      564.9,
+      174.9,
+      606.1,
+      276.9
+    ],
+    "tracker_bbox": [
+      559.1,
+      169.5,
+      612.8,
+      272.6
+    ],
+    "track_id": 7,
+    "detection_confidence": 0.715,
+    "bbox_center": [
+      586.0,
+      221.1
+    ],
+    "bbox_dimensions": [
+      53.7,
+      103.1
+    ],
+    "frame_to_frame_displacement": 19.37,
+    "iou_match": 0.276,
+    "state": "TRACKED"
+  },
+  {
+    "source_frame_index": 15,
+    "timestamp": 1.5,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      385.1,
+      177.3,
+      408.4,
+      267.8
+    ],
+    "tracker_bbox": [
+      385.1,
+      177.3,
+      408.4,
+      267.8
+    ],
+    "track_id": 8,
+    "detection_confidence": 0.427,
+    "bbox_center": [
+      396.8,
+      222.5
+    ],
+    "bbox_dimensions": [
+      23.3,
+      90.5
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 16,
+    "timestamp": 1.6,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      459.8,
+      158.4,
+      505.2,
+      282.7
+    ],
+    "tracker_bbox": [
+      459.8,
+      158.4,
+      505.2,
+      282.7
+    ],
+    "track_id": 9,
+    "detection_confidence": 0.762,
+    "bbox_center": [
+      482.5,
+      220.5
+    ],
+    "bbox_dimensions": [
+      45.4,
+      124.3
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 16,
+    "timestamp": 1.6,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      328.9,
+      246.3,
+      397.7,
+      350.2
+    ],
+    "tracker_bbox": [
+      328.9,
+      246.3,
+      397.7,
+      350.2
+    ],
+    "track_id": 10,
+    "detection_confidence": 0.591,
+    "bbox_center": [
+      363.3,
+      298.2
+    ],
+    "bbox_dimensions": [
+      68.7,
+      103.9
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  },
+  {
+    "source_frame_index": 21,
+    "timestamp": 2.1,
+    "image_dimensions": [
+      640,
+      360
+    ],
+    "detector_bbox": [
+      338.9,
+      244.5,
+      361.4,
+      314.4
+    ],
+    "tracker_bbox": [
+      338.9,
+      244.5,
+      361.4,
+      314.4
+    ],
+    "track_id": 11,
+    "detection_confidence": 0.61,
+    "bbox_center": [
+      350.1,
+      279.4
+    ],
+    "bbox_dimensions": [
+      22.4,
+      69.9
+    ],
+    "frame_to_frame_displacement": 0.0,
+    "iou_match": 0.0,
+    "state": "DETECTED_NEW"
+  }
+]

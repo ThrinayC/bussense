@@ -1,0 +1,134 @@
+{
+  "report_metadata": {
+    "title": "BusSense Mega Demo Feature Coverage Report",
+    "section": "Section 13 (Mega Feature Demonstration)",
+    "date": "2026-09-28",
+    "total_frames_rendered": 4050,
+    "total_duration_minutes": 6.75,
+    "target_fps": 10.0
+  },
+  "features": {
+    "vehicles": {
+      "shown": true,
+      "real": true,
+      "section": 2
+    },
+    "pedestrians": {
+      "shown": true,
+      "real": true,
+      "section": 2
+    },
+    "traffic_density": {
+      "shown": true,
+      "real": true,
+      "section": 3
+    },
+    "traffic_flow": {
+      "shown": true,
+      "real": true,
+      "section": 3
+    },
+    "potholes": {
+      "shown": true,
+      "real": true,
+      "section": 4,
+      "depth_cm": true,
+      "area_m2": true
+    },
+    "cracks": {
+      "shown": true,
+      "real": true,
+      "section": 4,
+      "length_m": true
+    },
+    "waterlogging": {
+      "shown": true,
+      "real": true,
+      "section": 5,
+      "ego_corridor_union": true
+    },
+    "traffic_signs": {
+      "shown": true,
+      "real": true,
+      "section": 6
+    },
+    "missing_sign_reasoning": {
+      "shown": true,
+      "simulated": false,
+      "cognitive_evidence": true,
+      "section": 6
+    },
+    "zebra_crossing": {
+      "shown": true,
+      "real": true,
+      "section": 7
+    },
+    "faded_zebra": {
+      "shown": true,
+      "real": true,
+      "paint_coverage_pct": true,
+      "section": 7
+    },
+    "divider": {
+      "shown": true,
+      "real": true,
+      "section": 8,
+      "elevation_cm": true
+    },
+    "missing_divider": {
+      "shown": true,
+      "simulated": true,
+      "section": 8
+    },
+    "legal_uturn": {
+      "shown": true,
+      "normal_opening": true,
+      "section": 8
+    },
+    "road_hazards": {
+      "shown": true,
+      "real": true,
+      "section": 9
+    },
+    "geometric_unknown_obstruction": {
+      "shown": true,
+      "real": true,
+      "section": 9
+    },
+    "multi_bus": {
+      "shown": true,
+      "simulated": true,
+      "buses": [
+        "BUS_DEMO_001",
+        "BUS_DEMO_002",
+        "BUS_DEMO_003",
+        "BUS_DEMO_004"
+      ],
+      "section": 10
+    },
+    "evidence_fusion": {
+      "shown": true,
+      "simulated": true,
+      "section": 10
+    },
+    "expected_vs_observed": {
+      "shown": true,
+      "reference_layer": true,
+      "section": 11
+    },
+    "gps_mapping": {
+      "shown": true,
+      "osm_way_id": 369881223,
+      "road_name": "Bharathidasan Salai",
+      "centerline_tolerance_m": 10.0,
+      "section": 12
+    }
+  },
+  "coverage_summary": {
+    "total_capabilities_monitored": 20,
+    "demonstrated_capabilities": 20,
+    "coverage_percentage": 100.0,
+    "pothole_dominance_prevented": true,
+    "pothole_percentage_of_video": 6.2
+  }
+}

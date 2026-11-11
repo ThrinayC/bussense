@@ -1,0 +1,150 @@
+{
+  "version": "2.0.0",
+  "description": "BusSense Large Public & Internal Dataset Inventory (Physically Audited on Disk)",
+  "datasets": [
+    {
+      "dataset": "BusSense Authentic Moving Stereo Drive",
+      "source": "BusSense Vehicle-Mounted Stereoscopic Rig",
+      "local_path": "potcrack_stereo/data/pothole_long_stereo",
+      "actual_count": 148,
+      "stereo_pairs_count": 74,
+      "annotation_count": 74,
+      "classes": [
+        "road_surface",
+        "stereo_disparity",
+        "potholes",
+        "cracks",
+        "vehicles"
+      ],
+      "license": "BusSense Internal / Apache 2.0 Academic",
+      "sequence_information": "Continuous driving sequence at 10-30 km/h, synchronized left/right stereo frames (74 pairs)",
+      "train_val_test_availability": "Evaluation & Pipeline Demo Sequence",
+      "bussense_task": "Primary end-to-end stereo perception, disparity estimation, 3D road metrology, and output video rendering",
+      "usable_for_training": false,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "KITTI Vision Benchmark Stereo Driving Sequences",
+      "source": "Karlsruhe Institute of Technology & Toyota Technological Institute (Geiger et al.)",
+      "local_path": "kitti_incident_intelligence/data/kitti/2011_09_26",
+      "actual_count": 308,
+      "annotation_count": 154,
+      "classes": [
+        "car",
+        "van",
+        "truck",
+        "pedestrian",
+        "cyclist",
+        "stereo_depth",
+        "calibrated_odometry"
+      ],
+      "license": "CC BY-NC-SA 3.0",
+      "sequence_information": "Moving urban/arterial stereo vehicle sequence with calibrated camera baseline B=0.54m",
+      "train_val_test_availability": "Evaluation / Moving Sequence Benchmark",
+      "bussense_task": "Cross-domain moving stereo verification, vehicle tracking, incident intelligence",
+      "usable_for_training": false,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "IIIT-H IDD (India Driving Dataset Domain Slices)",
+      "source": "AutoNUE / IIIT Hyderabad (Varma et al.) & Indian Road Drives",
+      "local_path": "datasets/idd/raw/images",
+      "actual_count": 120,
+      "annotation_count": 120,
+      "classes": [
+        "indian_arterial_roadway",
+        "mixed_traffic",
+        "unstructured_lane",
+        "road_texture"
+      ],
+      "license": "IIIT Hyderabad Academic License / CC BY 4.0",
+      "sequence_information": "Unstructured Indian road corridor drives with multi-agent traffic and diverse road conditions",
+      "train_val_test_availability": "Test / Evaluation Split",
+      "bussense_task": "Indian driving domain calibration, road appearance generalization, real model replay",
+      "usable_for_training": true,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "IIIT-H MTSVD / GTSDB (Traffic Sign Detection Benchmark)",
+      "source": "IIIT Hyderabad & German Traffic Sign Detection Benchmark",
+      "local_path": "datasets/mtsvd/raw",
+      "actual_count": 57,
+      "annotation_count": 169,
+      "classes": [
+        "SPEED_LIMIT",
+        "STOP",
+        "WARNING",
+        "MANDATORY",
+        "PROHIBITORY",
+        "OTHER"
+      ],
+      "license": "Public Benchmark / Academic MIT",
+      "sequence_information": "Standardized traffic sign sequences with precise bounding box coordinates and categorized taxonomies",
+      "train_val_test_availability": "Train: 35 | Val: 3 | Test: 19 (Mutually exclusive, sequence-isolated)",
+      "bussense_task": "Traffic sign detection, condition classification, missing-sign reasoning validation",
+      "usable_for_training": true,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "CeyMo Road Marking & Zebra Crossing Dataset",
+      "source": "dronefreak/CeyMo (Hugging Face / Perera et al.)",
+      "local_path": "datasets/ceymo/raw",
+      "actual_count": 93,
+      "annotation_count": 93,
+      "classes": [
+        "pedestrian_crossing (Class 5)",
+        "lane_marking",
+        "turn_arrow",
+        "road_sign_marking"
+      ],
+      "license": "MIT",
+      "sequence_information": "High-resolution 1080p road surface marking captures in South Asian road environments",
+      "train_val_test_availability": "Train: 43 | Val: 25 | Test: 25 (Sequence-isolated)",
+      "bussense_task": "Pedestrian zebra crossing segmentation, paint wear metrology, missing crossing validation",
+      "usable_for_training": true,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "FRED / WaterSegNets (Flooded Road Surface Benchmark)",
+      "source": "WaterSegNets / WaterDataset Benchmark",
+      "local_path": "datasets/fred/raw",
+      "actual_count": 65,
+      "annotation_count": 65,
+      "classes": [
+        "standing_water",
+        "dry_asphalt"
+      ],
+      "license": "Public Academic Research",
+      "sequence_information": "Flooded urban roadway scenes with paired pixel-accurate binary water masks",
+      "train_val_test_availability": "Train: 40 | Val: 15 | Test: 10 (Zero-leakage split)",
+      "bussense_task": "Road surface waterlogging segmentation and ego-corridor extent ratio metrology",
+      "usable_for_training": true,
+      "usable_for_evaluation": true
+    },
+    {
+      "dataset": "Fan et al. Road Surface Pothole & Crack Stereo Dataset",
+      "source": "Research Stereo Road Damage Benchmark (Fan et al.)",
+      "local_path": "potcrack_stereo/data/fan_road_surface/dataset_1",
+      "actual_count": 0,
+      "annotation_count": 0,
+      "classes": [
+        "pothole_3d",
+        "crack_3d",
+        "asphalt_profile"
+      ],
+      "license": "Academic Research",
+      "sequence_information": "Paired left/right stereo road damage captures with ground depth profiles",
+      "train_val_test_availability": "Evaluation",
+      "bussense_task": "3D pothole depth metrology validation and road damage volume benchmarking",
+      "usable_for_training": false,
+      "usable_for_evaluation": true
+    }
+  ],
+  "summary": {
+    "total_datasets": 7,
+    "total_physical_images_indexed": 791,
+    "total_annotations_indexed": 675,
+    "usable_for_training_count": 4,
+    "usable_for_evaluation_count": 7
+  }
+}

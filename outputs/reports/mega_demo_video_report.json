@@ -1,0 +1,66 @@
+{
+  "report_metadata": {
+    "title": "BusSense Mega Demo Video Render Report",
+    "section": "Section 12 & 15",
+    "date": "2026-09-28"
+  },
+  "master_video": {
+    "filename": "bussense_mega_demo.mp4",
+    "path": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_mega_demo.mp4",
+    "file_size_mb": 196.05,
+    "total_frames": 4050,
+    "duration_sec": 405.0,
+    "duration_minutes": 6.75,
+    "resolution": "1280x720",
+    "fps": 10.0,
+    "sections_count": 12
+  },
+  "extracted_sub_videos": [
+    {
+      "filename": "bussense_real_infrastructure_demo.mp4",
+      "path": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_real_infrastructure_demo.mp4",
+      "file_size_mb": 162.83,
+      "sections": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "filename": "bussense_multi_bus_demo.mp4",
+      "path": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_multi_bus_demo.mp4",
+      "file_size_mb": 6.28,
+      "sections": [
+        10,
+        11
+      ]
+    },
+    {
+      "filename": "bussense_pothole_crack_segment.mp4",
+      "path": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_pothole_crack_segment.mp4",
+      "file_size_mb": 21.19,
+      "sections": [
+        4
+      ],
+      "duration_sec": 25.0
+    }
+  ],
+  "annotated_frames_samples": [
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_01_overview.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_02_vehicles_vru.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_03_traffic_intelligence.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_04_pothole_crack.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_05_waterlogging.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_06_traffic_signs.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_07_zebra_crossing.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_08_road_divider.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_09_road_hazards.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_10_multibus.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_11_expected_vs_observed.jpg",
+    "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\frames\\mega_demo\\section_12_trichy_gis.jpg"
+  ]
+}

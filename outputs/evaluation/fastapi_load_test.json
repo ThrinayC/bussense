@@ -1,0 +1,37 @@
+{
+  "benchmark_profile": {
+    "fleet_size_buses": 20,
+    "simulation_duration_seconds": 600.0,
+    "local_perception_fps": 10.0,
+    "total_local_frames": 120000,
+    "total_raw_vehicle_observations": 600000
+  },
+  "naive_streaming_architecture": {
+    "description": "Continuous transmission of every vehicle detection, distance, and Kalman state every frame",
+    "total_http_requests": 600000,
+    "requests_per_second": 1000.0,
+    "average_payload_bytes": 246,
+    "total_payload_mb": 140.76,
+    "database_write_transactions": 600000,
+    "estimated_server_cpu_percent": "90\u2013100% (High risk of thread starvation)",
+    "assessment": "FAILED \u2014 Overwhelms edge cellular link and saturates server I/O"
+  },
+  "bussense_event_driven_contract": {
+    "description": "Edge-filtered events, 30s traffic aggregates, 15s heartbeats, and media on emergency",
+    "total_http_requests": 1045,
+    "requests_per_second": 1.74,
+    "average_json_payload_bytes": 366.4,
+    "event_json_payload_mb": 0.37,
+    "media_evidence_payload_mb": 17.76,
+    "total_network_payload_mb": 18.12,
+    "database_write_transactions": 1045,
+    "server_latency_ms": {
+      "mean": 5.57,
+      "p95": 6.28
+    },
+    "server_cpu_utilization_percent": 57.6,
+    "request_reduction_percent": 99.83,
+    "payload_reduction_percent": 87.13,
+    "assessment": "PASS \u2014 Scalable, low-bandwidth, and lightweight server contract verified"
+  }
+}

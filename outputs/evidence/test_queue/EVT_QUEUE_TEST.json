@@ -1,0 +1,9 @@
+{
+  "uploaded": true,
+  "queued_at": 1790188148.4842885,
+  "event": {
+    "event_id": "EVT_QUEUE_TEST",
+    "event_type": "CUT_IN_CANDIDATE"
+  },
+  "uploaded_at": 1790188148.4849532
+}

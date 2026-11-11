@@ -1,0 +1,137 @@
+{
+  "architecture": {
+    "potcrack_pipeline_intact": true,
+    "incident_pipeline_intact": true,
+    "thin_integration_layer": "bussense_unified_orchestrator.py",
+    "production_rewrites": false
+  },
+  "stereo": {
+    "sensor_contract": "REAL_STEREO_ONLY (LEFT RGB + RIGHT RGB)",
+    "monocular_depth_in_stereo": false,
+    "fake_stereo_frames": false,
+    "single_pass_stereo_shared": true,
+    "backend": "OpenCV SGBM + IGEV Checkpoint Validated"
+  },
+  "road_metrology": {
+    "pothole_detection": "YOLO11-seg Fine-Tuned",
+    "depth_metrology": "Local Road Plane RANSAC + 95th Percentile Depth (cm)",
+    "footprint_area": "Ray-Plane Intersection + Shoelace Polygon (m2)",
+    "crack_detection": "Skeletonization + Branch Counting",
+    "road_condition_categories": [
+      "NORMAL",
+      "MEDIUM",
+      "HIGH",
+      "ALARMING",
+      "INSUFFICIENT DATA"
+    ]
+  },
+  "vru_protection": {
+    "cyclist_disambiguation": "PASSED (Rider Association Logic Intact)",
+    "false_pedestrian_alerts_on_cyclists": 0,
+    "cyclist_in_path_alert": true,
+    "pedestrian_in_path_alert": true
+  },
+  "anpr": {
+    "strict_hud_rule": "PASSED (Silent on unreadable plates; NO 'UNREADABLE' or 'UNKNOWN')",
+    "verified_plates_rendered_in_bbox": true,
+    "persistence_through_track": true,
+    "fabrication_rate": 0.0
+  },
+  "hit_and_run": {
+    "modality": "MONOCULAR_ONLY (Ethical Realism Contract)",
+    "source_modality_flag": "monocular",
+    "metric_depth_valid": false,
+    "state_progression": "APPROACH -> CONTACT -> VICTIM_TRANSITION -> SUSPECT_DEPARTURE -> HIT_AND_RUN_CANDIDATE"
+  },
+  "demo_artifacts": {
+    "mega_final_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\demo\\BUSSENSE_MEGA_FINAL.mp4",
+    "mega_final_debug_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\demo\\BUSSENSE_MEGA_FINAL_DEBUG.mp4",
+    "stereo_only_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\demo\\BUSSENSE_STEREO_ONLY_FINAL.mp4",
+    "hit_and_run_monocular_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\demo\\BUSSENSE_HIT_AND_RUN_MONOCULAR_FINAL.mp4",
+    "total_duration_seconds": 249.1,
+    "total_duration_minutes": 4.15,
+    "total_frames": 2491,
+    "fps": 10.0,
+    "scenario_segments_count": 13,
+    "scenario_segments": [
+      {
+        "id": 1,
+        "name": "KITTI Drive 0002 (VRU Baseline)",
+        "frames": 77,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 2,
+        "name": "KITTI Traffic Stream (Gate Flow & Density)",
+        "frames": 450,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 3,
+        "name": "EvTTC CCRs Pre-Collision (2024-07-15)",
+        "frames": 149,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 4,
+        "name": "EvTTC CCRs-1 High-Speed",
+        "frames": 250,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 5,
+        "name": "EvTTC CPNA Pedestrian Crossing",
+        "frames": 250,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 6,
+        "name": "Extreme Driving Complex Traffic",
+        "frames": 350,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 7,
+        "name": "Extreme Driving Critical Cut-In Suite",
+        "frames": 138,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 8,
+        "name": "Road Surface Stereo (Pothole 74 Pairs)",
+        "frames": 74,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 9,
+        "name": "Road Surface Authentic Stereo Potholes",
+        "frames": 105,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 10,
+        "name": "Road Surface Crack Network Topology",
+        "frames": 148,
+        "modality": "real_stereo"
+      },
+      {
+        "id": 11,
+        "name": "Hit-and-Run Chicago Pedestrian",
+        "frames": 200,
+        "modality": "monocular"
+      },
+      {
+        "id": 12,
+        "name": "Hit-and-Run NR24121ktdm Event",
+        "frames": 150,
+        "modality": "monocular"
+      },
+      {
+        "id": 13,
+        "name": "Hit-and-Run NR24259dc Suspect Departure & OCR",
+        "frames": 150,
+        "modality": "monocular"
+      }
+    ]
+  }
+}

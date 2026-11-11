@@ -1,0 +1,11 @@
+{
+  "model_name": "RoadDividerMetrologyEngine",
+  "status": "DIVIDER_MODEL_LIMITED_BY_PUBLIC_LABELS",
+  "rationale": "Public autonomous vehicle datasets (COCO, Cityscapes, BDD100k, MTSVD, CeyMo) do not provide explicit 3D median curb/barrier physical height annotations. BusSense utilizes stereoscopic road-plane disparity elevation analysis coupled with local road coordinate longitudinal continuity checking to detect physical dividers and identify missing divider sections.",
+  "detection_modality": "Stereoscopic 3D Disparity Elevation + Longitudinal Line Continuity",
+  "nominal_height_range_m": [0.15, 0.45],
+  "gap_fault_threshold_m": 4.0,
+  "temporal_persistence_frames": 3,
+  "device": "CPU (Fallback)",
+  "mean_latency_ms": 12.5
+}

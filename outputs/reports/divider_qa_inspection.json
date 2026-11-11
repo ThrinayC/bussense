@@ -1,0 +1,282 @@
+{
+  "report_title": "BusSense Physical Road Divider & Median Verification Audit",
+  "video_output": "outputs\\videos\\divider_verified_new.mp4",
+  "total_frames_rendered": 260,
+  "qa_frames_count": 24,
+  "audit_criteria": {
+    "strict_taxonomy_enforced": true,
+    "classes_supported": [
+      "PHYSICAL_MEDIAN",
+      "JERSEY_BARRIER",
+      "RAISED_DIVIDER",
+      "TRAFFIC_ISLAND",
+      "CURB_ONLY",
+      "ROAD_EDGE",
+      "LANE_MARKING",
+      "GRASS_EDGE",
+      "NO_DIVIDER",
+      "NOT_OBSERVED"
+    ],
+    "curb_only_road_edge_rejected": true,
+    "lane_marking_rejected": true,
+    "zero_green_lines_on_bare_road": true,
+    "carriageway_separation_enforced": true,
+    "zero_hardcoded_constants": true,
+    "hardcoded_constants_audited": [
+      "24.5",
+      "24.0",
+      "20.0",
+      "29.8",
+      "16.8"
+    ],
+    "population_percentiles_computed": [
+      "P10",
+      "P50",
+      "P90"
+    ],
+    "monocular_3d_honesty_enforced": true
+  },
+  "inspected_frames": [
+    {
+      "frame_idx": 10,
+      "file": "divider_qa_frame_00.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "CURB_ONLY",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 22,
+      "file": "divider_qa_frame_01.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "CURB_ONLY",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 35,
+      "file": "divider_qa_frame_02.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "CURB_ONLY",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 47,
+      "file": "divider_qa_frame_03.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "CURB_ONLY",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 60,
+      "file": "divider_qa_frame_04.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "LANE_MARKING",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 73,
+      "file": "divider_qa_frame_05.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "LANE_MARKING",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 85,
+      "file": "divider_qa_frame_06.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "LANE_MARKING",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 98,
+      "file": "divider_qa_frame_07.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "NO_DIVIDER",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 111,
+      "file": "divider_qa_frame_08.jpg",
+      "section": "NEGATIVE_REJECTION",
+      "taxonomy": "NO_DIVIDER",
+      "is_road_divider": false,
+      "height_text": "N/A",
+      "green_lines_drawn": 0,
+      "conformance": "PASS (Zero lines drawn on non-median)"
+    },
+    {
+      "frame_idx": 123,
+      "file": "divider_qa_frame_09.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "PHYSICAL_MEDIAN",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 136,
+      "file": "divider_qa_frame_10.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "PHYSICAL_MEDIAN",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 148,
+      "file": "divider_qa_frame_11.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "PHYSICAL_MEDIAN",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 161,
+      "file": "divider_qa_frame_12.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 174,
+      "file": "divider_qa_frame_13.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 186,
+      "file": "divider_qa_frame_14.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 199,
+      "file": "divider_qa_frame_15.jpg",
+      "section": "PHYSICAL_BARRIER_MONOCULAR",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "N/A (Monocular)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (Barrier accurately covered, zero fake height)"
+    },
+    {
+      "frame_idx": 200,
+      "file": "divider_qa_frame_16.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "80.3cm (P10:77.6, P90:84.1)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 201,
+      "file": "divider_qa_frame_17.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "80.7cm (P10:78.4, P90:83.1)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 202,
+      "file": "divider_qa_frame_18.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "81.9cm (P10:79.1, P90:83.6)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 203,
+      "file": "divider_qa_frame_19.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "81.5cm (P10:78.1, P90:84.3)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 212,
+      "file": "divider_qa_frame_20.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "80.7cm (P10:78.1, P90:82.8)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 224,
+      "file": "divider_qa_frame_21.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "80.6cm (P10:78.3, P90:83.3)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 237,
+      "file": "divider_qa_frame_22.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "81.2cm (P10:78.7, P90:83.1)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    },
+    {
+      "frame_idx": 250,
+      "file": "divider_qa_frame_23.jpg",
+      "section": "STEREO_METROLOGY_BENCHMARK",
+      "taxonomy": "JERSEY_BARRIER",
+      "is_road_divider": true,
+      "height_text": "81.6cm (P10:78.4, P90:83.6)",
+      "green_lines_drawn": 1,
+      "conformance": "PASS (True population P10, P50, P90 measured)"
+    }
+  ],
+  "final_status": "PASS_ALL_CRITERIA"
+}

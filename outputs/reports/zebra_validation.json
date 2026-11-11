@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "debug_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\zebra_raw_verified.mp4",
+  "total_test_cases": 17,
+  "true_positives": 9,
+  "true_negatives": 8,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "invariants_verified": [
+    "Visible crossings detected with tight envelope and measured paint wear",
+    "Ordinary lane markings produced 0 false zebra detections",
+    "Non-crossing scenes produced 0 bounding boxes or polygons",
+    "Paint wear measured strictly from white stripe pixel count inside envelope"
+  ],
+  "test_results": [
+    {
+      "frame": 0,
+      "filename": "129.jpg",
+      "category": "CLEAR_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "SEVERELY_DEGRADED",
+      "paint_coverage_ratio": 0.1049,
+      "bbox": [
+        0,
+        811,
+        516,
+        902
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 1,
+      "filename": "140.jpg",
+      "category": "CLEAR_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "SEVERELY_DEGRADED",
+      "paint_coverage_ratio": 0.1171,
+      "bbox": [
+        274,
+        792,
+        637,
+        846
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 2,
+      "filename": "143.jpg",
+      "category": "CLEAR_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "FADED",
+      "paint_coverage_ratio": 0.1536,
+      "bbox": [
+        500,
+        805,
+        855,
+        876
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 3,
+      "filename": "154.jpg",
+      "category": "CLEAR_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "SEVERELY_DEGRADED",
+      "paint_coverage_ratio": 0.0147,
+      "bbox": [
+        133,
+        846,
+        751,
+        1003
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 4,
+      "filename": "133.jpg",
+      "category": "PARTIAL_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "SEVERELY_DEGRADED",
+      "paint_coverage_ratio": 0.1071,
+      "bbox": [
+        27,
+        805,
+        502,
+        882
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 5,
+      "filename": "133a.jpg",
+      "category": "PARTIAL_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "FADED",
+      "paint_coverage_ratio": 0.1451,
+      "bbox": [
+        363,
+        783,
+        666,
+        822
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 8,
+      "filename": "120.jpg",
+      "category": "FADED_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "FADED",
+      "paint_coverage_ratio": 0.1258,
+      "bbox": [
+        356,
+        785,
+        673,
+        829
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 9,
+      "filename": "120a.jpg",
+      "category": "FADED_CROSSING",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "FADED",
+      "paint_coverage_ratio": 0.1275,
+      "bbox": [
+        439,
+        779,
+        712,
+        813
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 10,
+      "filename": "120b.jpg",
+      "category": "SEVERELY_DEGRADED",
+      "ground_truth_is_crossing": true,
+      "detected": true,
+      "condition": "SEVERELY_DEGRADED",
+      "paint_coverage_ratio": 0.056,
+      "bbox": [
+        66,
+        805,
+        543,
+        885
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 12,
+      "filename": "100.jpg",
+      "category": "ORDINARY_LANE_MARKING",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 13,
+      "filename": "100a.jpg",
+      "category": "ORDINARY_LANE_MARKING",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 14,
+      "filename": "102.jpg",
+      "category": "ORDINARY_LANE_MARKING",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 15,
+      "filename": "102a.jpg",
+      "category": "ORDINARY_LANE_MARKING",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 16,
+      "filename": "103.jpg",
+      "category": "ORDINARY_LANE_MARKING",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 20,
+      "filename": "101.jpg",
+      "category": "NO_CROSSING_EMPTY_ROAD",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 22,
+      "filename": "105.jpg",
+      "category": "NO_CROSSING_EMPTY_ROAD",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "frame": 23,
+      "filename": "106.jpg",
+      "category": "NO_CROSSING_EMPTY_ROAD",
+      "ground_truth_is_crossing": false,
+      "detected": false,
+      "condition": "NOT_OBSERVED",
+      "paint_coverage_ratio": 0.0,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "PASS"
+    }
+  ]
+}

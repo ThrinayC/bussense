@@ -1,0 +1,275 @@
+{
+  "api_contract_version": "2.4.0",
+  "service_name": "BusSense FastAPI Central Event Ingestion & Telemetry API",
+  "base_url": "/api",
+  "edge_server_principles": {
+    "local_processing": "Edge performs all heavy perception (stereo disparity, 3D tracking, RANSAC road metrology, YOLO segmentation, and ANPR OCR). Raw vehicle detections, distances, Kalman states, and continuous video are NEVER streamed.",
+    "transmission_policy": "Transmit ONLY verified events, representative defect images, short ~8s emergency clips, 30s traffic aggregates, and 15s heartbeats.",
+    "idempotency": "Guaranteed 1:1 event uniqueness via event_id primary key; duplicate submissions return HTTP 200/201 without duplicate database rows.",
+    "offline_resilience": "Local on-disk edge queue ensures zero data loss during network dropouts with automatic retry upon reconnection."
+  },
+  "endpoints": [
+    {
+      "path": "/api/heartbeat",
+      "method": "POST",
+      "purpose": "Periodic lightweight bus unit status & health telemetry",
+      "upload_frequency": "Configurable (10–30s interval, default 15s)",
+      "request_schema": {
+        "bus_id": "string (min 2, max 64)",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "speed_kmh": "float [0.0, 200.0]",
+        "heading": "float [0.0, 360.0] (optional)",
+        "system_status": "enum: OK, WARNING, DEGRADED, ERROR",
+        "camera_status": "enum: OK, OCCLUDED, DEGRADED, ERROR",
+        "gps_status": "enum: OK, LOST, DEGRADED",
+        "storage_status": "enum: OK, NEAR_FULL, FULL",
+        "network_status": "enum: ONLINE, OFFLINE_BUFFERING, POOR",
+        "software_version": "string (default: bussense-2.4.0)"
+      },
+      "media_requirements": "None (payload strictly lightweight ~220 bytes)",
+      "response_codes": {
+        "201": "Heartbeat acknowledged",
+        "422": "Validation error (malformed GPS or speed)"
+      },
+      "example_payload": {
+        "bus_id": "BUS-042",
+        "timestamp": 120.5,
+        "gps_lat": 41.8781,
+        "gps_lon": -87.6298,
+        "speed_kmh": 32.4,
+        "heading": 88.5,
+        "system_status": "OK",
+        "camera_status": "OK",
+        "gps_status": "OK",
+        "storage_status": "OK",
+        "network_status": "ONLINE",
+        "software_version": "bussense-2.4.0"
+      }
+    },
+    {
+      "path": "/api/events/road",
+      "method": "POST",
+      "purpose": "Validated road surface defects (Pothole & Crack)",
+      "upload_frequency": "Event-driven: strictly upon verified defect detection",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "enum: POTHOLE, CRACK",
+        "severity": "enum: LOW, MEDIUM, HIGH, CRITICAL",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "enum: stereo, monocular, sensor_fusion",
+        "pothole_id": "integer >= 0 (for POTHOLE)",
+        "depth_cm": "float > 0.0 (for POTHOLE)",
+        "area_m2": "float > 0.0 (for POTHOLE)",
+        "crack_id": "integer >= 0 (for CRACK)",
+        "length_m": "float > 0.0 (for CRACK)",
+        "branches": "integer >= 0 (for CRACK)",
+        "road_condition": "enum: NORMAL, MEDIUM, HIGH, CRITICAL",
+        "image": "string (media reference path of single representative frame)"
+      },
+      "media_requirements": "ONE representative frame (no video stream)",
+      "response_codes": {
+        "201": "Defect event created",
+        "200": "Idempotent acknowledgment (already exists)",
+        "422": "Validation error (invalid geometry, negative depth, or malformed coordinates)"
+      }
+    },
+    {
+      "path": "/api/events/incident",
+      "method": "POST",
+      "purpose": "Pre-collision kinematics, critical events, and monocular hit-and-run",
+      "upload_frequency": "Event-driven: critical kinematic thresholds (TTC < 2.5s) or emergency maneuvers",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "enum: RAPID_CLOSING, DANGEROUS_FOLLOWING, HARD_BRAKING, CUT_IN_CANDIDATE, ABRUPT_LATERAL_MANEUVER, WEAVING_CANDIDATE, COLLISION_CANDIDATE, EMERGENCY_EVASIVE_MANEUVER, HIT_AND_RUN_CANDIDATE",
+        "severity": "enum: LOW, MEDIUM, HIGH, CRITICAL",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "enum: stereo, monocular, sensor_fusion",
+        "primary_track_id": "integer >= 0",
+        "object_class": "string",
+        "range_m": "float >= 0.0 (optional, valid only when measured)",
+        "relative_speed_mps": "float (optional, valid only when measured)",
+        "ttc_s": "float >= 0.0 (optional, valid only when measured)",
+        "metric_depth_valid": "boolean (false for monocular hit-and-run)",
+        "suspect_track_id": "integer >= 0 (for hit-and-run)",
+        "victim_track_id": "integer >= 0 (for hit-and-run)",
+        "departure_detected": "boolean (for hit-and-run)",
+        "registration_number": "string (for hit-and-run)",
+        "ocr_confidence": "float [0.0, 1.0] (for hit-and-run)",
+        "image": "string (representative frame reference)",
+        "event_clip": "string (short ~8s clip reference: 3s pre, 2s event, 3s post)"
+      },
+      "media_requirements": "Single representative frame + optional ~8s MP4/WebM clip for high/critical events",
+      "response_codes": {
+        "201": "Incident event created",
+        "200": "Idempotent acknowledgment",
+        "422": "Validation error (invalid modality or impossible kinematics)"
+      }
+    },
+    {
+      "path": "/api/events/vru",
+      "method": "POST",
+      "purpose": "Vulnerable Road User in-path and near-miss encounters",
+      "upload_frequency": "Event-driven: in-path or near-miss conditions only",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "enum: PEDESTRIAN_IN_PATH, CYCLIST_IN_PATH, VRU_NEAR_MISS, SUDDEN_VRU_EMERGENCE",
+        "vru_type": "enum: pedestrian, cyclist, rider, vru",
+        "severity": "enum: LOW, MEDIUM, HIGH, CRITICAL",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "stereo",
+        "track_id": "integer >= 0",
+        "range_m": "float >= 0.0",
+        "ttc_s": "float >= 0.0",
+        "image": "string",
+        "event_clip": "string (optional for near-miss)"
+      },
+      "media_requirements": "Representative ROI image + short clip on near-miss",
+      "response_codes": {
+        "201": "VRU event created",
+        "200": "Idempotent acknowledgment",
+        "422": "Validation error"
+      }
+    },
+    {
+      "path": "/api/events/anpr",
+      "method": "POST",
+      "purpose": "Verified vehicle registration number events",
+      "upload_frequency": "Event-driven: strictly upon verified alphanumeric OCR (1:1 per vehicle)",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "ANPR_VERIFIED",
+        "severity": "LOW",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "monocular",
+        "track_id": "integer >= 0",
+        "vehicle_class": "string",
+        "registration_number": "string (min 4, max 16; rejects UNREADABLE/FAILED)",
+        "ocr_confidence": "float [0.40, 1.0]",
+        "plate_confidence": "float [0.40, 1.0]",
+        "plate_pixel_width": "float >= 20.0",
+        "best_frame": "string (path/ID of best plate crop)",
+        "ocr_engine": "string (default: EasyOCR-Ensemble)",
+        "ocr_consensus_count": "integer >= 1"
+      },
+      "media_requirements": "Single best plate crop image reference",
+      "response_codes": {
+        "201": "ANPR event registered",
+        "200": "Idempotent acknowledgment",
+        "422": "Rejected (unreadable, empty, or unverified registration)"
+      }
+    },
+    {
+      "path": "/api/events/traffic",
+      "method": "POST",
+      "purpose": "Aggregated corridor traffic dynamics and jam risk",
+      "upload_frequency": "30-second rolling window OR meaningful state transition",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "TRAFFIC_AGGREGATE",
+        "severity": "enum: LOW, MEDIUM, HIGH, CRITICAL",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "stereo",
+        "flow_rate_vpm": "float >= 0.0",
+        "density_veh_per_km": "float >= 0.0",
+        "mean_speed_kmh": "float >= 0.0",
+        "median_speed_kmh": "float >= 0.0",
+        "occupancy": "float [0.0, 1.0]",
+        "mean_headway_s": "float >= 0.0 (optional)",
+        "queue_length_m": "float >= 0.0 (optional)",
+        "traffic_state": "enum: FREE_FLOW, BUILDING, CONGESTED, JAM_RISK",
+        "jam_risk": "float [0.0, 1.0]",
+        "measurement_window_s": "float (default 30.0)"
+      },
+      "media_requirements": "None required (structured telemetry only)",
+      "response_codes": {
+        "201": "Traffic aggregate stored",
+        "200": "Idempotent acknowledgment",
+        "422": "Validation error"
+      }
+    },
+    {
+      "path": "/api/events/vulnerable-area",
+      "method": "POST",
+      "purpose": "Aggregated spatial corridor VRU exposure summaries",
+      "upload_frequency": "Spatial segment completion or patrol summary",
+      "request_schema": {
+        "event_id": "string (unique)",
+        "bus_id": "string",
+        "timestamp": "float (> 0)",
+        "gps_lat": "float [-90.0, 90.0]",
+        "gps_lon": "float [-180.0, 180.0]",
+        "route_id": "string",
+        "event_type": "VULNERABLE_AREA_AGGREGATE",
+        "severity": "enum: LOW, MEDIUM, HIGH, CRITICAL",
+        "confidence": "float [0.0, 1.0]",
+        "source_modality": "stereo",
+        "segment_id": "string",
+        "pedestrian_count": "integer >= 0",
+        "cyclist_count": "integer >= 0",
+        "crossing_count": "integer >= 0",
+        "conflict_count": "integer >= 0",
+        "near_miss_count": "integer >= 0",
+        "bus_pass_count": "integer >= 1",
+        "vulnerability_index": "float [0.0, 100.0]"
+      },
+      "media_requirements": "None required",
+      "response_codes": {
+        "201": "Vulnerable area aggregate stored",
+        "200": "Idempotent acknowledgment",
+        "422": "Validation error"
+      }
+    },
+    {
+      "path": "/api/media/upload",
+      "method": "POST",
+      "purpose": "Controlled multipart upload of event images and clips",
+      "upload_frequency": "Attached to high-severity incidents, pothole defects, or ANPR",
+      "form_fields": {
+        "event_id": "string (required)",
+        "bus_id": "string (required)",
+        "media_type": "enum: image, video_clip (default: image)",
+        "file": "binary file (multipart/form-data)"
+      },
+      "media_requirements": "Max file size 25MB. Allowed MIME: image/jpeg, image/png, image/webp, video/mp4, video/webm. Stored at outputs/server_media/events/<bus_id>/<date>/<event_id>/",
+      "response_codes": {
+        "201": "Media persisted and registered",
+        "422": "Unsupported media MIME type or oversized file"
+      }
+    }
+  ],
+  "retrieval_endpoints": [
+    {"path": "/api/events/{event_id}", "method": "GET", "returns": "Specific event record by unique ID"},
+    {"path": "/api/events", "method": "GET", "returns": "Filtered event list (query params: event_type, severity, bus_id, limit, offset)"},
+    {"path": "/api/road-events", "method": "GET", "returns": "Pothole & crack defect list (query params: defect_type, road_condition)"},
+    {"path": "/api/traffic", "method": "GET", "returns": "Corridor traffic records (query params: bus_id, traffic_state)"},
+    {"path": "/api/vru-areas", "method": "GET", "returns": "Vulnerable road segment spatial summaries"},
+    {"path": "/api/health", "method": "GET", "returns": "Server operational status, version, and database statistics"}
+  ]
+}

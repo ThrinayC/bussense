@@ -1,0 +1,2638 @@
+[
+  {
+    "index": 0,
+    "filename": "00335_jpg.rf.0e0770d690ba9ab9a3ef025270f3d5ef.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 0,
+    "detections": []
+  },
+  {
+    "index": 1,
+    "filename": "00338_jpg.rf.cb5b38b8949386cc7295836fa1c7e84b.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 8,
+    "detections": [
+      {
+        "bbox": [
+          504,
+          397,
+          538,
+          427
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          505,
+          425,
+          536,
+          453
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          998,
+          397,
+          1031,
+          426
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1000,
+          426,
+          1029,
+          453
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          504,
+          397,
+          538,
+          427
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          505,
+          425,
+          536,
+          453
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          998,
+          397,
+          1031,
+          426
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1000,
+          426,
+          1029,
+          453
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "filename": "00344_jpg.rf.21f1ee5f93f40cb57a7897db3fed5046.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          799,
+          413,
+          879,
+          494
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          799,
+          413,
+          879,
+          494
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "filename": "00370_jpg.rf.6da6bcc15ee048aa7c34b3c4a1dd07d0.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 8,
+    "detections": [
+      {
+        "bbox": [
+          880,
+          536,
+          904,
+          559
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          880,
+          558,
+          907,
+          584
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          440,
+          531,
+          467,
+          554
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          442,
+          553,
+          468,
+          578
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          880,
+          536,
+          904,
+          559
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          880,
+          558,
+          907,
+          584
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          440,
+          531,
+          467,
+          554
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          442,
+          553,
+          468,
+          578
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "filename": "00371_jpg.rf.337c1df80a93f173006ea5157aa9f127.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          316,
+          521,
+          372,
+          577
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          316,
+          521,
+          372,
+          577
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "filename": "00396_jpg.rf.d283ca5fd243a55876063278570fcfea.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          192,
+          484,
+          238,
+          531
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          998,
+          468,
+          1046,
+          516
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          192,
+          484,
+          238,
+          531
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          998,
+          468,
+          1046,
+          516
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "filename": "00415_jpg.rf.2aa3e04c5416c710ea13289143d6b18c.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          827,
+          549,
+          849,
+          571
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          827,
+          549,
+          849,
+          571
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "filename": "00428_jpg.rf.fd0bb44348516d822d38b38cabf090b6.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          325,
+          548,
+          353,
+          576
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          937,
+          543,
+          966,
+          572
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          325,
+          548,
+          353,
+          576
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          937,
+          543,
+          966,
+          572
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "filename": "00439_jpg.rf.233d01679213b466bb264842b81ee7cc.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          1194,
+          504,
+          1251,
+          564
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1194,
+          504,
+          1251,
+          564
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "filename": "00448_jpg.rf.0954e1ce0ccc8e3a542fa90ea9869d3a.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          581,
+          598,
+          602,
+          620
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          581,
+          598,
+          602,
+          620
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "filename": "00483_jpg.rf.646ec4f98f5a1caae5e8029151787904.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          150,
+          510,
+          203,
+          563
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1182,
+          531,
+          1232,
+          583
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          150,
+          510,
+          203,
+          563
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1182,
+          531,
+          1232,
+          583
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "filename": "00486_jpg.rf.906f0c5e76fbf759cec33510c3512570.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          410,
+          519,
+          465,
+          574
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          410,
+          519,
+          465,
+          574
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "filename": "00518_jpg.rf.6e45fb5b73565259b3d8ca966287bab9.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          451,
+          526,
+          499,
+          574
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          451,
+          526,
+          499,
+          574
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "filename": "00540_jpg.rf.94358fffc50375c093b42ce0d9c5f1a5.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 0,
+    "detections": []
+  },
+  {
+    "index": 14,
+    "filename": "00544_jpg.rf.1742359ef27d50a7bf6d82bb0ac42966.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 6,
+    "detections": [
+      {
+        "bbox": [
+          1054,
+          297,
+          1122,
+          358
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          990,
+          425,
+          1028,
+          459
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          744,
+          438,
+          762,
+          458
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1054,
+          297,
+          1122,
+          358
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          990,
+          425,
+          1028,
+          459
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          744,
+          438,
+          762,
+          458
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "filename": "00551_jpg.rf.25323635aa7fe8da8beffe53d0762d80.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          937,
+          465,
+          966,
+          493
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          937,
+          465,
+          966,
+          493
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "filename": "00561_jpg.rf.019a6918b5dfd1586013f65cea48d868.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 0,
+    "detections": []
+  },
+  {
+    "index": 17,
+    "filename": "00564_jpg.rf.ab168c20854cd0c405856d72ee970da8.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          755,
+          368,
+          799,
+          408
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          755,
+          368,
+          799,
+          408
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "filename": "00578_jpg.rf.0f96a559fa37781a254ebfe3dcea2be9.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 0,
+    "detections": []
+  },
+  {
+    "index": 19,
+    "filename": "00026_jpg.rf.7ba6daec835f86e550e030c95b6867ed.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          453,
+          411,
+          492,
+          451
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          453,
+          411,
+          492,
+          451
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "filename": "00028_jpg.rf.626f4b4b216de2ebb869fa248498acce.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          775,
+          399,
+          833,
+          453
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          391,
+          468,
+          417,
+          494
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          775,
+          399,
+          833,
+          453
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          391,
+          468,
+          417,
+          494
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "filename": "00032_jpg.rf.6c53b3ce05bd3fbdc784e0efb66b226b.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          678,
+          443,
+          707,
+          469
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          683,
+          469,
+          703,
+          493
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          678,
+          443,
+          707,
+          469
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          683,
+          469,
+          703,
+          493
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "filename": "00041_jpg.rf.59b4a1b062e3b448df1d665ac1aee9ae.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          997,
+          484,
+          1031,
+          517
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          997,
+          484,
+          1031,
+          517
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "filename": "00062_jpg.rf.7a3513cd319d505280ffb0cc3c74fe27.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          826,
+          469,
+          848,
+          492
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          826,
+          469,
+          848,
+          492
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "filename": "00066_jpg.rf.e2b1ddaddacbda611dbbddd663c8e179.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          569,
+          483,
+          618,
+          535
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          569,
+          483,
+          618,
+          535
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "filename": "00070_jpg.rf.3867db5324e46370bebdabd07db36fad.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          946,
+          300,
+          1026,
+          373
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          946,
+          300,
+          1026,
+          373
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "filename": "00082_jpg.rf.09b3d3cbb1849aceac3cd1c2402173cc.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          247,
+          492,
+          331,
+          580
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          247,
+          492,
+          331,
+          580
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "filename": "00084_jpg.rf.98ba6ce1dd7648bbd5377367e4909ecb.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          707,
+          523,
+          734,
+          551
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          707,
+          523,
+          734,
+          551
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "filename": "00103_jpg.rf.46289ade2254a52c5a75b855bdda39af.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          855,
+          396,
+          890,
+          431
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          847,
+          349,
+          897,
+          397
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          855,
+          396,
+          890,
+          431
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          847,
+          349,
+          897,
+          397
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "filename": "00116_jpg.rf.f65b8ba80f034bd487adb72efd1ac0cc.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          1078,
+          254,
+          1136,
+          312
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          383,
+          473,
+          400,
+          502
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1078,
+          254,
+          1136,
+          312
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          383,
+          473,
+          400,
+          502
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "filename": "00126_jpg.rf.6b861f3f662e8bc2bf54fe29e682a479.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          840,
+          374,
+          868,
+          404
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          379,
+          365,
+          411,
+          396
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          840,
+          374,
+          868,
+          404
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          379,
+          365,
+          411,
+          396
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 31,
+    "filename": "00127_jpg.rf.818c5d5ea1d2ac20c42b5dbcf11f46cc.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          138,
+          385,
+          175,
+          423
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1009,
+          380,
+          1046,
+          417
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          138,
+          385,
+          175,
+          423
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1009,
+          380,
+          1046,
+          417
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "filename": "00129_jpg.rf.3cc9a71c76442d1df8e7747cae7da089.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          962,
+          379,
+          1008,
+          426
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          866,
+          399,
+          905,
+          439
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          962,
+          379,
+          1008,
+          426
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          866,
+          399,
+          905,
+          439
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "filename": "00138_jpg.rf.ad8a688b4f4decfe48e6def11959af93.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          157,
+          179,
+          235,
+          268
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1302,
+          399,
+          1336,
+          432
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          157,
+          179,
+          235,
+          268
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1302,
+          399,
+          1336,
+          432
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "filename": "00159_jpg.rf.c92595f8b33d99713fd960874a2723e3.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 8,
+    "detections": [
+      {
+        "bbox": [
+          974,
+          443,
+          1031,
+          506
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          713,
+          476,
+          740,
+          503
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          86,
+          473,
+          117,
+          504
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          890,
+          466,
+          917,
+          505
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          974,
+          443,
+          1031,
+          506
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          713,
+          476,
+          740,
+          503
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          86,
+          473,
+          117,
+          504
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          890,
+          466,
+          917,
+          505
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "filename": "00164_jpg.rf.914e0d1a3d30e75eb36a249f5e21b075.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          874,
+          375,
+          918,
+          416
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          874,
+          375,
+          918,
+          416
+        ],
+        "sign_type": "OTHER",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 36,
+    "filename": "00166_jpg.rf.92434fe6282571eb93c6aca9655ee789.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          814,
+          382,
+          848,
+          416
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          814,
+          382,
+          848,
+          416
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "filename": "00181_jpg.rf.4da9acac3fcb22545030c6b5e77662e5.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          793,
+          299,
+          853,
+          359
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          793,
+          299,
+          853,
+          359
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 38,
+    "filename": "00183_jpg.rf.ddd9cca63f2b52a8e94056d396aac636.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          766,
+          369,
+          806,
+          406
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          766,
+          369,
+          806,
+          406
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 39,
+    "filename": "00185_jpg.rf.da5d1d42d8564f1f0c08b4ad03c9cc3c.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          967,
+          150,
+          1076,
+          257
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          967,
+          150,
+          1076,
+          257
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 40,
+    "filename": "00193_jpg.rf.b8599ee36851a95849def2598c96a3e5.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          727,
+          224,
+          834,
+          331
+        ],
+        "sign_type": "STOP",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          727,
+          224,
+          834,
+          331
+        ],
+        "sign_type": "STOP",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 41,
+    "filename": "00199_jpg.rf.b322f25718573268cdc9cb6aeebb9b12.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          826,
+          322,
+          882,
+          374
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          826,
+          322,
+          882,
+          374
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 42,
+    "filename": "00259_jpg.rf.927519cac46abd16de9ddae4f2712ee3.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          1202,
+          329,
+          1247,
+          374
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1202,
+          329,
+          1247,
+          374
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 43,
+    "filename": "00264_jpg.rf.fd8194e6247bb5d30730b110d3812a6c.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 6,
+    "detections": [
+      {
+        "bbox": [
+          964,
+          412,
+          988,
+          435
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          965,
+          435,
+          988,
+          458
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          509,
+          466,
+          531,
+          488
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          964,
+          412,
+          988,
+          435
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          965,
+          435,
+          988,
+          458
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          509,
+          466,
+          531,
+          488
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "filename": "00265_jpg.rf.fbaead27e532c9ddebbb0ea085856191.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 6,
+    "detections": [
+      {
+        "bbox": [
+          800,
+          426,
+          831,
+          456
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          783,
+          446,
+          804,
+          464
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          805,
+          458,
+          827,
+          480
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          800,
+          426,
+          831,
+          456
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          783,
+          446,
+          804,
+          464
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          805,
+          458,
+          827,
+          480
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 45,
+    "filename": "00268_jpg.rf.27673842f3ce15261f54b7e3a3fe00eb.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          891,
+          396,
+          917,
+          422
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          891,
+          396,
+          917,
+          422
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 46,
+    "filename": "00271_jpg.rf.3b187f3eea1b743d16d424aa830c5c08.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          259,
+          369,
+          297,
+          408
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1090,
+          341,
+          1130,
+          381
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          259,
+          369,
+          297,
+          408
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1090,
+          341,
+          1130,
+          381
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "filename": "00273_jpg.rf.b6af12cd6e04d65806c9dc9d6eb309ed.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          1080,
+          286,
+          1145,
+          343
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1080,
+          286,
+          1145,
+          343
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 48,
+    "filename": "00281_jpg.rf.274595ba96677832ff948dccbecb0efc.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          982,
+          363,
+          1016,
+          393
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          984,
+          392,
+          1017,
+          425
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          982,
+          363,
+          1016,
+          393
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          984,
+          392,
+          1017,
+          425
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 49,
+    "filename": "00294_jpg.rf.4bed425c1cc75ec3c2b8fc8a4b2cc8e9.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          101,
+          405,
+          153,
+          453
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1173,
+          326,
+          1231,
+          381
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          101,
+          405,
+          153,
+          453
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1173,
+          326,
+          1231,
+          381
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "filename": "00300_jpg.rf.c3d1d965cb712b4bb431ceca7c40057c.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          680,
+          430,
+          710,
+          458
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          779,
+          420,
+          801,
+          443
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          680,
+          430,
+          710,
+          458
+        ],
+        "sign_type": "WARNING",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          779,
+          420,
+          801,
+          443
+        ],
+        "sign_type": "SPEED_LIMIT",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "filename": "00302_jpg.rf.6985113684ca477630edee0052dcb8f1.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 2,
+    "detections": [
+      {
+        "bbox": [
+          1123,
+          333,
+          1163,
+          373
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1123,
+          333,
+          1163,
+          373
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 52,
+    "filename": "00310_jpg.rf.0207614e89ea7dde7e62560ea2396059.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          285,
+          426,
+          317,
+          459
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1150,
+          390,
+          1188,
+          427
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          285,
+          426,
+          317,
+          459
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1150,
+          390,
+          1188,
+          427
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 53,
+    "filename": "00315_jpg.rf.b663cd53668577f2cf9e4bc86c554ae9.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 4,
+    "detections": [
+      {
+        "bbox": [
+          1267,
+          373,
+          1310,
+          419
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          172,
+          414,
+          213,
+          462
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          1267,
+          373,
+          1310,
+          419
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      },
+      {
+        "bbox": [
+          172,
+          414,
+          213,
+          462
+        ],
+        "sign_type": "PROHIBITORY",
+        "condition": "NORMAL",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "index": 54,
+    "filename": "00038_jpg.rf.adbf092ba02d73016f72a8f6d94577ce.jpg",
+    "width": 1360,
+    "height": 800,
+    "detection_count": 1,
+    "detections": [
+      {
+        "bbox": [
+          1120,
+          444,
+          1142,
+          464
+        ],
+        "sign_type": "MANDATORY",
+        "condition": "DAMAGED",
+        "condition_source": "REAL",
+        "detection_source": "MODEL",
+        "confidence": 0.94
+      }
+    ]
+  }
+]

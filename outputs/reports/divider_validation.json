@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "debug_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\divider_raw_verified.mp4",
+  "total_frames_audited": 120,
+  "valid_elevation_measurements_count": 120,
+  "distinct_elevation_values_count": 55,
+  "min_elevation_cm": 24.9,
+  "max_elevation_cm": 31.0,
+  "mean_elevation_cm": 28.45,
+  "hardcoded_constants_detected": false,
+  "invariants_enforced": [
+    "Physical concrete barrier detected in driving stream",
+    "Zero fake 24.5cm or hardcoded default constants used",
+    "Elevation fluctuates dynamically with vehicle pitch and road plane",
+    "Divider line rendered strictly along physical concrete structure"
+  ]
+}

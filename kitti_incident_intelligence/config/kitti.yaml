@@ -1,0 +1,19 @@
+# KITTI Dataset Configuration (Updated for New Laptop Context)
+dataset:
+  name: "KITTI Raw 2011_09_26"
+  base_dir: "C:/Users/Dharun Kumar S/.gemini/antigravity/scratch/kitti_incident_intelligence/data/kitti/2011_09_26"
+  calib_dir: "C:/Users/Dharun Kumar S/.gemini/antigravity/scratch/kitti_incident_intelligence/data/kitti/2011_09_26_calib"
+  cam_to_cam_file: "C:/Users/Dharun Kumar S/.gemini/antigravity/scratch/kitti_incident_intelligence/data/kitti/2011_09_26_calib/calib_cam_to_cam.txt"
+  velo_to_cam_file: "C:/Users/Dharun Kumar S/.gemini/antigravity/scratch/kitti_incident_intelligence/data/kitti/2011_09_26_calib/calib_velo_to_cam.txt"
+
+selected_sequence: "2011_09_26_drive_0002_sync"
+sequence_kitti_tracking_equiv: "0001"
+
+timing:
+  nominal_frequency_hz: 10.0
+  nominal_dt_s: 0.1
+  use_explicit_timestamps: true
+
+camera_channels:
+  left: "image_02"
+  right: "image_03"

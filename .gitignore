@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large binary datasets, heavy media directories, raw sequences and model weights
+*.mp4
+*.avi
+*.webm
+*.mov
+*.mkv
+*.pt
+*.pth
+*.onnx
+*.weights
+*.h5
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Exclude heavy raw sensor datasets & training artifacts
+data/
+datasets/
+kitti_incident_intelligence/data/
+kitti_incident_intelligence/outputs/
+potcrack_stereo/data/
+potcrack_stereo/outputs/
+potcrack_stereo/runs/
+potcrack_stereo/checkpoints/
+potcrack_stereo/weights/
+potcrack_stereo/temp_candidates/
+potcrack_stereo/temp_fan/
+potcrack_stereo/.venv/
+outputs/demo/
+outputs/videos/
+outputs/server_media/extracted_temp/
+outputs/server_media/evidence/
+outputs/frames/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary scratch
+scratch/

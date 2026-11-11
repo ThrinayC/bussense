@@ -1,0 +1,27 @@
+# Stereo Engine Configuration
+stereo:
+  backend: "sgbm"  # Primary baseline for Phase 1
+  igev_status: "BLOCKED"  # No IGEV checkpoint available locally
+
+sgbm:
+  minDisparity: 0
+  numDisparities: 128   # Must be divisible by 16 (16 * 8)
+  blockSize: 5          # Matched to high-resolution edge preservation
+  P1: 600               # 8 * channels(3) * blockSize^2 = 8 * 3 * 25 = 600
+  P2: 2400              # 32 * channels(3) * blockSize^2 = 32 * 3 * 25 = 2400
+  disp12MaxDiff: 1
+  uniquenessRatio: 10
+  speckleWindowSize: 100
+  speckleRange: 32
+  mode: 2               # cv2.STEREO_SGBM_MODE_SGBM_3WAY
+
+range_bins_m:
+  - [0, 10]
+  - [10, 20]
+  - [20, 30]
+  - [30, 50]
+  - [50, 100]
+
+uncertainty_model:
+  base_disp_sigma_px: 0.45
+  min_depth_sigma_m: 0.05

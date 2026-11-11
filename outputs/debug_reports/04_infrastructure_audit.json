@@ -1,0 +1,9 @@
+{
+  "diagnostic_video": "outputs\\debug_videos\\04_INFRASTRUCTURE_DEBUG.mp4",
+  "total_frames_processed": 320,
+  "stale_states_at_transitions": 0,
+  "fake_detection_boxes": 0,
+  "water_translucent_shader_active": true,
+  "driveway_disambiguation_active": true,
+  "verdict": "ZERO_STALE_INFRASTRUCTURE_STATE_CONFIRMED"
+}

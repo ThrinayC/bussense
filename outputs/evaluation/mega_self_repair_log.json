@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": 0.0,
+    "component": "Environment",
+    "issue": "New laptop context: Python not in system PATH, legacy paths referenced C:\\Users\\Integra and C:\\Users\\Thrinay",
+    "resolution": "Installed Python 3.11 with PyTorch 2.6.0+cu124 on RTX 4060 GPU, created NTFS directory junctions, and updated kitti.yaml config",
+    "status": "RESOLVED"
+  },
+  {
+    "timestamp": 0.0,
+    "component": "Dataset Alignment",
+    "issue": "KITTI drive 0002 not locally present on new laptop",
+    "resolution": "Downloaded authentic KITTI raw 2011_09_26_calib and 2011_09_26_drive_0002_sync (77 real stereo pairs)",
+    "status": "RESOLVED"
+  },
+  {
+    "timestamp": 0.0,
+    "component": "ANPR Interface",
+    "issue": "ANPREngine method mismatch in orchestrator (recognize_plate_crop vs recognize_plate)",
+    "resolution": "Updated orchestrator to call recognize_plate(crop, distance_m) with strict HUD unreadable silence contract",
+    "status": "RESOLVED"
+  }
+]

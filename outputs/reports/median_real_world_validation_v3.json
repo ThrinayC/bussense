@@ -1,0 +1,107 @@
+{
+  "report_title": "BusSense Physical Median Real-World Verification Audit v3",
+  "video_output": "outputs\\videos\\bussense_median_real_world_verified_v3.mp4",
+  "total_frames": 360,
+  "cases_verified": [
+    "LANDSCAPED_MEDIAN (Central grass separating carriageways - tight polygon)",
+    "RAISED_DIVIDER / TRAFFIC_ISLAND (Raised concrete island separating lanes)",
+    "JERSEY_BARRIER (Concrete barrier wall + calibrated stereo metrology + non-persistence)",
+    "CURB_ONLY (Outer roadside curb rejected - zero polygons)",
+    "GRASS_EDGE (Roadside verge grass rejected - zero polygons)",
+    "GUARDRAIL (Roadside outer barrier rejected - zero polygons)",
+    "NORMAL_OPENING (Authorized municipal opening - zero alert)",
+    "NO_DIVIDER (Undivided corridor - zero polygons)"
+  ],
+  "invariants_passed": {
+    "no_giant_random_green_polygon": true,
+    "polygon_strictly_on_observed_object": true,
+    "landscaped_median_recognized_as_valid": true,
+    "carriageway_separation_strictly_enforced": true,
+    "stereo_height_only_when_valid": true,
+    "non_persistence_honored_on_dropout": true
+  },
+  "audit_records": [
+    {
+      "case": "LANDSCAPED_MEDIAN",
+      "frame": 20,
+      "taxonomy": "LANDSCAPED_MEDIAN",
+      "separates_carriageways": true,
+      "status": "PRESENT",
+      "overlay_type": "TIGHT_CENTRAL_VEGETATION_POLYGON",
+      "height": "N/A",
+      "conformance": "PASS_CORRECT_LANDSCAPED_MEDIAN"
+    },
+    {
+      "case": "TRAFFIC_ISLAND",
+      "frame": 65,
+      "taxonomy": "TRAFFIC_ISLAND",
+      "separates_carriageways": true,
+      "status": "PRESENT",
+      "overlay_type": "TIGHT_ISLAND_OUTLINE",
+      "conformance": "PASS_TRAFFIC_ISLAND"
+    },
+    {
+      "case": "JERSEY_BARRIER",
+      "frame": 110,
+      "taxonomy": "JERSEY_BARRIER",
+      "separates_carriageways": true,
+      "height_text": "P50=81.5cm (P10=79.3, P90=84.0)",
+      "non_persistence_honored": true,
+      "conformance": "PASS_JERSEY_BARRIER_METROLOGY"
+    },
+    {
+      "case": "JERSEY_BARRIER",
+      "frame": 160,
+      "taxonomy": "JERSEY_BARRIER",
+      "separates_carriageways": true,
+      "height_text": "HEIGHT = N/A",
+      "non_persistence_honored": true,
+      "conformance": "PASS_JERSEY_BARRIER_METROLOGY"
+    },
+    {
+      "case": "CURB_ONLY",
+      "frame": 200,
+      "taxonomy": "CURB_ONLY",
+      "separates_carriageways": false,
+      "status": "NOT_OBSERVED",
+      "geometry_drawn": false,
+      "conformance": "PASS_CURB_REJECTION"
+    },
+    {
+      "case": "GRASS_EDGE",
+      "frame": 235,
+      "taxonomy": "GRASS_EDGE",
+      "separates_carriageways": false,
+      "status": "NOT_OBSERVED",
+      "geometry_drawn": false,
+      "conformance": "PASS_GRASS_EDGE_REJECTION"
+    },
+    {
+      "case": "GUARDRAIL",
+      "frame": 270,
+      "taxonomy": "GUARDRAIL",
+      "separates_carriageways": false,
+      "status": "NOT_OBSERVED",
+      "geometry_drawn": false,
+      "conformance": "PASS_GUARDRAIL_REJECTION"
+    },
+    {
+      "case": "NORMAL_OPENING",
+      "frame": 305,
+      "taxonomy": "NORMAL_OPENING",
+      "is_authorized": true,
+      "alert_dispatched": false,
+      "conformance": "PASS_NORMAL_OPENING"
+    },
+    {
+      "case": "NO_DIVIDER",
+      "frame": 340,
+      "taxonomy": "NO_DIVIDER",
+      "separates_carriageways": false,
+      "status": "NOT_OBSERVED",
+      "geometry_drawn": false,
+      "conformance": "PASS_NO_DIVIDER"
+    }
+  ],
+  "final_status": "PASS_ALL_CRITERIA"
+}

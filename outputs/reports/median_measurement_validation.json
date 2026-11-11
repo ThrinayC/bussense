@@ -1,0 +1,82 @@
+{
+  "report_title": "BusSense Physical Median Stereo Metrology & Non-Persistence Audit",
+  "video_output": "outputs\\videos\\bussense_median_verified_v2.mp4",
+  "metrology_percentiles_computed": [
+    "P10",
+    "P50",
+    "P90",
+    "MEDIAN",
+    "MAD",
+    "IQR"
+  ],
+  "unstable_thresholds": {
+    "max_mad_cm": 12.0,
+    "max_p90_minus_p10_cm": 25.0
+  },
+  "non_persistence_rule_enforced": true,
+  "dropout_frame_reported_value": "HEIGHT = N/A",
+  "unstable_cluster_reported_value": "HEIGHT = N/A",
+  "test_records": [
+    {
+      "frame": 190,
+      "phase": "STABLE",
+      "p50_cm": 81.7,
+      "mad_cm": 0.8,
+      "iqr_cm": 2.1,
+      "reported_height": "P50=81.7cm (P10=78.9, P90=83.0)",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    },
+    {
+      "frame": 205,
+      "phase": "STABLE",
+      "p50_cm": 81.0,
+      "mad_cm": 0.7,
+      "iqr_cm": 1.4,
+      "reported_height": "P50=81.0cm (P10=79.2, P90=82.0)",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    },
+    {
+      "frame": 225,
+      "phase": "DROPOUT",
+      "p50_cm": null,
+      "mad_cm": null,
+      "iqr_cm": null,
+      "reported_height": "HEIGHT = N/A",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    },
+    {
+      "frame": 235,
+      "phase": "DROPOUT",
+      "p50_cm": null,
+      "mad_cm": null,
+      "iqr_cm": null,
+      "reported_height": "HEIGHT = N/A",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    },
+    {
+      "frame": 250,
+      "phase": "UNSTABLE",
+      "p50_cm": 43.7,
+      "mad_cm": 20.8,
+      "iqr_cm": 38.5,
+      "reported_height": "HEIGHT = N/A (Unstable Distribution)",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    },
+    {
+      "frame": 265,
+      "phase": "STABLE",
+      "p50_cm": 81.1,
+      "mad_cm": 1.1,
+      "iqr_cm": 2.1,
+      "reported_height": "P50=81.1cm (P10=79.2, P90=83.0)",
+      "non_persistence_honored": true,
+      "status": "PASS"
+    }
+  ],
+  "final_verdict": "PASS_ALL_METROLOGY_GATES"
+}

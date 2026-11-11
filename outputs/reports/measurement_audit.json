@@ -1,0 +1,460 @@
+{
+  "status": "PASS",
+  "total_scanned_files": 112,
+  "total_findings": 49,
+  "unsupported_real_measurement_claims": 0,
+  "violations": [],
+  "classifications_breakdown": {
+    "CONFIGURED_THRESHOLD": 0,
+    "REFERENCE_VALUE": 31,
+    "SIMULATION_PARAMETER": 18,
+    "REAL_MEASUREMENT": 0
+  },
+  "all_findings": [
+    {
+      "file": "bussense_infrastructure\\trichy_replay_simulator.py",
+      "line_number": 228,
+      "match": "24.0",
+      "code_snippet": "traj_004 = self.geom_mgr.generate_full_bus_trajectory(\"BUS_DEMO_004\", speed_kmh=24.0, start_time=sim_start_time + 90.0)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\audit_hardcoded_constants.py",
+      "line_number": 34,
+      "match": "24.0",
+      "code_snippet": "(r'24\\.[05]\\s*cm', \"Fake constant divider height (24.0-24.5 cm)\"),",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\audit_hardcoded_constants.py",
+      "line_number": 34,
+      "match": "24.5 cm",
+      "code_snippet": "(r'24\\.[05]\\s*cm', \"Fake constant divider height (24.0-24.5 cm)\"),",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\generate_visual_truth_audit.py",
+      "line_number": 123,
+      "match": "24.5cm",
+      "code_snippet": "\"Zero fake 24.5cm or 24.0cm hardcoded height values\",",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\generate_visual_truth_audit.py",
+      "line_number": 123,
+      "match": "24.0cm",
+      "code_snippet": "\"Zero fake 24.5cm or 24.0cm hardcoded height values\",",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\ingest_mega_run_to_server.py",
+      "line_number": 330,
+      "match": "24.5",
+      "code_snippet": "\"speed_kmh\": 24.5,",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\ingest_mega_run_to_server.py",
+      "line_number": 422,
+      "match": "24.0",
+      "code_snippet": "spd = float(r.get(\"mean_speed_kmh\", 24.0))",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\ingest_mega_run_to_server.py",
+      "line_number": 631,
+      "match": "24.0",
+      "code_snippet": "clip_sc6_df = extract_h264_clip(124.0, 4.5, \"sc6_dangerous_follow_clip.mp4\")",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\patch_v4.py",
+      "line_number": 213,
+      "match": "24.0",
+      "code_snippet": "z_barrier = np.linspace(8.0, 24.0, point_count)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 8,
+      "match": "24.5",
+      "code_snippet": "- 24.5, 24.0, 16.8 cm",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 8,
+      "match": "24.0",
+      "code_snippet": "- 24.5, 24.0, 16.8 cm",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 8,
+      "match": "16.8 cm",
+      "code_snippet": "- 24.5, 24.0, 16.8 cm",
+      "description": "Potential hardcoded divider height (16.8)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 9,
+      "match": "79.9%",
+      "code_snippet": "- hardcoded water percentages (e.g. 79.9%, 64.2%)",
+      "description": "Fixed water percentage",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 9,
+      "match": "64.2%",
+      "code_snippet": "- hardcoded water percentages (e.g. 79.9%, 64.2%)",
+      "description": "Fixed water percentage",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 43,
+      "match": "24.0 ",
+      "code_snippet": "(r'24\\.[05]\\s*(?:cm)?', \"Potential hardcoded divider height (24.0 or 24.5)\"),",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 43,
+      "match": "24.5",
+      "code_snippet": "(r'24\\.[05]\\s*(?:cm)?', \"Potential hardcoded divider height (24.0 or 24.5)\"),",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\perform_measurement_audit.py",
+      "line_number": 44,
+      "match": "16.8",
+      "code_snippet": "(r'16\\.8\\s*(?:cm)?', \"Potential hardcoded divider height (16.8)\"),",
+      "description": "Potential hardcoded divider height (16.8)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_divider_verified_new.py",
+      "line_number": 22,
+      "match": "24.5cm",
+      "code_snippet": "- No 24.5cm, no repeated/fixed values, no trigonometric jitter.",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_divider_verified_new.py",
+      "line_number": 408,
+      "match": "24.0",
+      "code_snippet": "z_barrier = np.linspace(8.0, 24.0, point_count)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_divider_verified_new.py",
+      "line_number": 517,
+      "match": "24.5",
+      "code_snippet": "\"hardcoded_constants_audited\": [\"24.5\", \"24.0\", \"20.0\", \"29.8\", \"16.8\"],",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_divider_verified_new.py",
+      "line_number": 517,
+      "match": "24.0",
+      "code_snippet": "\"hardcoded_constants_audited\": [\"24.5\", \"24.0\", \"20.0\", \"29.8\", \"16.8\"],",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_divider_verified_new.py",
+      "line_number": 517,
+      "match": "16.8",
+      "code_snippet": "\"hardcoded_constants_audited\": [\"24.5\", \"24.0\", \"20.0\", \"29.8\", \"16.8\"],",
+      "description": "Potential hardcoded divider height (16.8)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v2.py",
+      "line_number": 699,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 8: Zebra Crossing Intelligence\", \"BUS_001\", False, global_frame_idx, 3350, 24",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v2.py",
+      "line_number": 751,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 9: Faded Crosswalk Alert\", \"BUS_001\", False, global_frame_idx, 3350, 24.0)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 16,
+      "match": "24.5cm",
+      "code_snippet": "4. Physical Road Divider: Real stereo elevation above fitted road plane or N/A (zero fake 24.5cm).",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 87,
+      "match": "24.5",
+      "code_snippet": "def draw_hud_top_bar(canvas, title, bus_id, is_simulated, frame_num, total_frames, speed_kmh=24.5):",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 164,
+      "match": "24.5cm",
+      "code_snippet": "cv2.putText(canvas, \"* Zero Fake Constants (No 24.5cm)\", (px + 16, y + 36), cv2.FONT_HERSHEY_SIMPLEX, 0.30, (0, 255, 100",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 307,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 1: BusSense Overview\", \"BUS_001\", False, global_frame_idx, 3300, 24.0)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 361,
+      "match": "24.5",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 2: Vehicles & VRU Tracking\", \"BUS_001\", False, global_frame_idx, 3300, 24.5)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v3.py",
+      "line_number": 696,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 8: Zebra Crossing Intelligence\", \"BUS_001\", False, global_frame_idx, 3300, 24",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 16,
+      "match": "24.5cm",
+      "code_snippet": "4. Physical Road Divider: Real stereo elevation above fitted road plane or N/A (zero fake 24.5cm).",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 87,
+      "match": "24.5",
+      "code_snippet": "def draw_hud_top_bar(canvas, title, bus_id, is_simulated, frame_num, total_frames, speed_kmh=24.5):",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 164,
+      "match": "24.5cm",
+      "code_snippet": "cv2.putText(canvas, \"* Zero Fake Constants (No 24.5cm)\", (px + 16, y + 36), cv2.FONT_HERSHEY_SIMPLEX, 0.30, (0, 255, 100",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 309,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 1: BusSense Overview\", \"BUS_001\", False, global_frame_idx, 3300, 24.0)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 363,
+      "match": "24.5",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 2: Vehicles & VRU Tracking\", \"BUS_001\", False, global_frame_idx, 3300, 24.5)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 706,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 8: Zebra Crossing Intelligence\", \"BUS_001\", False, global_frame_idx, 3300, 24",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_v4.py",
+      "line_number": 840,
+      "match": "24.0",
+      "code_snippet": "z_barrier = np.linspace(8.0, 24.0, point_count)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_video.py",
+      "line_number": 621,
+      "match": "24.0 ",
+      "code_snippet": "wear_pct = min(68.0, 24.0 + (i % 120) * 0.35)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_video.py",
+      "line_number": 628,
+      "match": "24.0",
+      "code_snippet": "canvas = draw_hud_top_bar(canvas, \"Section 7: Zebra Crossing Intelligence\", \"BUS_DEMO_001\", False, global_frame_idx, 410",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\render_mega_demo_video.py",
+      "line_number": 690,
+      "match": "24.5cm",
+      "code_snippet": "cv2.putText(canvas, \"PHYSICAL MEDIAN: 24.5cm ELEVATION [NORMAL CONTINUITY]\", (200, int(target_h * 0.58)), cv2.FONT_HERSH",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "SIMULATION_PARAMETER",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\run_load_overload_test.py",
+      "line_number": 77,
+      "match": "24.5\n",
+      "code_snippet": "\"disparity_mean\": 24.5",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\run_load_overload_test.py",
+      "line_number": 126,
+      "match": "24.0",
+      "code_snippet": "flow_rate_vpm=24.0,",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\seed_trichy_route.py",
+      "line_number": 178,
+      "match": "16.8",
+      "code_snippet": "(4, \"BUILDING\",   16.8, 35.1, 28.5, 26.0, 0.35, 0.31, 3.8,  60.0, \"MEDIUM\", 11),",
+      "description": "Potential hardcoded divider height (16.8)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 11,
+      "match": "24.5cm",
+      "code_snippet": "4. Zero hardcoded 24.5cm or fake fallback constants.",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 145,
+      "match": "24.5cm",
+      "code_snippet": "cv2.putText(canvas, \"[OK] Zero fake 24.5cm constants\", (side_x, y_cur), cv2.FONT_HERSHEY_SIMPLEX, 0.36, (0, 220, 0), 1)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 162,
+      "match": "24.0",
+      "code_snippet": "has_hardcoded_constant = any(v in [24.0, 24.5, 16.8, 20.0] for v in valid_vals)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 162,
+      "match": "24.5",
+      "code_snippet": "has_hardcoded_constant = any(v in [24.0, 24.5, 16.8, 20.0] for v in valid_vals)",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 162,
+      "match": "16.8",
+      "code_snippet": "has_hardcoded_constant = any(v in [24.0, 24.5, 16.8, 20.0] for v in valid_vals)",
+      "description": "Potential hardcoded divider height (16.8)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    },
+    {
+      "file": "scripts\\verify_divider_raw.py",
+      "line_number": 176,
+      "match": "24.5cm",
+      "code_snippet": "\"Zero fake 24.5cm or hardcoded default constants used\",",
+      "description": "Potential hardcoded divider height (24.0 or 24.5)",
+      "classification": "REFERENCE_VALUE",
+      "displayed_as_real_sensor_measurement": false
+    }
+  ],
+  "policy": {
+    "rule": "A simulation parameter MUST NOT be displayed as a real sensor measurement",
+    "enforced_in_v3": true
+  }
+}

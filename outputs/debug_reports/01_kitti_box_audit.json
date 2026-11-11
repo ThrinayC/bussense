@@ -1,0 +1,472 @@
+{
+  "diagnostic_video": "outputs\\debug_videos\\01_KITTI_BOX_DEBUG.mp4",
+  "total_frames_processed": 300,
+  "total_boxes_rendered": 466,
+  "source_detector": "YOLOv8n",
+  "synthetic_boxes_drawn": 0,
+  "green_corridor_polygons_drawn": 0,
+  "out_of_bounds_boxes": 0,
+  "sample_boxes": [
+    {
+      "frame_id": 0,
+      "track_id": 1,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.721,
+      "bbox": [
+        386,
+        375,
+        458,
+        486
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -3.44,
+        19.05
+      ]
+    },
+    {
+      "frame_id": 0,
+      "track_id": 2,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.688,
+      "bbox": [
+        353,
+        385,
+        386,
+        437
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -7.11,
+        27.06
+      ]
+    },
+    {
+      "frame_id": 0,
+      "track_id": 3,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.657,
+      "bbox": [
+        0,
+        301,
+        102,
+        579
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -10.11,
+        13.23
+      ]
+    },
+    {
+      "frame_id": 0,
+      "track_id": 4,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.529,
+      "bbox": [
+        296,
+        391,
+        330,
+        445
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -8.72,
+        24.8
+      ]
+    },
+    {
+      "frame_id": 1,
+      "track_id": 1,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.772,
+      "bbox": [
+        390,
+        395,
+        468,
+        509
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -2.8,
+        16.91
+      ]
+    },
+    {
+      "frame_id": 1,
+      "track_id": 2,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.654,
+      "bbox": [
+        357,
+        405,
+        382,
+        447
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -6.28,
+        24.64
+      ]
+    },
+    {
+      "frame_id": 1,
+      "track_id": 3,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.811,
+      "bbox": [
+        0,
+        276,
+        131,
+        593
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -9.61,
+        12.99
+      ]
+    },
+    {
+      "frame_id": 1,
+      "track_id": 4,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.386,
+      "bbox": [
+        302,
+        404,
+        329,
+        441
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -8.58,
+        24.71
+      ]
+    },
+    {
+      "frame_id": 1,
+      "track_id": 5,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.565,
+      "bbox": [
+        282,
+        396,
+        304,
+        431
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -10.49,
+        27.37
+      ]
+    },
+    {
+      "frame_id": 2,
+      "track_id": 1,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.606,
+      "bbox": [
+        395,
+        367,
+        480,
+        488
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 3,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -2.83,
+        17.64
+      ]
+    },
+    {
+      "frame_id": 2,
+      "track_id": 3,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.875,
+      "bbox": [
+        0,
+        271,
+        155,
+        625
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 3,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -8.4,
+        11.78
+      ]
+    },
+    {
+      "frame_id": 2,
+      "track_id": 4,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.673,
+      "bbox": [
+        302,
+        380,
+        332,
+        432
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 3,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -9.47,
+        26.02
+      ]
+    },
+    {
+      "frame_id": 2,
+      "track_id": 6,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.682,
+      "bbox": [
+        357,
+        381,
+        384,
+        424
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -8.19,
+        31.33
+      ]
+    },
+    {
+      "frame_id": 2,
+      "track_id": 7,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.655,
+      "bbox": [
+        284,
+        370,
+        304,
+        404
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -15.95,
+        41.79
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 1,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.811,
+      "bbox": [
+        397,
+        372,
+        492,
+        501
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 4,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -2.56,
+        17.57
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 3,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.874,
+      "bbox": [
+        0,
+        283,
+        171,
+        611
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 4,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -8.13,
+        11.58
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 4,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.633,
+      "bbox": [
+        302,
+        387,
+        331,
+        434
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 4,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -9.62,
+        26.69
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 6,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.668,
+      "bbox": [
+        356,
+        385,
+        386,
+        433
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -7.45,
+        29.3
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 7,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.583,
+      "bbox": [
+        284,
+        378,
+        303,
+        413
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 2,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -14.08,
+        37.7
+      ]
+    },
+    {
+      "frame_id": 3,
+      "track_id": 8,
+      "class": "car",
+      "source_detector": "YOLOv8n",
+      "confidence": 0.519,
+      "bbox": [
+        356,
+        387,
+        402,
+        433
+      ],
+      "frame_dim": [
+        880,
+        676
+      ],
+      "track_age": 1,
+      "frames_since_detection": 0,
+      "position_3d": [
+        -6.95,
+        28.02
+      ]
+    }
+  ],
+  "verdict": "ZERO_FLOATING_BOXES_CONFIRMED"
+}

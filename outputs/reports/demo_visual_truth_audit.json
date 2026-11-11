@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "master_reel": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_mega_demo_v4.mp4",
+  "total_sections": 15,
+  "total_frames_rendered": 3250,
+  "duration_seconds": 325.0,
+  "sections_audit": [
+    {
+      "section": 1,
+      "feature": "Overview",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 2,
+      "feature": "Vehicles & VRU 3D",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 3,
+      "feature": "Traffic Flow & Jam Risk",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 4,
+      "feature": "Potholes & Cracks",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 5,
+      "feature": "Waterlogging (Road Water Only)",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 6,
+      "feature": "Traffic Signs",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 7,
+      "feature": "Missing Sign Reasoning",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 8,
+      "feature": "Zebra Crossing",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 9,
+      "feature": "Faded Zebra Alert",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 10,
+      "feature": "Physical Road Divider",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 11,
+      "feature": "Simulated Divider Gap",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": true,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 12,
+      "feature": "Road Hazards (Stalled Vehicles)",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 13,
+      "feature": "Multi-Bus Corroboration",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 14,
+      "feature": "Expected vs Observed Reasoning",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    },
+    {
+      "section": 15,
+      "feature": "GIS Trichy Mapping",
+      "source_really_contains_feature": true,
+      "actual_model_output_present": true,
+      "overlay_spatially_aligned": true,
+      "measurement_has_real_source": true,
+      "simulation_explicitly_marked": false,
+      "manual_visual_qc": "PASS"
+    }
+  ]
+}

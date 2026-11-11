@@ -1,0 +1,202 @@
+[
+  {
+    "filename": "120.jpg",
+    "detected": true,
+    "crossing_area_px": 13948,
+    "paint_area_px": 1754,
+    "paint_coverage_percent": 12.58,
+    "condition": "FADED"
+  },
+  {
+    "filename": "120a.jpg",
+    "detected": true,
+    "crossing_area_px": 9282,
+    "paint_area_px": 1183,
+    "paint_coverage_percent": 12.75,
+    "condition": "FADED"
+  },
+  {
+    "filename": "120b.jpg",
+    "detected": true,
+    "crossing_area_px": 38160,
+    "paint_area_px": 2136,
+    "paint_coverage_percent": 5.6,
+    "condition": "SEVERELY_DEGRADED"
+  },
+  {
+    "filename": "129.jpg",
+    "detected": true,
+    "crossing_area_px": 46956,
+    "paint_area_px": 4926,
+    "paint_coverage_percent": 10.49,
+    "condition": "SEVERELY_DEGRADED"
+  },
+  {
+    "filename": "129a.jpg",
+    "detected": true,
+    "crossing_area_px": 11137,
+    "paint_area_px": 1661,
+    "paint_coverage_percent": 14.91,
+    "condition": "FADED"
+  },
+  {
+    "filename": "129b.jpg",
+    "detected": true,
+    "crossing_area_px": 20458,
+    "paint_area_px": 3152,
+    "paint_coverage_percent": 15.41,
+    "condition": "FADED"
+  },
+  {
+    "filename": "131.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "131a.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "131b.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "133.jpg",
+    "detected": true,
+    "crossing_area_px": 36575,
+    "paint_area_px": 3919,
+    "paint_coverage_percent": 10.71,
+    "condition": "SEVERELY_DEGRADED"
+  },
+  {
+    "filename": "133a.jpg",
+    "detected": true,
+    "crossing_area_px": 11817,
+    "paint_area_px": 1715,
+    "paint_coverage_percent": 14.51,
+    "condition": "FADED"
+  },
+  {
+    "filename": "133b.jpg",
+    "detected": true,
+    "crossing_area_px": 17493,
+    "paint_area_px": 2710,
+    "paint_coverage_percent": 15.49,
+    "condition": "FADED"
+  },
+  {
+    "filename": "140.jpg",
+    "detected": true,
+    "crossing_area_px": 19602,
+    "paint_area_px": 2295,
+    "paint_coverage_percent": 11.71,
+    "condition": "SEVERELY_DEGRADED"
+  },
+  {
+    "filename": "140a.jpg",
+    "detected": true,
+    "crossing_area_px": 10323,
+    "paint_area_px": 1269,
+    "paint_coverage_percent": 12.29,
+    "condition": "FADED"
+  },
+  {
+    "filename": "140b.jpg",
+    "detected": true,
+    "crossing_area_px": 45900,
+    "paint_area_px": 2741,
+    "paint_coverage_percent": 5.97,
+    "condition": "SEVERELY_DEGRADED"
+  },
+  {
+    "filename": "141.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "141a.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "141b.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "141c.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "142.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "142a.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "142b.jpg",
+    "detected": false,
+    "crossing_area_px": 0,
+    "paint_area_px": 0,
+    "paint_coverage_percent": 0.0,
+    "condition": "NOT_OBSERVED"
+  },
+  {
+    "filename": "143.jpg",
+    "detected": true,
+    "crossing_area_px": 25205,
+    "paint_area_px": 3871,
+    "paint_coverage_percent": 15.36,
+    "condition": "FADED"
+  },
+  {
+    "filename": "143a.jpg",
+    "detected": true,
+    "crossing_area_px": 7752,
+    "paint_area_px": 1181,
+    "paint_coverage_percent": 15.23,
+    "condition": "FADED"
+  },
+  {
+    "filename": "143b.jpg",
+    "detected": true,
+    "crossing_area_px": 40040,
+    "paint_area_px": 5146,
+    "paint_coverage_percent": 12.85,
+    "condition": "FADED"
+  }
+]

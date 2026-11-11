@@ -1,0 +1,80 @@
+{
+  "report_title": "BusSense Missing Infrastructure Spatial Reasoning Validation v2",
+  "video_output": "outputs\\videos\\bussense_missing_infrastructure_verified_v2.mp4",
+  "total_frames": 380,
+  "visual_language_audit": {
+    "expected_sign_pin_marker_used": true,
+    "zero_fake_bounding_boxes": true,
+    "missing_sign_red_marker": true,
+    "authorized_opening_blue_marker": true,
+    "unknown_reference_grey_pin": true
+  },
+  "spatial_reasoning_audit": {
+    "road_station_s_m_evaluated": true,
+    "multi_bus_rule_1_pass_1_vote": true,
+    "registered_openings_suppress_alert": true,
+    "unknown_reference_produces_no_claim": true
+  },
+  "audit_records": [
+    {
+      "scene": "MISSING_TRAFFIC_SIGN",
+      "frame": 20,
+      "asset_id": "SIGN_GIS_301",
+      "station_s": 145.0,
+      "status": "CONFIRMED_MISSING",
+      "bus_passes": "1/4 BUS PASSES (Candidate)",
+      "fake_bbox_drawn": false,
+      "conformance": "PASS_REFERENCE_PIN_ONLY"
+    },
+    {
+      "scene": "MISSING_TRAFFIC_SIGN",
+      "frame": 80,
+      "asset_id": "SIGN_GIS_301",
+      "station_s": 145.0,
+      "status": "CONFIRMED_MISSING",
+      "bus_passes": "3/4 BUS PASSES (Corroborated)",
+      "fake_bbox_drawn": false,
+      "conformance": "PASS_REFERENCE_PIN_ONLY"
+    },
+    {
+      "scene": "MISSING_MEDIAN_BREACH",
+      "frame": 120,
+      "asset_id": "MEDIAN_SEG_109",
+      "station_s": 420.0,
+      "status": "CONFIRMED_MISSING",
+      "bus_passes": "1/4 BUS PASSES (Bus 1: 08:15 AM)",
+      "dispatch_alert": true,
+      "conformance": "PASS_SPATIAL_ROAD_STATION_CORROBORATION"
+    },
+    {
+      "scene": "MISSING_MEDIAN_BREACH",
+      "frame": 185,
+      "asset_id": "MEDIAN_SEG_109",
+      "station_s": 420.0,
+      "status": "CONFIRMED_MISSING",
+      "bus_passes": "4/4 BUS PASSES (Bus 4: 09:35 AM)",
+      "dispatch_alert": true,
+      "conformance": "PASS_SPATIAL_ROAD_STATION_CORROBORATION"
+    },
+    {
+      "scene": "AUTHORIZED_U_TURN",
+      "frame": 230,
+      "asset_id": "MEDIAN_GAP_402",
+      "station_s": 280.0,
+      "status": "NORMAL_OPENING",
+      "is_authorized": true,
+      "alert_dispatched": false,
+      "conformance": "PASS_NORMAL_OPENING_ZERO_ALERT"
+    },
+    {
+      "scene": "UNKNOWN_REFERENCE",
+      "frame": 320,
+      "asset_id": "UNKNOWN_ASSET_999",
+      "station_s": 620.0,
+      "status": "NO_CLAIM",
+      "alert_dispatched": false,
+      "conformance": "PASS_NO_MISSING_CLAIM"
+    }
+  ],
+  "final_status": "PASS_ALL_CRITERIA"
+}

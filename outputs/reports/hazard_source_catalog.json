@@ -1,0 +1,38 @@
+[
+  {
+    "source": "outputs\\server_media\\events\\BUS-01\\2026-09-23\\EVT-INC-COLLISION\\incident_collision_clip.mp4",
+    "clip_name": "incident_collision_clip.mp4",
+    "frames_audited": 40,
+    "contains_real_hazard": true,
+    "hazard_class": "STALLED_VEHICLE",
+    "usable_for_real_demo": true,
+    "reason": "Authentic collision incident with stalled vehicle and persons blocking corridor"
+  },
+  {
+    "source": "outputs\\server_media\\events\\BUS-01\\2026-09-28\\EVT-INC-004\\sc4_ccrs1_collision_clip.mp4",
+    "clip_name": "sc4_ccrs1_collision_clip.mp4",
+    "frames_audited": 40,
+    "contains_real_hazard": true,
+    "hazard_class": "ROAD_BLOCKAGE",
+    "usable_for_real_demo": true,
+    "reason": "Authentic collision incident with stalled vehicle and persons blocking corridor"
+  },
+  {
+    "source": "outputs\\server_media\\events\\BUS-01\\2026-09-23\\EVT-VRU-PED\\vru_pedestrian_clip.mp4",
+    "clip_name": "vru_pedestrian_clip.mp4",
+    "frames_audited": 40,
+    "contains_real_hazard": true,
+    "hazard_class": "PEDESTRIAN_IN_CORRIDOR",
+    "usable_for_real_demo": true,
+    "reason": "Authentic collision incident with stalled vehicle and persons blocking corridor"
+  },
+  {
+    "source": "kitti_incident_intelligence\\data\\extreme_driving\\Complex_Traffic_Driving.mp4",
+    "clip_name": "Complex_Traffic_Driving.mp4",
+    "frames_audited": 40,
+    "contains_real_hazard": false,
+    "hazard_class": "NONE",
+    "usable_for_real_demo": false,
+    "reason": "Normal traffic driving stream, no hazards present (correctly reports HAZARD = NONE)"
+  }
+]

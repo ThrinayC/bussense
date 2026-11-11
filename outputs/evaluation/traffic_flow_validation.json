@@ -1,0 +1,5977 @@
+[
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.065,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.078,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.1
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.088,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.095,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.30000000000000004
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.102,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.4
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.107,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.111,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.6000000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.114,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.7000000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.117,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.8
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.119,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 0.9
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.122,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.1
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.123,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.2000000000000002
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.124,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.3
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.124,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.4000000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.125,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.125,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.6
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.126,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.7000000000000002
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.126,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.8
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.126,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 1.9000000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.126,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.126,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.1
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.3000000000000003
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.4000000000000004
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.6
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.7
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.8000000000000003
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 2.9000000000000004
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.1
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.3000000000000003
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.4000000000000004
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.6
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.7
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.8000000000000003
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 3.9000000000000004
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.1000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.3
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.4
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.6000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.7
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.800000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 4.9
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.1000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.300000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.4
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.6000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.7
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.800000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 5.9
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.1000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.300000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.4
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.6000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.7
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.800000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 6.9
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.0
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.1000000000000005
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.2
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.300000000000001
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.4
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.5
+  },
+  {
+    "scenario": "KITTI_0002",
+    "flow_rate_vpm": 0.0,
+    "flow_rate_vph": 0.0,
+    "density_veh_per_km": 0.0,
+    "mean_speed_mps": 4.8,
+    "mean_speed_kmh": 17.3,
+    "median_speed_kmh": 17.3,
+    "speed_variance_kmh2": 0.0,
+    "speed_p85_kmh": 17.3,
+    "occupancy": 0.0,
+    "mean_headway_s": 2.5,
+    "min_headway_s": 2.0,
+    "queue_length_m": 0.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.127,
+    "trends": {
+      "d_density_dt": 0.0,
+      "d_flow_dt": 0.0,
+      "d_speed_dt": 0.0,
+      "d_queue_dt": 0.0
+    },
+    "vehicles_observed": 0,
+    "timestamp": 7.6000000000000005
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.0,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 14.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 7.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.4,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 14.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 7.800000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.8,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 15.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 7.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.2,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 15.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.6,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 16.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.0,
+    "density_veh_per_km": 55.8,
+    "queue_length_m": 17.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.4,
+    "density_veh_per_km": 55.7,
+    "queue_length_m": 17.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.8,
+    "density_veh_per_km": 55.6,
+    "queue_length_m": 18.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.1,
+    "density_veh_per_km": 55.5,
+    "queue_length_m": 18.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.5,
+    "density_veh_per_km": 55.3,
+    "queue_length_m": 19.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.9,
+    "density_veh_per_km": 55.2,
+    "queue_length_m": 19.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.3,
+    "density_veh_per_km": 55.0,
+    "queue_length_m": 20.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.6,
+    "density_veh_per_km": 54.8,
+    "queue_length_m": 20.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 8.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.0,
+    "density_veh_per_km": 54.6,
+    "queue_length_m": 21.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.3,
+    "density_veh_per_km": 54.4,
+    "queue_length_m": 21.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.6,
+    "density_veh_per_km": 54.1,
+    "queue_length_m": 22.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.0,
+    "density_veh_per_km": 53.9,
+    "queue_length_m": 22.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.3,
+    "density_veh_per_km": 53.6,
+    "queue_length_m": 23.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.6,
+    "density_veh_per_km": 53.3,
+    "queue_length_m": 23.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.9,
+    "density_veh_per_km": 53.0,
+    "queue_length_m": 23.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.2,
+    "density_veh_per_km": 52.7,
+    "queue_length_m": 24.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.4,
+    "density_veh_per_km": 52.4,
+    "queue_length_m": 24.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.7,
+    "density_veh_per_km": 52.1,
+    "queue_length_m": 24.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 9.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.0,
+    "density_veh_per_km": 51.7,
+    "queue_length_m": 25.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 10.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.2,
+    "density_veh_per_km": 51.3,
+    "queue_length_m": 25.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 10.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.4,
+    "density_veh_per_km": 51.0,
+    "queue_length_m": 25.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 10.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.6,
+    "density_veh_per_km": 50.6,
+    "queue_length_m": 25.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 10.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.8,
+    "density_veh_per_km": 50.2,
+    "queue_length_m": 25.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 10.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.0,
+    "density_veh_per_km": 49.8,
+    "queue_length_m": 25.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 10.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.2,
+    "density_veh_per_km": 49.4,
+    "queue_length_m": 25.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 10.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 49.0,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 10.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.5,
+    "density_veh_per_km": 48.5,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 10.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.6,
+    "density_veh_per_km": 48.1,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 10.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 47.7,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 47.2,
+    "queue_length_m": 25.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 46.7,
+    "queue_length_m": 25.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 46.3,
+    "queue_length_m": 25.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 45.8,
+    "queue_length_m": 25.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 45.3,
+    "queue_length_m": 25.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 44.9,
+    "queue_length_m": 25.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 44.4,
+    "queue_length_m": 24.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 43.9,
+    "queue_length_m": 24.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 43.4,
+    "queue_length_m": 24.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 11.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 42.9,
+    "queue_length_m": 24.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 42.4,
+    "queue_length_m": 23.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 41.9,
+    "queue_length_m": 23.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.6,
+    "density_veh_per_km": 41.5,
+    "queue_length_m": 22.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.5,
+    "density_veh_per_km": 41.0,
+    "queue_length_m": 22.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.4,
+    "density_veh_per_km": 40.5,
+    "queue_length_m": 22.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 40.0,
+    "queue_length_m": 21.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.1,
+    "density_veh_per_km": 39.5,
+    "queue_length_m": 21.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.9,
+    "density_veh_per_km": 39.0,
+    "queue_length_m": 20.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.7,
+    "density_veh_per_km": 38.5,
+    "queue_length_m": 20.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 12.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.5,
+    "density_veh_per_km": 38.1,
+    "queue_length_m": 19.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.3,
+    "density_veh_per_km": 37.6,
+    "queue_length_m": 19.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.1,
+    "density_veh_per_km": 37.1,
+    "queue_length_m": 18.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.8,
+    "density_veh_per_km": 36.7,
+    "queue_length_m": 18.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.6,
+    "density_veh_per_km": 36.2,
+    "queue_length_m": 17.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.3,
+    "density_veh_per_km": 35.8,
+    "queue_length_m": 16.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.0,
+    "density_veh_per_km": 35.4,
+    "queue_length_m": 16.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.8,
+    "density_veh_per_km": 34.9,
+    "queue_length_m": 15.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.5,
+    "density_veh_per_km": 34.5,
+    "queue_length_m": 15.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.1,
+    "density_veh_per_km": 34.1,
+    "queue_length_m": 14.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 13.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.8,
+    "density_veh_per_km": 33.7,
+    "queue_length_m": 13.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 14.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.5,
+    "density_veh_per_km": 33.3,
+    "queue_length_m": 13.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 14.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.2,
+    "density_veh_per_km": 32.9,
+    "queue_length_m": 12.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 14.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.8,
+    "density_veh_per_km": 32.6,
+    "queue_length_m": 12.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 14.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.5,
+    "density_veh_per_km": 32.2,
+    "queue_length_m": 11.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 14.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.1,
+    "density_veh_per_km": 31.9,
+    "queue_length_m": 10.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 14.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.7,
+    "density_veh_per_km": 31.5,
+    "queue_length_m": 10.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 14.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.3,
+    "density_veh_per_km": 31.2,
+    "queue_length_m": 9.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 14.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.0,
+    "density_veh_per_km": 30.9,
+    "queue_length_m": 9.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 14.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.6,
+    "density_veh_per_km": 30.6,
+    "queue_length_m": 8.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 14.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.2,
+    "density_veh_per_km": 30.3,
+    "queue_length_m": 8.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.8,
+    "density_veh_per_km": 30.1,
+    "queue_length_m": 7.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.100000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.4,
+    "density_veh_per_km": 29.8,
+    "queue_length_m": 7.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.200000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.0,
+    "density_veh_per_km": 29.6,
+    "queue_length_m": 6.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.6,
+    "density_veh_per_km": 29.4,
+    "queue_length_m": 6.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.2,
+    "density_veh_per_km": 29.2,
+    "queue_length_m": 5.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.8,
+    "density_veh_per_km": 29.0,
+    "queue_length_m": 5.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.600000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.4,
+    "density_veh_per_km": 28.8,
+    "queue_length_m": 4.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.700000000000001
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.0,
+    "density_veh_per_km": 28.7,
+    "queue_length_m": 4.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.6,
+    "density_veh_per_km": 28.5,
+    "queue_length_m": 4.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 15.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.2,
+    "density_veh_per_km": 28.4,
+    "queue_length_m": 3.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.8,
+    "density_veh_per_km": 28.3,
+    "queue_length_m": 3.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.4,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 3.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.1,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 3.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.7,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 2.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.3,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 2.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.9,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 2.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.6,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 2.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.2,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 2.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.9,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 2.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 16.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.5,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 2.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.2,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 2.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.9,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 2.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.6,
+    "density_veh_per_km": 28.3,
+    "queue_length_m": 2.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.3,
+    "density_veh_per_km": 28.4,
+    "queue_length_m": 2.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.0,
+    "density_veh_per_km": 28.6,
+    "queue_length_m": 2.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.7,
+    "density_veh_per_km": 28.7,
+    "queue_length_m": 2.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.4,
+    "density_veh_per_km": 28.9,
+    "queue_length_m": 2.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.2,
+    "density_veh_per_km": 29.1,
+    "queue_length_m": 2.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.9,
+    "density_veh_per_km": 29.3,
+    "queue_length_m": 2.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 17.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.7,
+    "density_veh_per_km": 29.5,
+    "queue_length_m": 3.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.5,
+    "density_veh_per_km": 29.7,
+    "queue_length_m": 3.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.3,
+    "density_veh_per_km": 29.9,
+    "queue_length_m": 3.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.1,
+    "density_veh_per_km": 30.2,
+    "queue_length_m": 4.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.9,
+    "density_veh_per_km": 30.5,
+    "queue_length_m": 4.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 30.8,
+    "queue_length_m": 4.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.6,
+    "density_veh_per_km": 31.1,
+    "queue_length_m": 5.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 31.4,
+    "queue_length_m": 5.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 31.7,
+    "queue_length_m": 6.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 18.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 32.0,
+    "queue_length_m": 6.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 18.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 32.4,
+    "queue_length_m": 6.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 32.7,
+    "queue_length_m": 7.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 33.1,
+    "queue_length_m": 7.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 33.5,
+    "queue_length_m": 8.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 33.9,
+    "queue_length_m": 9.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 34.3,
+    "queue_length_m": 9.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 34.7,
+    "queue_length_m": 10.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 35.1,
+    "queue_length_m": 10.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 35.6,
+    "queue_length_m": 11.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 36.0,
+    "queue_length_m": 11.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 19.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 36.5,
+    "queue_length_m": 12.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 36.9,
+    "queue_length_m": 13.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 37.4,
+    "queue_length_m": 13.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 37.8,
+    "queue_length_m": 14.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.7,
+    "density_veh_per_km": 38.3,
+    "queue_length_m": 14.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 38.8,
+    "queue_length_m": 15.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.0,
+    "density_veh_per_km": 39.3,
+    "queue_length_m": 16.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.2,
+    "density_veh_per_km": 39.7,
+    "queue_length_m": 16.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.4,
+    "density_veh_per_km": 40.2,
+    "queue_length_m": 17.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.6,
+    "density_veh_per_km": 40.7,
+    "queue_length_m": 17.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 20.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.8,
+    "density_veh_per_km": 41.2,
+    "queue_length_m": 18.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.0,
+    "density_veh_per_km": 41.7,
+    "queue_length_m": 18.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.3,
+    "density_veh_per_km": 42.2,
+    "queue_length_m": 19.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.5,
+    "density_veh_per_km": 42.7,
+    "queue_length_m": 19.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.8,
+    "density_veh_per_km": 43.2,
+    "queue_length_m": 20.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.1,
+    "density_veh_per_km": 43.6,
+    "queue_length_m": 20.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.4,
+    "density_veh_per_km": 44.1,
+    "queue_length_m": 21.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.7,
+    "density_veh_per_km": 44.6,
+    "queue_length_m": 21.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.0,
+    "density_veh_per_km": 45.1,
+    "queue_length_m": 22.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.3,
+    "density_veh_per_km": 45.6,
+    "queue_length_m": 22.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 21.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.7,
+    "density_veh_per_km": 46.0,
+    "queue_length_m": 23.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.0,
+    "density_veh_per_km": 46.5,
+    "queue_length_m": 23.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.4,
+    "density_veh_per_km": 47.0,
+    "queue_length_m": 23.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.7,
+    "density_veh_per_km": 47.4,
+    "queue_length_m": 24.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.1,
+    "density_veh_per_km": 47.9,
+    "queue_length_m": 24.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.4,
+    "density_veh_per_km": 48.3,
+    "queue_length_m": 24.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.8,
+    "density_veh_per_km": 48.7,
+    "queue_length_m": 25.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.2,
+    "density_veh_per_km": 49.2,
+    "queue_length_m": 25.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.6,
+    "density_veh_per_km": 49.6,
+    "queue_length_m": 25.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.0,
+    "density_veh_per_km": 50.0,
+    "queue_length_m": 25.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 22.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.4,
+    "density_veh_per_km": 50.4,
+    "queue_length_m": 25.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.8,
+    "density_veh_per_km": 50.8,
+    "queue_length_m": 25.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.2,
+    "density_veh_per_km": 51.2,
+    "queue_length_m": 25.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.6,
+    "density_veh_per_km": 51.5,
+    "queue_length_m": 26.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.0,
+    "density_veh_per_km": 51.9,
+    "queue_length_m": 26.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.4,
+    "density_veh_per_km": 52.2,
+    "queue_length_m": 26.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.8,
+    "density_veh_per_km": 52.5,
+    "queue_length_m": 25.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.2,
+    "density_veh_per_km": 52.9,
+    "queue_length_m": 25.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.6,
+    "density_veh_per_km": 53.2,
+    "queue_length_m": 25.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.0,
+    "density_veh_per_km": 53.4,
+    "queue_length_m": 25.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 23.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.3,
+    "density_veh_per_km": 53.7,
+    "queue_length_m": 25.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.7,
+    "density_veh_per_km": 54.0,
+    "queue_length_m": 25.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.1,
+    "density_veh_per_km": 54.2,
+    "queue_length_m": 25.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.5,
+    "density_veh_per_km": 54.5,
+    "queue_length_m": 24.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.9,
+    "density_veh_per_km": 54.7,
+    "queue_length_m": 24.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.2,
+    "density_veh_per_km": 54.9,
+    "queue_length_m": 24.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.6,
+    "density_veh_per_km": 55.1,
+    "queue_length_m": 23.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.9,
+    "density_veh_per_km": 55.2,
+    "queue_length_m": 23.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.3,
+    "density_veh_per_km": 55.4,
+    "queue_length_m": 23.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.6,
+    "density_veh_per_km": 55.5,
+    "queue_length_m": 22.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 24.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.9,
+    "density_veh_per_km": 55.6,
+    "queue_length_m": 22.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.3,
+    "density_veh_per_km": 55.7,
+    "queue_length_m": 22.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.6,
+    "density_veh_per_km": 55.8,
+    "queue_length_m": 21.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.9,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 21.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.2,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 20.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.4,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 20.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.7,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 19.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.9,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 18.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.2,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 18.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.4,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 17.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 25.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.6,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 17.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.8,
+    "density_veh_per_km": 55.8,
+    "queue_length_m": 16.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.0,
+    "density_veh_per_km": 55.7,
+    "queue_length_m": 16.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.2,
+    "density_veh_per_km": 55.6,
+    "queue_length_m": 15.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 55.5,
+    "queue_length_m": 14.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.4,
+    "density_veh_per_km": 55.4,
+    "queue_length_m": 14.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.6,
+    "density_veh_per_km": 55.2,
+    "queue_length_m": 13.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 55.1,
+    "queue_length_m": 13.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 54.9,
+    "queue_length_m": 12.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 54.7,
+    "queue_length_m": 11.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 26.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 54.5,
+    "queue_length_m": 11.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 54.2,
+    "queue_length_m": 10.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 54.0,
+    "queue_length_m": 10.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 53.7,
+    "queue_length_m": 9.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 53.5,
+    "queue_length_m": 9.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 53.2,
+    "queue_length_m": 8.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 52.9,
+    "queue_length_m": 8.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 52.6,
+    "queue_length_m": 7.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 52.2,
+    "queue_length_m": 7.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 51.9,
+    "queue_length_m": 6.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 27.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.6,
+    "density_veh_per_km": 51.5,
+    "queue_length_m": 6.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 28.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.5,
+    "density_veh_per_km": 51.2,
+    "queue_length_m": 5.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 28.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.4,
+    "density_veh_per_km": 50.8,
+    "queue_length_m": 5.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 28.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 50.4,
+    "queue_length_m": 4.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 28.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.1,
+    "density_veh_per_km": 50.0,
+    "queue_length_m": 4.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 28.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.9,
+    "density_veh_per_km": 49.6,
+    "queue_length_m": 4.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 28.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.7,
+    "density_veh_per_km": 49.2,
+    "queue_length_m": 3.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 28.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.5,
+    "density_veh_per_km": 48.8,
+    "queue_length_m": 3.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 28.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.3,
+    "density_veh_per_km": 48.3,
+    "queue_length_m": 3.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 28.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.1,
+    "density_veh_per_km": 47.9,
+    "queue_length_m": 2.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 28.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.9,
+    "density_veh_per_km": 47.4,
+    "queue_length_m": 2.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.6,
+    "density_veh_per_km": 47.0,
+    "queue_length_m": 2.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.3,
+    "density_veh_per_km": 46.5,
+    "queue_length_m": 2.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.1,
+    "density_veh_per_km": 46.1,
+    "queue_length_m": 2.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.8,
+    "density_veh_per_km": 45.6,
+    "queue_length_m": 2.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.5,
+    "density_veh_per_km": 45.1,
+    "queue_length_m": 2.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.2,
+    "density_veh_per_km": 44.6,
+    "queue_length_m": 2.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.8,
+    "density_veh_per_km": 44.1,
+    "queue_length_m": 2.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.5,
+    "density_veh_per_km": 43.7,
+    "queue_length_m": 2.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.2,
+    "density_veh_per_km": 43.2,
+    "queue_length_m": 2.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 29.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.8,
+    "density_veh_per_km": 42.7,
+    "queue_length_m": 2.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.5,
+    "density_veh_per_km": 42.2,
+    "queue_length_m": 2.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.1,
+    "density_veh_per_km": 41.7,
+    "queue_length_m": 2.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.8,
+    "density_veh_per_km": 41.2,
+    "queue_length_m": 2.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.4,
+    "density_veh_per_km": 40.7,
+    "queue_length_m": 2.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.0,
+    "density_veh_per_km": 40.2,
+    "queue_length_m": 3.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.6,
+    "density_veh_per_km": 39.8,
+    "queue_length_m": 3.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.2,
+    "density_veh_per_km": 39.3,
+    "queue_length_m": 3.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.8,
+    "density_veh_per_km": 38.8,
+    "queue_length_m": 3.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.4,
+    "density_veh_per_km": 38.3,
+    "queue_length_m": 4.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 30.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.0,
+    "density_veh_per_km": 37.8,
+    "queue_length_m": 4.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.6,
+    "density_veh_per_km": 37.4,
+    "queue_length_m": 4.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.2,
+    "density_veh_per_km": 36.9,
+    "queue_length_m": 5.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.200000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.8,
+    "density_veh_per_km": 36.5,
+    "queue_length_m": 5.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.3
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.4,
+    "density_veh_per_km": 36.0,
+    "queue_length_m": 6.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.400000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.0,
+    "density_veh_per_km": 35.6,
+    "queue_length_m": 6.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.7,
+    "density_veh_per_km": 35.2,
+    "queue_length_m": 7.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.3,
+    "density_veh_per_km": 34.7,
+    "queue_length_m": 7.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.700000000000003
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.9,
+    "density_veh_per_km": 34.3,
+    "queue_length_m": 8.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.8
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.5,
+    "density_veh_per_km": 33.9,
+    "queue_length_m": 8.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 31.900000000000002
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.1,
+    "density_veh_per_km": 33.5,
+    "queue_length_m": 9.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 32.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.7,
+    "density_veh_per_km": 33.1,
+    "queue_length_m": 9.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 32.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.3,
+    "density_veh_per_km": 32.8,
+    "queue_length_m": 10.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 32.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.0,
+    "density_veh_per_km": 32.4,
+    "queue_length_m": 10.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 32.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.6,
+    "density_veh_per_km": 32.0,
+    "queue_length_m": 11.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 32.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.2,
+    "density_veh_per_km": 31.7,
+    "queue_length_m": 12.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 32.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.9,
+    "density_veh_per_km": 31.4,
+    "queue_length_m": 12.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 32.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.6,
+    "density_veh_per_km": 31.1,
+    "queue_length_m": 13.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 32.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.2,
+    "density_veh_per_km": 30.8,
+    "queue_length_m": 13.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 32.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.9,
+    "density_veh_per_km": 30.5,
+    "queue_length_m": 14.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 32.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.6,
+    "density_veh_per_km": 30.2,
+    "queue_length_m": 15.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.3,
+    "density_veh_per_km": 30.0,
+    "queue_length_m": 15.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.0,
+    "density_veh_per_km": 29.7,
+    "queue_length_m": 16.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.7,
+    "density_veh_per_km": 29.5,
+    "queue_length_m": 16.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.5,
+    "density_veh_per_km": 29.3,
+    "queue_length_m": 17.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.2,
+    "density_veh_per_km": 29.1,
+    "queue_length_m": 17.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.0,
+    "density_veh_per_km": 28.9,
+    "queue_length_m": 18.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.7,
+    "density_veh_per_km": 28.7,
+    "queue_length_m": 19.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.5,
+    "density_veh_per_km": 28.6,
+    "queue_length_m": 19.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.3,
+    "density_veh_per_km": 28.5,
+    "queue_length_m": 20.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 33.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.1,
+    "density_veh_per_km": 28.3,
+    "queue_length_m": 20.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.9,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 21.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 21.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.6,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 22.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 22.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 22.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 23.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 23.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 24.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 24.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 34.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 24.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 24.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 28.3,
+    "queue_length_m": 25.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 28.4,
+    "queue_length_m": 25.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 28.5,
+    "queue_length_m": 25.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 28.6,
+    "queue_length_m": 25.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 28.8,
+    "queue_length_m": 25.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 29.0,
+    "queue_length_m": 25.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 29.2,
+    "queue_length_m": 26.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 29.4,
+    "queue_length_m": 26.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 35.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 29.6,
+    "queue_length_m": 26.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.7,
+    "density_veh_per_km": 29.8,
+    "queue_length_m": 26.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 30.1,
+    "queue_length_m": 25.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.0,
+    "density_veh_per_km": 30.3,
+    "queue_length_m": 25.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.2,
+    "density_veh_per_km": 30.6,
+    "queue_length_m": 25.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.3,
+    "density_veh_per_km": 30.9,
+    "queue_length_m": 25.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.6,
+    "density_veh_per_km": 31.2,
+    "queue_length_m": 25.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.8,
+    "density_veh_per_km": 31.5,
+    "queue_length_m": 25.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.0,
+    "density_veh_per_km": 31.9,
+    "queue_length_m": 25.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 36.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.3,
+    "density_veh_per_km": 32.2,
+    "queue_length_m": 24.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 36.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.5,
+    "density_veh_per_km": 32.6,
+    "queue_length_m": 24.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.8,
+    "density_veh_per_km": 32.9,
+    "queue_length_m": 24.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.1,
+    "density_veh_per_km": 33.3,
+    "queue_length_m": 23.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.4,
+    "density_veh_per_km": 33.7,
+    "queue_length_m": 23.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.7,
+    "density_veh_per_km": 34.1,
+    "queue_length_m": 23.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.4
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.0,
+    "density_veh_per_km": 34.5,
+    "queue_length_m": 22.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.3,
+    "density_veh_per_km": 34.9,
+    "queue_length_m": 22.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.6,
+    "density_veh_per_km": 35.3,
+    "queue_length_m": 21.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.0,
+    "density_veh_per_km": 35.8,
+    "queue_length_m": 21.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.3,
+    "density_veh_per_km": 36.2,
+    "queue_length_m": 20.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 37.9
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.7,
+    "density_veh_per_km": 36.7,
+    "queue_length_m": 20.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.0,
+    "density_veh_per_km": 37.1,
+    "queue_length_m": 19.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.4,
+    "density_veh_per_km": 37.6,
+    "queue_length_m": 19.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.8,
+    "density_veh_per_km": 38.1,
+    "queue_length_m": 18.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.2,
+    "density_veh_per_km": 38.5,
+    "queue_length_m": 18.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.6,
+    "density_veh_per_km": 39.0,
+    "queue_length_m": 17.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.0,
+    "density_veh_per_km": 39.5,
+    "queue_length_m": 17.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.3,
+    "density_veh_per_km": 40.0,
+    "queue_length_m": 16.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.7,
+    "density_veh_per_km": 40.5,
+    "queue_length_m": 15.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.1,
+    "density_veh_per_km": 40.9,
+    "queue_length_m": 15.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 38.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.5,
+    "density_veh_per_km": 41.4,
+    "queue_length_m": 14.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.9,
+    "density_veh_per_km": 41.9,
+    "queue_length_m": 14.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.3,
+    "density_veh_per_km": 42.4,
+    "queue_length_m": 13.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.7,
+    "density_veh_per_km": 42.9,
+    "queue_length_m": 12.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.1,
+    "density_veh_per_km": 43.4,
+    "queue_length_m": 12.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.5,
+    "density_veh_per_km": 43.9,
+    "queue_length_m": 11.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.9,
+    "density_veh_per_km": 44.4,
+    "queue_length_m": 11.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.3,
+    "density_veh_per_km": 44.8,
+    "queue_length_m": 10.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.7,
+    "density_veh_per_km": 45.3,
+    "queue_length_m": 10.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.1,
+    "density_veh_per_km": 45.8,
+    "queue_length_m": 9.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 39.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.5,
+    "density_veh_per_km": 46.3,
+    "queue_length_m": 8.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.8,
+    "density_veh_per_km": 46.7,
+    "queue_length_m": 8.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.2,
+    "density_veh_per_km": 47.2,
+    "queue_length_m": 7.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.6,
+    "density_veh_per_km": 47.6,
+    "queue_length_m": 7.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.9,
+    "density_veh_per_km": 48.1,
+    "queue_length_m": 6.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.3,
+    "density_veh_per_km": 48.5,
+    "queue_length_m": 6.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.6,
+    "density_veh_per_km": 48.9,
+    "queue_length_m": 5.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.9,
+    "density_veh_per_km": 49.4,
+    "queue_length_m": 5.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.2,
+    "density_veh_per_km": 49.8,
+    "queue_length_m": 5.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 40.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.5,
+    "density_veh_per_km": 50.2,
+    "queue_length_m": 4.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 40.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.8,
+    "density_veh_per_km": 50.6,
+    "queue_length_m": 4.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.1,
+    "density_veh_per_km": 51.0,
+    "queue_length_m": 4.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.4,
+    "density_veh_per_km": 51.3,
+    "queue_length_m": 3.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.7,
+    "density_veh_per_km": 51.7,
+    "queue_length_m": 3.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.9,
+    "density_veh_per_km": 52.0,
+    "queue_length_m": 3.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.2,
+    "density_veh_per_km": 52.4,
+    "queue_length_m": 2.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.4,
+    "density_veh_per_km": 52.7,
+    "queue_length_m": 2.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.6,
+    "density_veh_per_km": 53.0,
+    "queue_length_m": 2.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.8,
+    "density_veh_per_km": 53.3,
+    "queue_length_m": 2.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.0,
+    "density_veh_per_km": 53.6,
+    "queue_length_m": 2.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 41.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.1,
+    "density_veh_per_km": 53.9,
+    "queue_length_m": 2.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 54.1,
+    "queue_length_m": 2.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.4,
+    "density_veh_per_km": 54.3,
+    "queue_length_m": 2.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.6,
+    "density_veh_per_km": 54.6,
+    "queue_length_m": 2.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 54.8,
+    "queue_length_m": 2.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 55.0,
+    "queue_length_m": 2.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 55.1,
+    "queue_length_m": 2.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 55.3,
+    "queue_length_m": 2.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 55.4,
+    "queue_length_m": 2.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 55.6,
+    "queue_length_m": 2.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 42.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 55.7,
+    "queue_length_m": 2.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 55.8,
+    "queue_length_m": 3.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 46.0,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 3.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 3.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.9,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 3.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 4.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.8,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 4.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.7,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 5.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.5,
+    "density_veh_per_km": 56.0,
+    "queue_length_m": 5.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.4,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 5.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 43.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.3,
+    "density_veh_per_km": 55.9,
+    "queue_length_m": 6.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 45.1,
+    "density_veh_per_km": 55.8,
+    "queue_length_m": 6.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.9,
+    "density_veh_per_km": 55.7,
+    "queue_length_m": 7.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.8,
+    "density_veh_per_km": 55.6,
+    "queue_length_m": 7.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.6,
+    "density_veh_per_km": 55.5,
+    "queue_length_m": 8.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.3,
+    "density_veh_per_km": 55.3,
+    "queue_length_m": 8.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 44.1,
+    "density_veh_per_km": 55.2,
+    "queue_length_m": 9.3,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.9,
+    "density_veh_per_km": 55.0,
+    "queue_length_m": 9.9,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.6,
+    "density_veh_per_km": 54.8,
+    "queue_length_m": 10.5,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.4,
+    "density_veh_per_km": 54.6,
+    "queue_length_m": 11.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 44.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 43.1,
+    "density_veh_per_km": 54.4,
+    "queue_length_m": 11.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.8,
+    "density_veh_per_km": 54.1,
+    "queue_length_m": 12.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.5,
+    "density_veh_per_km": 53.9,
+    "queue_length_m": 12.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 42.2,
+    "density_veh_per_km": 53.6,
+    "queue_length_m": 13.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.9,
+    "density_veh_per_km": 53.3,
+    "queue_length_m": 14.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.5,
+    "density_veh_per_km": 53.0,
+    "queue_length_m": 14.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 41.2,
+    "density_veh_per_km": 52.7,
+    "queue_length_m": 15.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.9,
+    "density_veh_per_km": 52.4,
+    "queue_length_m": 15.8,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.5,
+    "density_veh_per_km": 52.1,
+    "queue_length_m": 16.4,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 40.2,
+    "density_veh_per_km": 51.7,
+    "queue_length_m": 17.0,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 45.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.8,
+    "density_veh_per_km": 51.4,
+    "queue_length_m": 17.6,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 46.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.4,
+    "density_veh_per_km": 51.0,
+    "queue_length_m": 18.1,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 46.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 39.0,
+    "density_veh_per_km": 50.6,
+    "queue_length_m": 18.7,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 46.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.6,
+    "density_veh_per_km": 50.2,
+    "queue_length_m": 19.2,
+    "traffic_state": "CONGESTED",
+    "jam_risk": 0.65,
+    "timestamp": 46.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 38.3,
+    "density_veh_per_km": 49.8,
+    "queue_length_m": 19.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.9,
+    "density_veh_per_km": 49.4,
+    "queue_length_m": 20.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.5,
+    "density_veh_per_km": 49.0,
+    "queue_length_m": 20.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 37.1,
+    "density_veh_per_km": 48.6,
+    "queue_length_m": 21.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.7,
+    "density_veh_per_km": 48.1,
+    "queue_length_m": 21.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 36.3,
+    "density_veh_per_km": 47.7,
+    "queue_length_m": 22.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 46.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.9,
+    "density_veh_per_km": 47.2,
+    "queue_length_m": 22.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.5,
+    "density_veh_per_km": 46.8,
+    "queue_length_m": 23.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 35.1,
+    "density_veh_per_km": 46.3,
+    "queue_length_m": 23.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.7,
+    "density_veh_per_km": 45.8,
+    "queue_length_m": 23.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 34.3,
+    "density_veh_per_km": 45.4,
+    "queue_length_m": 24.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.9,
+    "density_veh_per_km": 44.9,
+    "queue_length_m": 24.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.5,
+    "density_veh_per_km": 44.4,
+    "queue_length_m": 24.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 33.1,
+    "density_veh_per_km": 43.9,
+    "queue_length_m": 25.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.7,
+    "density_veh_per_km": 43.4,
+    "queue_length_m": 25.2,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.4,
+    "density_veh_per_km": 42.9,
+    "queue_length_m": 25.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 47.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 32.0,
+    "density_veh_per_km": 42.5,
+    "queue_length_m": 25.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.6,
+    "density_veh_per_km": 42.0,
+    "queue_length_m": 25.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 31.3,
+    "density_veh_per_km": 41.5,
+    "queue_length_m": 25.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.9,
+    "density_veh_per_km": 41.0,
+    "queue_length_m": 25.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.6,
+    "density_veh_per_km": 40.5,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 30.3,
+    "density_veh_per_km": 40.0,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.9,
+    "density_veh_per_km": 39.5,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.6,
+    "density_veh_per_km": 39.0,
+    "queue_length_m": 26.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.3,
+    "density_veh_per_km": 38.6,
+    "queue_length_m": 25.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 29.0,
+    "density_veh_per_km": 38.1,
+    "queue_length_m": 25.8,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 48.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.7,
+    "density_veh_per_km": 37.6,
+    "queue_length_m": 25.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.5,
+    "density_veh_per_km": 37.2,
+    "queue_length_m": 25.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.2,
+    "density_veh_per_km": 36.7,
+    "queue_length_m": 25.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.0,
+    "density_veh_per_km": 36.3,
+    "queue_length_m": 25.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.7,
+    "density_veh_per_km": 35.8,
+    "queue_length_m": 24.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.5,
+    "density_veh_per_km": 35.4,
+    "queue_length_m": 24.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.3,
+    "density_veh_per_km": 34.9,
+    "queue_length_m": 24.4,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.1,
+    "density_veh_per_km": 34.5,
+    "queue_length_m": 24.0,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.9,
+    "density_veh_per_km": 34.1,
+    "queue_length_m": 23.7,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 33.7,
+    "queue_length_m": 23.3,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 49.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.6,
+    "density_veh_per_km": 33.3,
+    "queue_length_m": 22.9,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 50.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 33.0,
+    "queue_length_m": 22.5,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 50.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 32.6,
+    "queue_length_m": 22.1,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 50.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 32.2,
+    "queue_length_m": 21.6,
+    "traffic_state": "BUILDING",
+    "jam_risk": 0.35,
+    "timestamp": 50.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 31.9,
+    "queue_length_m": 21.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 31.5,
+    "queue_length_m": 20.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 31.2,
+    "queue_length_m": 20.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 30.9,
+    "queue_length_m": 19.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 30.6,
+    "queue_length_m": 19.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 30.4,
+    "queue_length_m": 18.6,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 50.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 30.1,
+    "queue_length_m": 18.0,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.0,
+    "density_veh_per_km": 29.8,
+    "queue_length_m": 17.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 29.6,
+    "queue_length_m": 16.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.1,
+    "density_veh_per_km": 29.4,
+    "queue_length_m": 16.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.2,
+    "density_veh_per_km": 29.2,
+    "queue_length_m": 15.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.3,
+    "density_veh_per_km": 29.0,
+    "queue_length_m": 15.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.4,
+    "density_veh_per_km": 28.8,
+    "queue_length_m": 14.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.6
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.5,
+    "density_veh_per_km": 28.7,
+    "queue_length_m": 13.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.7
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.6,
+    "density_veh_per_km": 28.5,
+    "queue_length_m": 13.3,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.800000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 26.8,
+    "density_veh_per_km": 28.4,
+    "queue_length_m": 12.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 51.900000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.0,
+    "density_veh_per_km": 28.3,
+    "queue_length_m": 12.1,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.0
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.1,
+    "density_veh_per_km": 28.2,
+    "queue_length_m": 11.5,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.1
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.3,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 10.9,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.2
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.5,
+    "density_veh_per_km": 28.1,
+    "queue_length_m": 10.4,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.300000000000004
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 27.8,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 9.8,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.400000000000006
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.0,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 9.2,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.5
+  },
+  {
+    "scenario": "KITTI_TRAFFIC_STREAM",
+    "flow_rate_vpm": 28.2,
+    "density_veh_per_km": 28.0,
+    "queue_length_m": 8.7,
+    "traffic_state": "FREE FLOW",
+    "jam_risk": 0.12,
+    "timestamp": 52.6
+  }
+]

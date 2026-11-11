@@ -1,0 +1,146 @@
+{
+  "diagnostic_video": "outputs\\debug_videos\\02_ROAD_MARKING_DEBUG.mp4",
+  "total_frames_processed": 300,
+  "random_green_geometric_lines_drawn": 0,
+  "restored_marking_health_panel": true,
+  "restored_100m_spatial_aggregation": true,
+  "anti_false_crosswalk_enforced": true,
+  "sample_observations": [
+    {
+      "frame": 0,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 1,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 2,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 3,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 4,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 5,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 6,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 7,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 8,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 9,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 10,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 11,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 12,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 13,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    },
+    {
+      "frame": 14,
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95,
+      "anti_false_positive_pass": true,
+      "random_green_lines": 0
+    }
+  ],
+  "verdict": "ZERO_RANDOM_GREEN_LINES_CONFIRMED"
+}

@@ -1,0 +1,45 @@
+{
+  "system_validation": {
+    "title": "BusSense Master Pipeline End-to-End Validation",
+    "status": "ALL_SYSTEMS_OPERATIONAL",
+    "pytest_suite": {
+      "total_tests": 88,
+      "passed": 88,
+      "failed": 0,
+      "regressions": 0
+    },
+    "stereo_runtime_contract": {
+      "inputs": "LEFT_RGB + RIGHT_RGB",
+      "disparity_engine": "OpenCV SGBM Stereo (Deterministic, Calibrated)",
+      "single_pass_guarantee": true,
+      "no_lidar_runtime": true,
+      "no_monocular_depth_replacement": true
+    },
+    "trichy_road_geometry": {
+      "osm_way_id": 369881223,
+      "road_name": "Bharathidasan Salai",
+      "node_count": 26,
+      "total_length_m": 1241.7,
+      "tortuosity": 1.0647,
+      "max_centerline_deviation_m": 0.0,
+      "centerline_tolerance_m": 10.0,
+      "tolerance_check_passed": true
+    },
+    "rendered_demonstrations": {
+      "real_demo_video": "outputs\\videos\\bussense_real_demo.mp4",
+      "real_demo_frames": 74,
+      "real_demo_simulation_mode": false,
+      "synthetic_demo_video": "outputs\\videos\\bussense_synthetic_demo.mp4",
+      "synthetic_demo_frames": 60,
+      "synthetic_demo_simulation_mode": true,
+      "annotated_frames_saved": 13
+    },
+    "performance_benchmarks": {
+      "host_cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+      "host_ram_gb": 11.71,
+      "input_resolution": "1920x1080",
+      "mean_e2e_latency_ms": 660.46,
+      "throughput_fps": 1.51
+    }
+  }
+}

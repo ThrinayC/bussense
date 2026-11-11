@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "name": "trichy_reference_assets",
+  "properties": {
+    "source": "DEMO_REFERENCE",
+    "disclaimer": "Manual demonstration reference dataset. Not official municipal inventory."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "REF-DIVIDER-TRICHY-01",
+        "road_segment_id": "SEG-TRICHY-BHARATHIDASAN-01",
+        "asset_type": "ROAD_DIVIDER",
+        "asset_subtype": "CONCRETE_JERSEY_MEDIAN",
+        "expected_state": "YES",
+        "reference_source": "MANUAL_DEMO_REFERENCE",
+        "start_m": 0.0,
+        "end_m": 1241.7
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.6891763,
+            10.8022265
+          ],
+          [
+            78.6885911,
+            10.8029575
+          ],
+          [
+            78.6878824,
+            10.8035531
+          ],
+          [
+            78.6871233,
+            10.8041042
+          ],
+          [
+            78.6864149,
+            10.8045643
+          ],
+          [
+            78.6857921,
+            10.8049381
+          ],
+          [
+            78.6851532,
+            10.8053075
+          ],
+          [
+            78.6845722,
+            10.8056262
+          ],
+          [
+            78.6840393,
+            10.8059048
+          ],
+          [
+            78.6835251,
+            10.8061917
+          ],
+          [
+            78.6830501,
+            10.8064561
+          ],
+          [
+            78.6826042,
+            10.8067145
+          ],
+          [
+            78.6821953,
+            10.8069812
+          ],
+          [
+            78.6818121,
+            10.8072483
+          ],
+          [
+            78.6814725,
+            10.8075304
+          ],
+          [
+            78.6811914,
+            10.8078252
+          ],
+          [
+            78.6809752,
+            10.8081194
+          ],
+          [
+            78.6808425,
+            10.8083981
+          ],
+          [
+            78.6807891,
+            10.8086212
+          ],
+          [
+            78.6807982,
+            10.8087783
+          ],
+          [
+            78.6808391,
+            10.8088514
+          ],
+          [
+            78.6809102,
+            10.8088825
+          ],
+          [
+            78.6809854,
+            10.8088651
+          ],
+          [
+            78.6810258,
+            10.8088384
+          ],
+          [
+            78.6809595,
+            10.8088586
+          ],
+          [
+            78.6809107,
+            10.8088669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "REF-FAULT-INJECTION-01",
+        "fault_type": "SYNTHETIC_MISSING_DIVIDER",
+        "start_m": 30.0,
+        "end_m": 45.0,
+        "length_m": 15.0,
+        "simulation_mode": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.68900652049204,
+            10.802438579323848
+          ],
+          [
+            78.68892163073807,
+            10.802544618985774
+          ]
+        ]
+      }
+    }
+  ]
+}

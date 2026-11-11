@@ -1,0 +1,120 @@
+{
+  "report_title": "BusSense Road Marking & Lane Guidance Health Validation Audit",
+  "video_output": "outputs\\videos\\bussense_road_marking_health_verified.mp4",
+  "taxonomy_classes_verified": [
+    "LANE_LINE",
+    "EDGE_LINE",
+    "CENTER_LINE",
+    "STOP_LINE",
+    "TURN_ARROW",
+    "DIRECTION_ARROW",
+    "HATCH_MARKING",
+    "CHEVRON",
+    "ZEBRA_CROSSING",
+    "BUS_LANE_MARKING",
+    "ROAD_TEXT",
+    "OTHER_MARKING",
+    "UNKNOWN"
+  ],
+  "anti_false_crosswalk_verified": true,
+  "ceymo_bus_lane_stencil_classified_as_bus_lane": true,
+  "ceymo_arrows_classified_as_turn_arrow": true,
+  "true_crosswalk_verified_with_parallel_bars": true,
+  "occlusion_awareness_verified_never_faded": true,
+  "spatial_aggregation_100m_supported": true,
+  "test_records": [
+    {
+      "test": "LONGITUDINAL_LANE_LINE",
+      "frame": 10,
+      "marking_id": "LANE_LN_01",
+      "taxonomy": "LANE_LINE",
+      "condition": "GOOD",
+      "coverage": 0.92,
+      "continuity": 0.95
+    },
+    {
+      "test": "LONGITUDINAL_LANE_LINE",
+      "frame": 45,
+      "marking_id": "LANE_LN_02",
+      "taxonomy": "LANE_LINE",
+      "condition": "ACCEPTABLE",
+      "coverage": 0.58,
+      "continuity": 0.62
+    },
+    {
+      "test": "LONGITUDINAL_LANE_LINE",
+      "frame": 75,
+      "marking_id": "LANE_LN_03",
+      "taxonomy": "LANE_LINE",
+      "condition": "FADED",
+      "coverage": 0.22,
+      "continuity": 0.32
+    },
+    {
+      "test": "ANTI_FALSE_CROSSWALK",
+      "frame": 100,
+      "marking_id": "MARKING_BUS_LA_100",
+      "taxonomy": "BUS_LANE_MARKING",
+      "is_zebra_crossing": false,
+      "condition": "GOOD",
+      "coverage": 0.86
+    },
+    {
+      "test": "ANTI_FALSE_CROSSWALK",
+      "frame": 130,
+      "marking_id": "MARKING_TURN_A_130",
+      "taxonomy": "TURN_ARROW",
+      "is_zebra_crossing": false,
+      "condition": "GOOD",
+      "coverage": 0.9
+    },
+    {
+      "test": "ANTI_FALSE_CROSSWALK",
+      "frame": 165,
+      "marking_id": "MARKING_ZEBRA__165",
+      "taxonomy": "ZEBRA_CROSSING",
+      "is_zebra_crossing": true,
+      "condition": "GOOD",
+      "coverage": 0.92
+    },
+    {
+      "test": "OCCLUSION_AWARENESS",
+      "frame": 190,
+      "marking_id": "LANE_OCCLUDED_07",
+      "taxonomy": "LANE_LINE",
+      "occlusion_ratio": 0.68,
+      "condition": "OBSCURED",
+      "is_faded": false,
+      "status": "PASS_NEVER_FADED"
+    },
+    {
+      "test": "OCCLUSION_AWARENESS",
+      "frame": 210,
+      "marking_id": "LANE_OCCLUDED_07",
+      "taxonomy": "LANE_LINE",
+      "occlusion_ratio": 0.68,
+      "condition": "OBSCURED",
+      "is_faded": false,
+      "status": "PASS_NEVER_FADED"
+    },
+    {
+      "test": "SEGMENT_AGGREGATION",
+      "frame": 235,
+      "segment_id": "SEG_TRICHY_04",
+      "station_start_m": 300.0,
+      "station_end_m": 400.0,
+      "lane_lines_condition": "GOOD",
+      "maintenance_state": "GOOD"
+    },
+    {
+      "test": "SEGMENT_AGGREGATION",
+      "frame": 255,
+      "segment_id": "SEG_TRICHY_04",
+      "station_start_m": 300.0,
+      "station_end_m": 400.0,
+      "lane_lines_condition": "GOOD",
+      "maintenance_state": "GOOD"
+    }
+  ],
+  "final_status": "PASS_ALL_INVARIANTS"
+}

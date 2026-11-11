@@ -1,0 +1,115 @@
+{
+  "suite_name": "BusSense FastAPI Server Contract Automated Test Suite",
+  "total_tests": 15,
+  "passed_tests": 15,
+  "failed_tests": 0,
+  "pass_rate": 1.0,
+  "execution_time_seconds": 0.87,
+  "test_results": [
+    {
+      "id": 1,
+      "name": "test_01_heartbeat",
+      "requirement": "Heartbeat ingestion returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 2,
+      "name": "test_02_valid_pothole",
+      "requirement": "Valid pothole with depth/area returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 3,
+      "name": "test_03_valid_crack",
+      "requirement": "Valid crack defect returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 4,
+      "name": "test_04_emergency_incident_with_clip",
+      "requirement": "Emergency incident + clip reference returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 5,
+      "name": "test_05_vru_event",
+      "requirement": "VRU near-miss/encounter returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 6,
+      "name": "test_06_valid_anpr",
+      "requirement": "Verified license plate OCR returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 7,
+      "name": "test_07_invalid_anpr_rejection",
+      "requirement": "Unreadable/unknown ANPR rejected with 422",
+      "status": "PASS",
+      "status_code": 422
+    },
+    {
+      "id": 8,
+      "name": "test_08_traffic_aggregate",
+      "requirement": "30s rolling traffic aggregate returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 9,
+      "name": "test_09_vulnerable_area_aggregate",
+      "requirement": "Vulnerable area spatial summary returns 201",
+      "status": "PASS",
+      "status_code": 201
+    },
+    {
+      "id": 10,
+      "name": "test_10_idempotent_event_id",
+      "requirement": "Duplicate event_id returns idempotent 200/201 without duplicate DB rows",
+      "status": "PASS",
+      "status_code": 200
+    },
+    {
+      "id": 11,
+      "name": "test_11_malformed_gps_validation",
+      "requirement": "Malformed/out-of-bounds GPS rejected with 422",
+      "status": "PASS",
+      "status_code": 422
+    },
+    {
+      "id": 12,
+      "name": "test_12_invalid_confidence_validation",
+      "requirement": "Confidence out of [0, 1] rejected with 422",
+      "status": "PASS",
+      "status_code": 422
+    },
+    {
+      "id": 13,
+      "name": "test_13_offline_queue_resilience",
+      "requirement": "Edge offline queue buffers events and flushes on reconnect",
+      "status": "PASS",
+      "status_code": 200
+    },
+    {
+      "id": 14,
+      "name": "test_14_media_validation",
+      "requirement": "MIME whitelist and 25MB max size enforced with 422",
+      "status": "PASS",
+      "status_code": 422
+    },
+    {
+      "id": 15,
+      "name": "test_15_server_restart_persistence",
+      "requirement": "SQLite database retains events across server restart",
+      "status": "PASS",
+      "status_code": 200
+    }
+  ]
+}

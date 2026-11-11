@@ -1,0 +1,36 @@
+{
+  "report_title": "BusSense Master Demonstration Reel v6.0 Visual Truth Audit",
+  "video_output": "outputs\\videos\\bussense_mega_demo_v6.mp4",
+  "total_frames_rendered": 2390,
+  "duration_seconds": 239.0,
+  "frozen_pipelines_verified": {
+    "potcrack_stereo_original_engine": "PRESERVED_100%",
+    "waterlogging_authentic_road_water": "PRESERVED_100%",
+    "traffic_signs_yolov8n_mtsvd": "PRESERVED_100%",
+    "vehicle_pedestrian_3d_tracking": "PRESERVED_100%",
+    "trichy_osm_polyline_26_nodes": "PRESERVED_100%"
+  },
+  "median_improvements_verified": {
+    "landscaped_median_supported": true,
+    "tight_polygon_contour_no_giant_box": true,
+    "zero_polygons_on_roadside_grass": true,
+    "curbs_verges_guardrails_hard_rejected": true,
+    "stereo_metrology_mad_iqr_valid": true,
+    "non_persistence_honored": true
+  },
+  "missing_infrastructure_improvements_verified": {
+    "expected_sign_pin_marker_no_fake_bbox": true,
+    "spatial_road_station_s_m_evaluation": true,
+    "multi_bus_rule_1_pass_1_vote": true,
+    "authorized_openings_produce_normal_opening": true,
+    "unknown_reference_produces_no_claim": true
+  },
+  "road_marking_improvements_verified": {
+    "long_duration_continuous_driving": true,
+    "zero_frame_stretching": true,
+    "anti_false_crosswalk_enforced": true,
+    "occlusion_labeled_obscured_never_faded": true,
+    "100m_corridor_aggregation": true
+  },
+  "final_verdict": "PASS_ALL_QUALITY_GATES"
+}

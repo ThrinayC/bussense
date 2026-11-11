@@ -1,0 +1,42 @@
+[
+  {
+    "frame_id": 0,
+    "source_mask_id": "train1935.png",
+    "water_pixels": 43161,
+    "road_pixels": 129025,
+    "coverage_ratio": 0.33451656655686884,
+    "coverage_percent": 33.5
+  },
+  {
+    "frame_id": 1,
+    "source_mask_id": "train1936.png",
+    "water_pixels": 126085,
+    "road_pixels": 129025,
+    "coverage_ratio": 0.9772137182716528,
+    "coverage_percent": 97.7
+  },
+  {
+    "frame_id": 2,
+    "source_mask_id": "train1943.png",
+    "water_pixels": 62209,
+    "road_pixels": 129025,
+    "coverage_ratio": 0.48214687076148033,
+    "coverage_percent": 48.2
+  },
+  {
+    "frame_id": 3,
+    "source_mask_id": "train1944.png",
+    "water_pixels": 93363,
+    "road_pixels": 129025,
+    "coverage_ratio": 0.7236039527223407,
+    "coverage_percent": 72.4
+  },
+  {
+    "frame_id": 4,
+    "source_mask_id": "train1952.png",
+    "water_pixels": 117269,
+    "road_pixels": 129025,
+    "coverage_ratio": 0.9088858748304592,
+    "coverage_percent": 90.9
+  }
+]

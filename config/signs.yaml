@@ -1,0 +1,36 @@
+# BusSense Traffic Sign Perception & Condition Taxonomy
+# ==========================================================
+
+detector:
+  model_family: "yolo"
+  weights_path: "weights/signs_yolo.pt"
+  confidence_threshold: 0.35
+  iou_threshold: 0.45
+  img_size: 640
+  cadence_seconds: 0.5   # Periodic inference cadence (track frequently, detect occasionally)
+
+# Compact, configurable BusSense sign taxonomy
+taxonomy:
+  - STOP
+  - SPEED_LIMIT
+  - NO_ENTRY
+  - NO_PARKING
+  - WARNING
+  - PEDESTRIAN
+  - SCHOOL
+  - DIRECTION
+  - OTHER
+
+# Valid sign condition states
+conditions:
+  - NORMAL
+  - DAMAGED
+  - OCCLUDED
+  - FALLEN
+
+# Missing sign evaluation thresholds
+missing_inference:
+  min_visibility_score: 0.65       # Minimum camera visibility needed to make an absence claim
+  min_persistence_passes: 2        # Number of independent passes before confirming missing candidate
+  search_radius_meters: 15.0       # Spatial radius around expected reference coordinate
+  heading_tolerance_deg: 45.0      # Alignment between bus heading and sign facing angle

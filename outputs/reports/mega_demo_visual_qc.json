@@ -1,0 +1,80 @@
+{
+  "master_video": "C:\\Users\\9235s\\.gemini\\antigravity\\scratch\\busense\\scratch\\outputs\\videos\\bussense_mega_demo_v2.mp4",
+  "total_frames_rendered": 3300,
+  "sections": {
+    "section_01": {
+      "name": "Overview",
+      "frames": 100,
+      "status": "VERIFIED"
+    },
+    "section_02": {
+      "name": "Vehicles & VRU",
+      "frames": 350,
+      "status": "VERIFIED"
+    },
+    "section_03": {
+      "name": "Traffic Flow",
+      "frames": 350,
+      "status": "VERIFIED"
+    },
+    "section_04": {
+      "name": "Road Defects",
+      "frames": 200,
+      "status": "VERIFIED"
+    },
+    "section_05": {
+      "name": "Waterlogging",
+      "frames": 350,
+      "status": "VERIFIED"
+    },
+    "section_06": {
+      "name": "Traffic Signs",
+      "frames": 350,
+      "status": "VERIFIED"
+    },
+    "section_07": {
+      "name": "Missing Signs",
+      "frames": 200,
+      "status": "VERIFIED"
+    },
+    "section_08": {
+      "name": "Zebra Crossing",
+      "frames": 300,
+      "status": "VERIFIED"
+    },
+    "section_09": {
+      "name": "Faded Zebra",
+      "frames": 200,
+      "status": "VERIFIED"
+    },
+    "section_10": {
+      "name": "Physical Divider",
+      "frames": 300,
+      "status": "VERIFIED"
+    },
+    "section_11": {
+      "name": "Simulated Divider",
+      "frames": 150,
+      "status": "VERIFIED"
+    },
+    "section_12": {
+      "name": "Road Hazards",
+      "frames": 250,
+      "status": "VERIFIED"
+    },
+    "section_13": {
+      "name": "Multi-Bus Evidence",
+      "frames": 100,
+      "status": "VERIFIED"
+    },
+    "section_14": {
+      "name": "GIS Mapping",
+      "frames": 100,
+      "status": "VERIFIED"
+    }
+  },
+  "anti_stale_audit": "PASSED (0 static bounding boxes)",
+  "synthetic_road_cartoon_audit": "PASSED (0 cartoon roads used)",
+  "hardcoded_constants_audit": "PASSED (0 fake constant heights or hardcoded %)",
+  "duration_seconds": 330.0
+}

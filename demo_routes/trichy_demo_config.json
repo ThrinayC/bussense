@@ -1,0 +1,21 @@
+{
+  "demo_name": "Tiruchirappalli Road-Constrained Transit Replay",
+  "road_name": "Bharathidasan Salai",
+  "osm_way_id": 369881223,
+  "segment_id": "SEG-TRICHY-BHARATHIDASAN-01",
+  "road_length_m": 1241.7,
+  "sampling_interval_m": 5.0,
+  "tolerance_m": 10.0,
+  "simulation_mode": true,
+  "buses": [
+    "BUS_DEMO_001",
+    "BUS_DEMO_002",
+    "BUS_DEMO_003",
+    "BUS_DEMO_004"
+  ],
+  "synthetic_fault_interval": {
+    "start_m": 30.0,
+    "end_m": 45.0,
+    "type": "MISSING_DIVIDER"
+  }
+}

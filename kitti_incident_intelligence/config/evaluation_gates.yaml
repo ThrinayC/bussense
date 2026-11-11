@@ -1,0 +1,30 @@
+# Predeclared Engineering Gates (PRD Section 58 & 72)
+stereo_depth_gates:
+  range_0_10m:
+    max_median_abs_error_m: 0.20
+  range_10_20m:
+    max_median_abs_error_m: 0.50
+  range_20_30m:
+    max_median_abs_error_m: 1.00
+  range_30_50m:
+    status: "informational_only"
+
+kinematic_gates:
+  relative_speed_rmse_mps: 1.50
+  absolute_speed_rmse_mps: 2.00
+  vehicle_3d_loc_median_error_under_20m: 0.75
+  vehicle_3d_loc_median_error_20_to_30m: 1.50
+  tracking_id_switches_per_1000_frames: 5.0
+
+vru_gates:
+  min_pedestrian_instances: 100
+  min_cyclist_instances: 50
+  detection_min_precision: 0.70
+  detection_min_recall: 0.70
+  in_path_min_precision: 0.80
+  in_path_min_recall: 0.70
+
+synthetic_event_gates:
+  min_detection_rate: 0.80
+  max_false_trigger_rate: 0.05
+  max_latency_s: 0.50
