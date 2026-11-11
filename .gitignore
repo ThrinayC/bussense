@@ -1,14 +1,32 @@
-# Python cache
+# ==============================================================================
+# BusSense — Git Ignore Configuration
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-.pytest_cache/
 *.pyc
 
 # Virtual environments
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+potcrack_stereo/.venv/
+
+# Environment variables, credentials, and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Local SQLite databases (MySQL is the primary persistent database)
+*.db
+*.sqlite
+*.sqlite3
 
 # Large binary datasets, heavy media directories, raw sequences and model weights
 *.mp4
@@ -20,11 +38,14 @@ env/
 *.pth
 *.onnx
 *.weights
+*.bin
+*.safetensors
 *.h5
 *.zip
 *.tar
 *.gz
 *.7z
+*.rar
 
 # Exclude heavy raw sensor datasets & training artifacts
 data/
@@ -38,26 +59,40 @@ potcrack_stereo/checkpoints/
 potcrack_stereo/weights/
 potcrack_stereo/temp_candidates/
 potcrack_stereo/temp_fan/
-potcrack_stereo/.venv/
 outputs/demo/
 outputs/videos/
+outputs/debug_videos/
 outputs/server_media/extracted_temp/
 outputs/server_media/evidence/
 outputs/frames/
+outputs/server_media/events/BUS-042/
 
-# OS generated
+# Temporary scratch, debug, and cache directories
+scratch/
+hi/
+temp/
+tmp/
+.pytest_cache/
+kitti_incident_intelligence/.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System generated files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
-
-# Environment variables and secrets
-.env
-*.env
-.env.*
-!.env.example
-
-# Temporary scratch
-scratch/
-outputs/server_media/events/
